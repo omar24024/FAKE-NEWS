@@ -1,0 +1,4 @@
+fake-news-platform-b/.env
+fake-news-platform-b/python-ai/chrome_session/
+fake-news-platform-b/python-ai/__pycache__/
+fake-news-platform-b/python-ai/*.backup
