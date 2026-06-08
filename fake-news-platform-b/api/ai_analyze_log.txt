@@ -1,0 +1,9 @@
+[2026-05-28 01:22:44] Analyze all
+CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\analyze.py" --all --json 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-06-08 11:37:32] Text analysis via CLI
+[2026-06-08 11:37:48] Post #3 via CLI
+[2026-06-08 12:42:51] Analyze all via CLI

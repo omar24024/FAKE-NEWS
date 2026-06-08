@@ -1,0 +1,31 @@
+# ============================================================
+# DETECTION DU FAKE NEWS — Dépendances Python
+# ============================================================
+# Installation :  pip install -r requirements.txt
+# Pour Playwright: playwright install (après pip install)
+# ============================================================
+
+# Base de données
+mysql-connector-python>=8.1.0
+
+# IA / NLP
+transformers>=4.35.0
+torch>=2.0.0
+sentencepiece>=0.1.99
+protobuf>=4.24.0
+
+# Web Scraping / Browser Automation
+playwright>=1.40.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Serveur IA persistant
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# Utilitaires
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Optionnel : accélération
+# accelerate>=0.24.0

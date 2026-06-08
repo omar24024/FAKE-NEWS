@@ -1,0 +1,505 @@
+<?php
+/**
+ * api/facebook_post_api.php
+ * ================================================================
+ * API OSINT pour extraction et analyse de publications Facebook
+ * 
+ * Usage:
+ *   ?action=extract&url=...
+ *   ?action=analyze&post_id=...
+ *   ?action=get_post&id=...
+ *   ?action=get_recent_posts
+ * ================================================================
+ */
+
+// Disable error display to prevent HTML/whitespace in JSON output
+ini_set('display_errors', 0);
+error_reporting(E_ALL);
+
+// Start output buffering to capture any accidental output
+ob_start();
+
+require_once __DIR__ . '/../includes/config.php';
+require_once __DIR__ . '/../includes/auth.php';
+requireLogin();
+
+header('Content-Type: application/json; charset=utf-8');
+
+$db = getDB();
+$action = $_GET['action'] ?? $_POST['action'] ?? 'get_recent_posts';
+$pythonBin = PHP_OS_FAMILY === 'Windows' ? 'py' : 'python3';
+$extractorPath = realpath(__DIR__ . '/../python-ai/facebook_post_extractor.py');
+
+function stablePostIdFromUrl(string $url): string {
+    return substr(sha1($url), 0, 32);
+}
+
+function notifyAdmins(string $title, string $message, string $type = 'info', ?int $postId = null): void {
+    $db = getDB();
+    $stmt = $db->query("SELECT id FROM users WHERE role = 'admin' AND is_active = 1");
+    $adminIds = $stmt->fetchAll(PDO::FETCH_COLUMN);
+    if (!$adminIds) return;
+    $ins = $db->prepare("INSERT INTO notifications (user_id, title, message, type, is_read, post_id) VALUES (?,?,?,?,0,?)");
+    foreach ($adminIds as $uid) {
+        $ins->execute([(int)$uid, $title, $message, $type, $postId]);
+    }
+}
+
+// ────────────────────────────────────────────────────────────────
+// RÉPONDRE AUX REQUÊTES
+// ────────────────────────────────────────────────────────────────
+
+if (!$extractorPath) {
+    echo json_encode([
+        'success' => false,
+        'error' => 'Extracteur introuvable',
+        'path_checked' => realpath(__DIR__ . '/../python-ai')
+    ]);
+    exit;
+}
+
+switch ($action) {
+    // ────────────────────────────────────────────────────────────
+    case 'extract':
+        handleExtract();
+        break;
+
+    // ────────────────────────────────────────────────────────────
+    case 'analyze':
+        handleAnalyze();
+        break;
+
+    // ────────────────────────────────────────────────────────────
+    case 'get_post':
+        handleGetPost();
+        break;
+
+    // ────────────────────────────────────────────────────────────
+    case 'get_recent_posts':
+        handleGetRecentPosts();
+        break;
+
+    // ────────────────────────────────────────────────────────────
+    case 'delete_post':
+        handleDeletePost();
+        break;
+
+    // ────────────────────────────────────────────────────────────
+    default:
+        echo json_encode([
+            'success' => false,
+            'error' => 'Action inconnue',
+            'available_actions' => [
+                'extract',
+                'analyze',
+                'get_post',
+                'get_recent_posts',
+                'delete_post'
+            ]
+        ]);
+        break;
+}
+
+// ────────────────────────────────────────────────────────────────
+// FONCTION: Extraire une publication Facebook
+// ────────────────────────────────────────────────────────────────
+
+function handleExtract(): void {
+    global $pythonBin, $extractorPath, $db;
+
+    try {
+        $url = $_POST['url'] ?? $_GET['url'] ?? '';
+
+        if (!$url) {
+            http_response_code(400);
+            echo json_encode(['success' => false, 'error' => 'Paramètre manquant: url']);
+            exit;
+        }
+
+        // Valider l'URL
+        if (!filter_var($url, FILTER_VALIDATE_URL) || strpos($url, 'facebook.com') === false) {
+            http_response_code(400);
+            echo json_encode(['success' => false, 'error' => 'URL Facebook invalide']);
+            exit;
+        }
+
+        // Exécuter l'extracteur Python
+        $cmd = sprintf(
+            '%s %s --url %s --json --save-db 2>&1',
+            $pythonBin,
+            escapeshellarg($extractorPath),
+            escapeshellarg($url)
+        );
+
+        $output = shell_exec($cmd);
+        
+        // Log the command and output
+        $logEntry = "[" . date('Y-m-d H:i:s') . "] CMD: " . $cmd . "\nOUTPUT: " . $output . "\n---\n";
+        file_put_contents(__DIR__ . '/extractor_log.txt', $logEntry, FILE_APPEND);
+
+        // Check if Python command failed
+        if ($output === null || $output === false) {
+            error_log('Python shell_exec failed or returned null');
+            echo json_encode([
+                'success' => false,
+                'error' => 'Python execution failed',
+                'details' => 'shell_exec returned null or false'
+            ]);
+            exit;
+        }
+
+        // Check if Python was not found
+        if (stripos($output, 'not recognized') !== false || stripos($output, 'command not found') !== false) {
+            error_log('Python not found: ' . $output);
+            echo json_encode([
+                'success' => false,
+                'error' => 'Python not found',
+                'details' => 'Python executable not found in PATH. Using: ' . $pythonBin
+            ]);
+            exit;
+        }
+
+        // Parser le JSON
+        $json_start = strrpos($output, '{');
+        $json_end = strrpos($output, '}');
+
+        $result = [];
+        if ($json_start !== false && $json_end !== false && $json_end > $json_start) {
+            $json_str = substr($output, $json_start, $json_end - $json_start + 1);
+            $decoded = json_decode($json_str, true);
+            if (json_last_error() === JSON_ERROR_NONE) {
+                $result = $decoded;
+            } else {
+                error_log('JSON decode error: ' . json_last_error_msg() . ' in: ' . $json_str);
+            }
+        }
+
+        if (!$result) {
+            echo json_encode([
+                'success' => false,
+                'error' => 'Erreur extraction',
+                'details' => 'Failed to parse JSON from Python output',
+                'raw_output' => substr($output, 0, 1000) // Truncate to avoid huge responses
+            ]);
+            exit;
+        }
+
+        // Try to resolve canonical post id and create notification
+        $savedPostId = null;
+        try {
+            if (($result['status'] ?? '') === 'success') {
+                $fbPostId = stablePostIdFromUrl($url);
+                $stmt = $db->prepare("SELECT id FROM facebook_posts WHERE fb_post_id = ? LIMIT 1");
+                $stmt->execute([$fbPostId]);
+                $savedPostId = (int)($stmt->fetchColumn() ?: 0) ?: null;
+
+                $author = $result['author_name'] ?? 'Auteur inconnu';
+                notifyAdmins(
+                    "Nouvelle publication extraite",
+                    "Publication extraite depuis Facebook (auteur: {$author}).",
+                    "info",
+                    $savedPostId
+                );
+            }
+        } catch (Throwable $e) {
+            error_log('Notification error: ' . $e->getMessage());
+            // silent - don't fail extraction for notification issues
+        }
+
+        // Retourner le résultat
+        echo json_encode([
+            'success' => ($result['status'] ?? '') === 'success',
+            'post' => $result,
+            'saved_post_id' => $savedPostId,
+            'message' => $result['status'] === 'success' ? 'Publication extraite avec succès' : $result['message'] ?? 'Erreur inconnue'
+        ]);
+
+    } catch (Throwable $e) {
+        error_log('Extraction error: ' . $e->getMessage());
+        http_response_code(500);
+        echo json_encode([
+            'success' => false,
+            'error' => 'Server error during extraction',
+            'details' => $e->getMessage()
+        ]);
+    }
+}
+
+// ────────────────────────────────────────────────────────────────
+// FONCTION: Analyser une publication avec l'IA
+// ────────────────────────────────────────────────────────────────
+
+function handleAnalyze(): void {
+    global $db, $pythonBin;
+
+    try {
+        $post_id = (int)($_POST['post_id'] ?? $_GET['post_id'] ?? 0);
+
+        if (!$post_id) {
+            http_response_code(400);
+            echo json_encode(['success' => false, 'error' => 'Paramètre manquant: post_id']);
+            exit;
+        }
+
+        // Récupérer le post
+        $stmt = $db->prepare("SELECT id, content FROM facebook_posts WHERE id = ?");
+        $stmt->execute([$post_id]);
+        $post = $stmt->fetch();
+
+        if (!$post) {
+            http_response_code(404);
+            echo json_encode(['success' => false, 'error' => 'Post introuvable']);
+            exit;
+        }
+
+        // Appeler le module IA
+        $analyze_path = realpath(__DIR__ . '/../python-ai/analyze.py');
+        if (!$analyze_path) {
+            echo json_encode(['success' => false, 'error' => 'Module IA introuvable']);
+            exit;
+        }
+
+        $cmd = sprintf(
+            '%s %s --text %s --json 2>&1',
+            $pythonBin,
+            escapeshellarg($analyze_path),
+            escapeshellarg($post['content'])
+        );
+
+        $output = shell_exec($cmd);
+        
+        // Log the output
+        file_put_contents(
+            __DIR__ . '/analyze_log.txt',
+            "[" . date('Y-m-d H:i:s') . "] Post ID: $post_id\nCMD: $cmd\nOUTPUT: $output\n---\n",
+            FILE_APPEND
+        );
+
+        // Check if Python failed
+        if ($output === null || $output === false) {
+            error_log('Python analyze shell_exec failed');
+            echo json_encode(['success' => false, 'error' => 'Python execution failed']);
+            exit;
+        }
+
+        $analysis = json_decode($output, true);
+        if (json_last_error() !== JSON_ERROR_NONE) {
+            error_log('JSON decode error in analyze: ' . json_last_error_msg());
+            $analysis = [];
+        }
+
+        if ($analysis && isset($analysis['category'])) {
+            // Sauvegarder l'analyse
+            $stmt = $db->prepare("
+                INSERT INTO ai_analysis 
+                (post_id, category, confidence_score, risk_level, model_used)
+                VALUES (?, ?, ?, ?, 'facebook-osint')
+                ON DUPLICATE KEY UPDATE
+                    category = VALUES(category),
+                    confidence_score = VALUES(confidence_score),
+                    risk_level = VALUES(risk_level)
+            ");
+            $stmt->execute([
+                $post_id,
+                $analysis['category'],
+                $analysis['confidence'] ?? 0,
+                $analysis['risk_level'] ?? 'low'
+            ]);
+
+            // Marquer comme analysé
+            $stmt = $db->prepare("UPDATE facebook_posts SET is_analyzed = 1 WHERE id = ?");
+            $stmt->execute([$post_id]);
+
+            // Notifications
+            try {
+                $risk = $analysis['risk_level'] ?? 'low';
+                $cat = $analysis['category'] ?? 'reliable';
+                $conf = $analysis['confidence'] ?? 0;
+
+                notifyAdmins(
+                    "Analyse IA terminée",
+                    "Publication #{$post_id} analysée: {$cat} ({$conf}% confiance), risque {$risk}.",
+                    "success",
+                    $post_id
+                );
+
+                if (in_array($risk, ['high', 'critical'], true)) {
+                    notifyAdmins(
+                        "Alerte: contenu à haut risque détecté",
+                        "Publication #{$post_id} classifiée {$cat} ({$conf}% confiance) — risque {$risk}.",
+                        $risk === 'critical' ? 'alert' : 'warning',
+                        $post_id
+                    );
+                }
+            } catch (Throwable $e) {
+                error_log('Notification error: ' . $e->getMessage());
+            }
+
+            echo json_encode([
+                'success' => true,
+                'post_id' => $post_id,
+                'analysis' => $analysis,
+                'message' => 'Analyse complétée'
+            ]);
+        } else {
+            echo json_encode([
+                'success' => false,
+                'error' => 'Erreur analyse IA',
+                'details' => 'Failed to parse JSON from Python analysis',
+                'raw_output' => substr($output, 0, 1000)
+            ]);
+        }
+
+    } catch (Throwable $e) {
+        error_log('Analysis error: ' . $e->getMessage());
+        http_response_code(500);
+        echo json_encode(['success' => false, 'error' => 'Server error during analysis', 'details' => $e->getMessage()]);
+    }
+}
+
+// ────────────────────────────────────────────────────────────────
+// FONCTION: Obtenir un post
+// ────────────────────────────────────────────────────────────────
+
+function handleGetPost(): void {
+    global $db;
+
+    try {
+        $id = (int)($_GET['id'] ?? 0);
+
+        if (!$id) {
+            http_response_code(400);
+            echo json_encode(['success' => false, 'error' => 'Paramètre manquant: id']);
+            exit;
+        }
+
+        $stmt = $db->prepare("
+            SELECT 
+                p.id, p.fb_post_url, p.content, p.image_url,
+                p.published_at, p.fetched_at, p.is_analyzed,
+                a.category, a.confidence_score, a.risk_level,
+                acc.name as account_name, acc.type as account_type, acc.fb_url as account_url
+            FROM facebook_posts p
+            LEFT JOIN ai_analysis a ON p.id = a.post_id
+            LEFT JOIN facebook_accounts acc ON p.account_id = acc.id
+            WHERE p.id = ?
+        ");
+        $stmt->execute([$id]);
+        $post = $stmt->fetch();
+
+        if (!$post) {
+            http_response_code(404);
+            echo json_encode(['success' => false, 'error' => 'Post introuvable']);
+            exit;
+        }
+
+        echo json_encode([
+            'success' => true,
+            'post' => $post
+        ]);
+
+    } catch (Throwable $e) {
+        error_log('Get post error: ' . $e->getMessage());
+        http_response_code(500);
+        echo json_encode(['success' => false, 'error' => 'Server error', 'details' => $e->getMessage()]);
+    }
+}
+
+// ────────────────────────────────────────────────────────────────
+// FONCTION: Lister les posts récents
+// ────────────────────────────────────────────────────────────────
+
+function handleGetRecentPosts(): void {
+    global $db;
+
+    try {
+        $page = max(1, (int)($_GET['page'] ?? 1));
+        $limit = (int)($_GET['limit'] ?? 20);
+        $offset = ($page - 1) * $limit;
+        $filter = $_GET['filter'] ?? 'all'; // all, analyzed, unanalyzed
+
+        // Filtre
+        $where = "1=1";
+        if ($filter === 'analyzed') {
+            $where = "fp.is_analyzed = 1";
+        } elseif ($filter === 'unanalyzed') {
+            $where = "fp.is_analyzed = 0";
+        }
+
+        // Compter
+        $total = $db->query("SELECT COUNT(*) FROM facebook_posts WHERE $where")->fetchColumn();
+
+        // Récupérer
+        $stmt = $db->prepare("
+            SELECT 
+                p.id, p.fb_post_url, p.content, p.image_url,
+                p.published_at, p.fetched_at, p.is_analyzed,
+                a.category, a.confidence_score, a.risk_level,
+                acc.name as account_name, acc.type as account_type
+            FROM facebook_posts p
+            LEFT JOIN ai_analysis a ON p.id = a.post_id
+            LEFT JOIN facebook_accounts acc ON p.account_id = acc.id
+            WHERE $where
+            ORDER BY COALESCE(p.published_at, p.fetched_at) DESC
+            LIMIT ? OFFSET ?
+        ");
+        $stmt->execute([$limit, $offset]);
+        $posts = $stmt->fetchAll();
+
+        echo json_encode([
+            'success' => true,
+            'posts' => $posts,
+            'pagination' => [
+                'page' => $page,
+                'limit' => $limit,
+                'total' => (int)$total,
+                'pages' => ceil($total / $limit)
+            ]
+        ]);
+
+    } catch (Throwable $e) {
+        error_log('Get recent posts error: ' . $e->getMessage());
+        http_response_code(500);
+        echo json_encode(['success' => false, 'error' => 'Server error', 'details' => $e->getMessage()]);
+    }
+}
+
+// ────────────────────────────────────────────────────────────────
+// FONCTION: Supprimer un post
+// ────────────────────────────────────────────────────────────────
+
+function handleDeletePost(): void {
+    global $db;
+
+    try {
+        $id = (int)($_POST['id'] ?? $_GET['id'] ?? 0);
+
+        if (!$id) {
+            http_response_code(400);
+            echo json_encode(['success' => false, 'error' => 'Paramètre manquant: id']);
+            exit;
+        }
+
+        // Supprimer l'analyse
+        $stmt = $db->prepare("DELETE FROM ai_analysis WHERE post_id = ?");
+        $stmt->execute([$id]);
+
+        // Supprimer le post
+        $stmt = $db->prepare("DELETE FROM facebook_posts WHERE id = ?");
+        $stmt->execute([$id]);
+
+        echo json_encode([
+            'success' => true,
+            'message' => 'Post supprimé'
+        ]);
+
+    } catch (Throwable $e) {
+        error_log('Delete post error: ' . $e->getMessage());
+        http_response_code(500);
+        echo json_encode(['success' => false, 'error' => 'Server error', 'details' => $e->getMessage()]);
+    }
+}
+
+// Clean output buffer and send response
+ob_end_clean();
+?>

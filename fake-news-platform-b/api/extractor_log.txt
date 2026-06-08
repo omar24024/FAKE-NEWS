@@ -1,0 +1,240 @@
+[2026-05-27 23:04:13] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/story.php?story_fbid=4268456099965202&id=100004025629388" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:04:17] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/story.php?story_fbid=4268456099965202&id=100004025629388" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:05:44] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:05:45] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:05:45] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:05:46] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:05:46] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:05:46] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:05:46] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:05:52] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:05:53] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:05:53] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:05:53] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:05:59] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:06:00] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:06:01] python "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'python' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:45:10] py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/story.php?story_fbid=4268456099965202&id=100004025629388" --json --save-db 2>&1
+'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:48:34] py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:48:36] py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:48:36] py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:48:36] py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:48:36] py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:48:37] py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:48:37] py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:48:37] py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+
+[2026-05-27 23:55:48] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:55:50] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:55:50] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:55:51] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:55:51] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:55:51] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:55:51] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:55:51] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:55:52] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:55:52] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:55:52] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:55:52] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:55:53] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:55:53] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:55:53] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:55:53] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:56:02] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:56:03] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:56:03] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:56:03] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:56:03] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:56:04] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---
+[2026-05-27 23:56:04] CMD: py "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db 2>&1
+OUTPUT: 'py' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+
+---

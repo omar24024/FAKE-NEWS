@@ -1,0 +1,2634 @@
+[2026-05-28 01:22:16] Command: C:\Users\HP\AppData\Local\Programs\Python\Python310\python.exe "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#" --json --save-db
+[2026-05-28 01:22:27] Stderr: [2026-05-28 01:22:16] INFO     | Initialisation du navigateur...
+[2026-05-28 01:22:18] INFO     | ✓ Navigateur prêt
+[2026-05-28 01:22:18] INFO     | Extraction de: https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#
+[2026-05-28 01:22:19] INFO     | Page title: Moutez Jeilany - ايو هل فيسبوك ذوك الواحلين فيه الا...
+[2026-05-28 01:22:19] INFO     | URL actuelle: https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#
+[2026-05-28 01:22:19] INFO     | Attente du chargement de la page...
+[2026-05-28 01:22:23] INFO     | Scroll pour charger le contenu...
+[2026-05-28 01:22:26] INFO     | Début extraction du contenu...
+[2026-05-28 01:22:26] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-05-28 01:22:26] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-05-28 01:22:26] INFO     | Contenu trouvé avec sélecteur #0: 113 chars
+[2026-05-28 01:22:26] INFO     | 📝 Contenu final: 112 caractères
+[2026-05-28 01:22:26] INFO     | Extraction de l'auteur...
+[2026-05-28 01:22:26] INFO     | Auteur retenu: Moutez Jeilany (score 90)
+[2026-05-28 01:22:26] INFO     | Extraction de l'image...
+[2026-05-28 01:22:26] INFO     | Image trouvée: https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808...
+[2026-05-28 01:22:26] INFO     | Extraction de la date...
+[2026-05-28 01:22:26] INFO     | 📋 Résumé extraction:
+[2026-05-28 01:22:26] INFO     |    • Auteur: Moutez Jeilany
+[2026-05-28 01:22:26] INFO     |    • Contenu: 112 caractères
+[2026-05-28 01:22:26] INFO     |    • Image: Oui
+[2026-05-28 01:22:26] INFO     |    • Date: 2026-05-28T01:22:26.704432
+[2026-05-28 01:22:26] INFO     | Extraction réussie: Moutez Jeilany
+[2026-05-28 01:22:26] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-05-28 01:22:26] INFO     | ✅ Post sauvegardé (ID: 18, author: Moutez Jeilany)
+
+[2026-05-28 01:22:27] Stdout: {
+  "fb_post_url": "https://www.facebook.com/100004025629388/posts/4268456099965202/?mibextid=wwXIfr&rdid=lAs6gnAZ9nuasi8L#",
+  "author_name": "Moutez Jeilany",
+  "author_url": null,
+  "content": "ايو هل فيسبوك ذوك الواحلين فيه الا التفرقة و بيظاني و حرطاني و كوري ذي الصورة بعد من اجواء العيد ماهي زينه عندكم",
+  "image_url": "https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808-6/707886369_4268455949965217_4601206756407019434_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=FfH3hCrHtZcQ7kNvwFgau3z&_nc_oc=AdpJY_d3NLqAdHD7heK33wnV0vDM22PLCg6BEJAYjRuIicBpNki3LFrIFYPDAj5aq2c&_nc_zt=23&_nc_ht=scontent.fnkc1-1.fna&_nc_gid=sT78gNLR3vnYnXhEdLruSQ&_nc_ss=7b289&oh=00_Af6zymvDaIF5u29YuVLthnFBlcCQcfuhKiE0daD4FoRg3w&oe=6A1D550C",
+  "published_at": "2026-05-28T01:22:26.704432",
+  "extracted_at": "2026-05-28T01:22:26.723883",
+  "status": "success"
+}
+
+[2026-05-28 01:22:27] Return Code: 0
+[2026-05-28 01:35:22] Command: C:\Users\HP\AppData\Local\Programs\Python\Python310\python.exe "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/story.php?story_fbid=4268456099965202&id=100004025629388" --json --save-db
+[2026-05-28 01:35:34] Stderr: [2026-05-28 01:35:23] INFO     | Initialisation du navigateur...
+[2026-05-28 01:35:25] INFO     | ✓ Navigateur prêt
+[2026-05-28 01:35:25] INFO     | Extraction de: https://www.facebook.com/story.php?story_fbid=4268456099965202&id=100004025629388
+[2026-05-28 01:35:26] INFO     | Page title: Moutez Jeilany - ايو هل فيسبوك ذوك الواحلين فيه الا... | Facebook
+[2026-05-28 01:35:26] INFO     | URL actuelle: https://www.facebook.com/story.php?story_fbid=4268456099965202&id=100004025629388
+[2026-05-28 01:35:26] INFO     | Attente du chargement de la page...
+[2026-05-28 01:35:30] INFO     | Scroll pour charger le contenu...
+[2026-05-28 01:35:33] INFO     | Début extraction du contenu...
+[2026-05-28 01:35:33] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-05-28 01:35:33] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-05-28 01:35:33] INFO     | Contenu trouvé avec sélecteur #0: 113 chars
+[2026-05-28 01:35:33] INFO     | 📝 Contenu final: 112 caractères
+[2026-05-28 01:35:33] INFO     | Extraction de l'auteur...
+[2026-05-28 01:35:33] INFO     | Auteur retenu: Moutez Jeilany (score 90)
+[2026-05-28 01:35:33] INFO     | Extraction de l'image...
+[2026-05-28 01:35:33] INFO     | Image trouvée: https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808...
+[2026-05-28 01:35:33] INFO     | Extraction de la date...
+[2026-05-28 01:35:33] INFO     | 📋 Résumé extraction:
+[2026-05-28 01:35:33] INFO     |    • Auteur: Moutez Jeilany
+[2026-05-28 01:35:33] INFO     |    • Contenu: 112 caractères
+[2026-05-28 01:35:33] INFO     |    • Image: Oui
+[2026-05-28 01:35:33] INFO     |    • Date: 2026-05-28T01:35:33.715913
+[2026-05-28 01:35:33] INFO     | Extraction réussie: Moutez Jeilany
+[2026-05-28 01:35:33] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-05-28 01:35:33] INFO     | ✅ Post sauvegardé (ID: 19, author: Moutez Jeilany)
+
+[2026-05-28 01:35:34] Stdout: {
+  "fb_post_url": "https://www.facebook.com/story.php?story_fbid=4268456099965202&id=100004025629388",
+  "author_name": "Moutez Jeilany",
+  "author_url": null,
+  "content": "ايو هل فيسبوك ذوك الواحلين فيه الا التفرقة و بيظاني و حرطاني و كوري ذي الصورة بعد من اجواء العيد ماهي زينه عندكم",
+  "image_url": "https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808-6/707886369_4268455949965217_4601206756407019434_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=FfH3hCrHtZcQ7kNvwFgau3z&_nc_oc=AdpJY_d3NLqAdHD7heK33wnV0vDM22PLCg6BEJAYjRuIicBpNki3LFrIFYPDAj5aq2c&_nc_zt=23&_nc_ht=scontent.fnkc1-1.fna&_nc_gid=udp9gdig4gDnBdqCN_sRVw&_nc_ss=7b289&oh=00_Af7S8RceccQKWUmXB37VQaydsYLYQ-74K4aUquYlQPGP2w&oe=6A1D550C",
+  "published_at": "2026-05-28T01:35:33.715913",
+  "extracted_at": "2026-05-28T01:35:33.732773",
+  "status": "success"
+}
+
+[2026-05-28 01:35:34] Return Code: 0
+[2026-05-28 01:57:16] Command: C:\Users\HP\AppData\Local\Programs\Python\Python310\python.exe "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/watch/?mibextid=wwXIfr&v=1739247347276115&rdid=WVnDNCYm11DYYgic" --json --save-db
+[2026-05-28 01:57:30] Stderr: [2026-05-28 01:57:17] INFO     | Initialisation du navigateur...
+[2026-05-28 01:57:19] INFO     | ✓ Navigateur prêt
+[2026-05-28 01:57:19] INFO     | Extraction de: https://www.facebook.com/watch/?mibextid=wwXIfr&v=1739247347276115&rdid=WVnDNCYm11DYYgic
+[2026-05-28 01:57:22] INFO     | Page title: رجال شين اعليهم ديگه هذ منادم حامي گاع كفتش رافد موس….. | ميدو العريق | Facebook
+[2026-05-28 01:57:22] INFO     | URL actuelle: https://www.facebook.com/mhmd.fal.mydw.amd/videos/1739247347276115/?mibextid=wwXIfr&rdid=WVnDNCYm11DYYgic
+[2026-05-28 01:57:22] INFO     | Attente du chargement de la page...
+[2026-05-28 01:57:26] INFO     | Scroll pour charger le contenu...
+[2026-05-28 01:57:29] INFO     | Début extraction du contenu...
+[2026-05-28 01:57:29] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-05-28 01:57:29] INFO     |    ✓ Sélecteur #2: 'div[role='article'] span[dir='auto']' trouvé 6 éléments
+[2026-05-28 01:57:29] INFO     | Contenu trouvé avec sélecteur #2: 99 chars
+[2026-05-28 01:57:29] INFO     | 📝 Contenu final: 98 caractères
+[2026-05-28 01:57:29] INFO     | Extraction de l'auteur...
+[2026-05-28 01:57:29] INFO     | Auteur retenu: ميدو العريق (score 90)
+[2026-05-28 01:57:29] INFO     | Extraction de l'image...
+[2026-05-28 01:57:29] INFO     | Image trouvée: https://scontent.fnkc1-1.fna.fbcdn.net/v/t15.5256-...
+[2026-05-28 01:57:29] INFO     | Extraction de la date...
+[2026-05-28 01:57:29] INFO     | 📋 Résumé extraction:
+[2026-05-28 01:57:29] INFO     |    • Auteur: ميدو العريق
+[2026-05-28 01:57:29] INFO     |    • Contenu: 98 caractères
+[2026-05-28 01:57:29] INFO     |    • Image: Oui
+[2026-05-28 01:57:29] INFO     |    • Date: 2026-05-28T01:57:29.678133
+[2026-05-28 01:57:29] INFO     | Extraction réussie: ميدو العريق
+[2026-05-28 01:57:30] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-05-28 01:57:30] INFO     | ✅ Post sauvegardé (ID: 20, author: ميدو العريق)
+
+[2026-05-28 01:57:30] Stdout: {
+  "fb_post_url": "https://www.facebook.com/watch/?mibextid=wwXIfr&v=1739247347276115&rdid=WVnDNCYm11DYYgic",
+  "author_name": "ميدو العريق",
+  "author_url": null,
+  "content": "Ghlahoum Ment اوووف هذ موريتانيا كايس شي ألا يعطيه خيرو محمود ملقد اخوان ميكل ذاك بيه العيد.  حامي",
+  "image_url": "https://scontent.fnkc1-1.fna.fbcdn.net/v/t15.5256-10/491674741_1210950193964621_196541018302795223_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c44d43&_nc_ohc=RSFJgOCwJPoQ7kNvwGJUkfi&_nc_oc=AdqgMdCtjLzYyDpGaLtBH6i8x2DK04V2C2j2eahNoAOuEL-v4IIhdRH1tgSQ30PtfNc&_nc_zt=23&_nc_ht=scontent.fnkc1-1.fna&_nc_gid=y8aByc0L85_ZPcpYtVb7ug&_nc_ss=7b289&oh=00_Af4IjnMnpqW28djw_TwYfWF6Jiul7ilCx2_ySuTRNAHfjQ&oe=6A1D606D",
+  "published_at": "2026-05-28T01:57:29.678133",
+  "extracted_at": "2026-05-28T01:57:29.698189",
+  "status": "success"
+}
+
+[2026-05-28 01:57:30] Return Code: 0
+[2026-05-28 02:06:43] Command: C:\Users\HP\AppData\Local\Programs\Python\Python310\python.exe "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100091943618564/posts/928503893557723/?mibextid=wwXIfr&rdid=nBh1HpzFE8AXHL9n#" --json --save-db
+[2026-05-28 02:06:56] Stderr: [2026-05-28 02:06:44] INFO     | Initialisation du navigateur...
+[2026-05-28 02:06:47] INFO     | ✓ Navigateur prêt
+[2026-05-28 02:06:47] INFO     | Extraction de: https://www.facebook.com/100091943618564/posts/928503893557723/?mibextid=wwXIfr&rdid=nBh1HpzFE8AXHL9n#
+[2026-05-28 02:06:48] INFO     | Page title: فيسْ ذا زمنْ طافي ماخالگه ديگه... - Ezze Med Sidina Boh | Facebook
+[2026-05-28 02:06:48] INFO     | URL actuelle: https://www.facebook.com/100091943618564/posts/928503893557723/?mibextid=wwXIfr&rdid=nBh1HpzFE8AXHL9n#
+[2026-05-28 02:06:48] INFO     | Attente du chargement de la page...
+[2026-05-28 02:06:52] INFO     | Scroll pour charger le contenu...
+[2026-05-28 02:06:55] INFO     | Début extraction du contenu...
+[2026-05-28 02:06:55] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-05-28 02:06:55] INFO     |    ✓ Sélecteur #2: 'div[role='article'] span[dir='auto']' trouvé 28 éléments
+[2026-05-28 02:06:55] INFO     | Contenu trouvé avec sélecteur #2: 464 chars
+[2026-05-28 02:06:55] INFO     | 📝 Contenu final: 463 caractères
+[2026-05-28 02:06:55] INFO     | Extraction de l'auteur...
+[2026-05-28 02:06:56] INFO     | Auteur retenu: Ezze Med Sidina Boh (score 90)
+[2026-05-28 02:06:56] INFO     | Extraction de l'image...
+[2026-05-28 02:06:56] INFO     | Image trouvée: https://static.xx.fbcdn.net/images/emoji.php/v9/ta...
+[2026-05-28 02:06:56] INFO     | Extraction de la date...
+[2026-05-28 02:06:56] INFO     | 📋 Résumé extraction:
+[2026-05-28 02:06:56] INFO     |    • Auteur: Ezze Med Sidina Boh
+[2026-05-28 02:06:56] INFO     |    • Contenu: 463 caractères
+[2026-05-28 02:06:56] INFO     |    • Image: Oui
+[2026-05-28 02:06:56] INFO     |    • Date: 2026-05-28T02:06:56.298055
+[2026-05-28 02:06:56] INFO     | Extraction réussie: Ezze Med Sidina Boh
+[2026-05-28 02:06:56] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-05-28 02:06:56] INFO     | ✅ Post sauvegardé (ID: 21, author: Ezze Med Sidina Boh)
+
+[2026-05-28 02:06:56] Stdout: {
+  "fb_post_url": "https://www.facebook.com/100091943618564/posts/928503893557723/?mibextid=wwXIfr&rdid=nBh1HpzFE8AXHL9n#",
+  "author_name": "Ezze Med Sidina Boh",
+  "author_url": null,
+  "content": "6 commentaires Les plus pertinents﻿ Ezze Med Sidina Boh منتْ حفظٓ اللّٰه وهاي ندايگْ امعاك سيدي الامين خالك ديك بين أنا وانت القلاويه مرتبطه بكتاب الله حن بعد القلال مانسبك فحد هههههههه Med Salim Batt وهاي ندايكو ؤلا فهمتيني محمدن محمذن هههههه ادايك Ezze Med Sidina Boh منتْ حفظٓ اللّٰه وهاي ندايگْ امعاك سيدي الامين خالك ديك بين أنا وانت القلاويه مرتبطه بكتاب الله حن بعد القلال مانسبك فحد هههههههه Med Salim Batt وهاي ندايكو ؤلا فهمتيني محمدن محمذن هههههه ادايك",
+  "image_url": "https://static.xx.fbcdn.net/images/emoji.php/v9/tad/1/24/1f602.png",
+  "published_at": "2026-05-28T02:06:56.298055",
+  "extracted_at": "2026-05-28T02:06:56.319591",
+  "status": "success"
+}
+
+[2026-05-28 02:06:56] Return Code: 0
+[2026-05-28 02:07:17] Command: C:\Users\HP\AppData\Local\Programs\Python\Python310\python.exe "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/reel/1714338589568492" --json --save-db
+[2026-05-28 02:07:29] Stderr: [2026-05-28 02:07:18] INFO     | Initialisation du navigateur...
+[2026-05-28 02:07:19] INFO     | ✓ Navigateur prêt
+[2026-05-28 02:07:19] INFO     | Extraction de: https://www.facebook.com/reel/1714338589568492
+[2026-05-28 02:07:20] INFO     | Page title: Facebook
+[2026-05-28 02:07:20] INFO     | URL actuelle: https://www.facebook.com/reel/1714338589568492
+[2026-05-28 02:07:20] INFO     | Attente du chargement de la page...
+[2026-05-28 02:07:25] INFO     | Scroll pour charger le contenu...
+[2026-05-28 02:07:28] INFO     | Début extraction du contenu...
+[2026-05-28 02:07:28] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-05-28 02:07:28] WARNING  | Pas assez de contenu, extraction de tout le texte visible...
+[2026-05-28 02:07:28] INFO     | Texte visible extrait: 674424 chars
+[2026-05-28 02:07:28] INFO     | 📝 Contenu final: 5000 caractères
+[2026-05-28 02:07:28] INFO     | Extraction de l'auteur...
+[2026-05-28 02:07:28] INFO     | Auteur retenu: الداه يعقوب عبدالله (score 95)
+[2026-05-28 02:07:28] INFO     | Extraction de l'image...
+[2026-05-28 02:07:28] INFO     | Image trouvée: https://static.xx.fbcdn.net/rsrc.php/yY/r/oy_3KElq...
+[2026-05-28 02:07:28] INFO     | Extraction de la date...
+[2026-05-28 02:07:28] INFO     | 📋 Résumé extraction:
+[2026-05-28 02:07:28] INFO     |    • Auteur: الداه يعقوب عبدالله
+[2026-05-28 02:07:28] INFO     |    • Contenu: 5000 caractères
+[2026-05-28 02:07:28] INFO     |    • Image: Oui
+[2026-05-28 02:07:28] INFO     |    • Date: 2026-05-28T02:07:28.558425
+[2026-05-28 02:07:28] INFO     | Extraction réussie: الداه يعقوب عبدالله
+[2026-05-28 02:07:28] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-05-28 02:07:28] INFO     | ✅ Post sauvegardé (ID: 22, author: الداه يعقوب عبدالله)
+
+[2026-05-28 02:07:29] Stdout: {
+  "fb_post_url": "https://www.facebook.com/reel/1714338589568492",
+  "author_name": "الداه يعقوب عبدالله",
+  "author_url": "https://www.facebook.com/profile.php?id=61582514831379&sk=reels_tab&__cft__[0]=AZa2yKSMaV3xX_KiwsSP9Wur-bwI9rF2NWO2Jw2bvNdWA5fWpWHulGhTYyHsIYt2UaVhAIbesUcatdwQassIO20o6vmG8g08-ZY4AhxtZHmj8hamWUA8HVd6VacFgJ3l9rxH3X8q_Dtz44YSftYXFVcQiKDF4ZV-MEgimaO4AoDhyg&__tn__=-]",
+  "content": "{\"require\":[[\"qplTimingsServerJS\",null,null,[\"7644758486557097296\",\"splash_screen_show\"]]]} {\"require\":[[\"maybeDisableAnimations\",null,null,[]]]} {\"require\":[[\"replaceNativeTimer\",null,null,[]]]} {\"require\":[[\"bootstrapWebSession\",null,null,[1779934039]]]} {\"require\":[[\"qplTagServerJS\",null,null,[[\"comet_preloader_display_threads:1\",\"comet_preloader_deferred_threads:0\",\"comet_aa_coinflip:true\",\"should_use_bt_safe_js\",\"logged_out\"]]]]} {\"require\":[[\"qplTimingsServerJS\",null,null,[\"7644758486557097296\",\"tierOne\"]]]} {\"require\":[[\"CometSSRMergedContentInjector\",\"ssrInit\",null,[{\"enabled\":false,\"cavalry_get_lid\":\"7644758486557097296\",\"success_status\":\"success\",\"disabled_status\":\"fail_ssr_disabled\",\"bad_preloaders_status\":\"fail_bad_preloaders\",\"eid\":\"mount_0_0_eU\",\"should_ignore_static_id\":true,\"gks\":{\"comet_ssr_wait_for_dev\":false,\"mwp_ssr_enabled\":true,\"stop_render_at_splashscreen\":false,\"use_content_visibility_hidden\":false,\"comet_ssr_unhide_early\":true,\"enable_render_to_container\":true,\"use_on_payload_received_from_hack\":false,\"use_ssr_state_manager\":false,\"html_only_mode\":false},\"is_in_crawler_mode\":false,\"disabled_reason\":\"fail_ssr_disabled\",\"client_request_id\":\"AEh-n38kLs_D3cEbuM1xA1M\"}]]]} {\"require\":[[\"JSScheduler\",\"makeSchedulerGlobalEntry\",null,[\"null\",false,false]]]} {\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:310\",[\"RunWWW\"],{\"__rc\":[\"RunWWW\",null]},-1],[\"cr:1078\",[],{\"__rc\":[null,null]},-1],[\"cr:1080\",[\"unexpectedUseInComet\"],{\"__rc\":[\"unexpectedUseInComet\",null]},-1],[\"cr:1126\",[\"TimeSliceSham\"],{\"__rc\":[\"TimeSliceSham\",null]},-1],[\"cr:3725\",[\"clearTimeoutWWWOrMobile\"],{\"__rc\":[\"clearTimeoutWWWOrMobile\",null]},-1],[\"cr:4344\",[\"setTimeoutWWWOrMobile\"],{\"__rc\":[\"setTimeoutWWWOrMobile\",null]},-1],[\"cr:6640\",[],{\"__rc\":[null,null]},-1],[\"cr:7385\",[\"clearIntervalWWW\"],{\"__rc\":[\"clearIntervalWWW\",null]},-1],[\"cr:7386\",[\"clearTimeoutWWW\"],{\"__rc\":[\"clearTimeoutWWW\",null]},-1],[\"cr:7388\",[\"setIntervalWWW\"],{\"__rc\":[\"setIntervalWWW\",null]},-1],[\"cr:7389\",[\"setIntervalAcrossTransitionsWWW\"],{\"__rc\":[\"setIntervalAcrossTransitionsWWW\",null]},-1],[\"cr:7390\",[\"setTimeoutWWW\"],{\"__rc\":[\"setTimeoutWWW\",null]},-1],[\"cr:7391\",[\"setTimeoutAcrossTransitionsWWW\"],{\"__rc\":[\"setTimeoutAcrossTransitionsWWW\",null]},-1],[\"cr:8959\",[\"DTSG\"],{\"__rc\":[\"DTSG\",null]},-1],[\"cr:8960\",[\"DTSG_ASYNC\"],{\"__rc\":[\"DTSG_ASYNC\",null]},-1],[\"cr:696703\",[\"JSScheduler\"],{\"__rc\":[\"JSScheduler\",null]},-1],[\"cr:806696\",[\"clearTimeoutComet\"],{\"__rc\":[\"clearTimeoutComet\",null]},-1],[\"cr:807042\",[\"setTimeoutComet\"],{\"__rc\":[\"setTimeoutComet\",null]},-1],[\"cr:896461\",[\"setIntervalComet\"],{\"__rc\":[\"setIntervalComet\",null]},-1],[\"cr:896462\",[\"setIntervalComet\"],{\"__rc\":[\"setIntervalComet\",null]},-1],[\"cr:925100\",[\"RunComet\"],{\"__rc\":[\"RunComet\",null]},-1],[\"cr:986633\",[\"setTimeoutComet\"],{\"__rc\":[\"setTimeoutComet\",null]},-1],[\"cr:1003267\",[\"clearIntervalComet\"],{\"__rc\":[\"clearIntervalComet\",null]},-1],[\"cr:686\",[],{\"__rc\":[null,null]},-1],[\"cr:734\",[],{\"__rc\":[null,null]},-1],[\"cr:755\",[\"warningWWW\"],{\"__rc\":[\"warningWWW\",null]},-1],[\"cr:873\",[\"InteractionTracing\"],{\"__rc\":[\"InteractionTracing\",null]},-1],[\"cr:1293\",[\"ReactDOM.classic\"],{\"__rc\":[\"ReactDOM.classic\",null]},-1],[\"cr:2602\",[],{\"__rc\":[null,null]},-1],[\"cr:5473\",[],{\"__rc\":[null,null]},-1],[\"cr:7162\",[\"ReactDOMCompatibilityLayer\"],{\"__rc\":[\"ReactDOMCompatibilityLayer\",null]},-1],[\"cr:7422\",[\"ImageDownloadTrackerWWW\"],{\"__rc\":[\"ImageDownloadTrackerWWW\",null]},-1],[\"cr:8958\",[\"FBJSON\"],{\"__rc\":[\"FBJSON\",null]},-1],[\"cr:12180\",[],{\"__rc\":[null,null]},-1],[\"cr:15957\",[],{\"__rc\":[null,null]},-1],[\"cr:719780\",[],{\"__rc\":[null,null]},-1],[\"cr:1108857\",[],{\"__rc\":[null,null]},-1],[\"cr:1294158\",[\"React.classic\"],{\"__rc\":[\"React.classic\",null]},-1],[\"cr:1294159\",[\"ReactDOM.classic\"],{\"__rc\":[\"ReactDOM.classic\",null]},-1],[\"cr:1752405\",[\"QPLAddCometRequestHeaders\"],{\"__rc\":[\"QPLAddCometRequestHeaders\",null]},-1],[\"cr:1984081\",[],{\"__rc\":[null,null]},-1],[\"cr:69\",[\"CometRouterFocusRegion.react\"],{\"__rc\":[\"CometRouterFocusRegion.react\",null]},-1],[\"cr:537\",[\"useCAALoggedOutDialogWrapperHook\"],{\"__rc\":[\"useCAALoggedOutDialogWrapperHook\",null]},-1],[\"cr:564\",[\"ClickIDDomainBlacklistSVConfigJSModuleWrapper\"],{\"__rc\":[\"ClickIDDomainBlacklistSVConfigJSModuleWrapper\",null]},-1],[\"cr:619\",[\"setTimeoutCometLoggingPriWWW\"],{\"__rc\":[\"setTimeoutCometLoggingPriWWW\",null]},-1],[\"cr:805\",[\"CometDialogErrorRoot.react\"],{\"__rc\":[\"CometDialogErrorRoot.react\",null]},-1],[\"cr:945\",[],{\"__rc\":[null,null]},-1],[\"cr:1033\",[\"FalcoLoggerTransportsDeferredForDisplay\"],{\"__rc\":[\"FalcoLoggerTransportsDeferredForDisplay\",null]},-1],[\"cr:1049\",[],{\"__rc\":[null,null]},-1],[\"cr:2099\",[],{\"__rc\":[null,null]},-1],[\"cr:2448\",[\"useHeroBootloadedComponent\"],{\"__rc\":[\"useHeroBootloadedComponent\",null]},-1],[\"cr:2548\",[\"CometRelayEnvironmentWWW\"],{\"__rc\":[\"CometRelayEnvironmentWWW\",null]},-1],[\"cr:2654\",[],{\"__rc\":[null,null]},-1],[\"cr:2866\",[],{\"__rc\":[null,null]},-1],[\"cr:3376\",[\"cometAsyncFetchShared\"],{\"_",
+  "image_url": "https://static.xx.fbcdn.net/rsrc.php/yY/r/oy_3KElq-Ua.webp",
+  "published_at": "2026-05-28T02:07:28.558425",
+  "extracted_at": "2026-05-28T02:07:28.574709",
+  "status": "success"
+}
+
+[2026-05-28 02:07:29] Return Code: 0
+[2026-05-28 02:07:42] Command: C:\Users\HP\AppData\Local\Programs\Python\Python310\python.exe "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100038752702795/posts/1485439262757816/?mibextid=wwXIfr&rdid=oGdj7XqNrLyVqwPz#" --json --save-db
+[2026-05-28 02:07:54] Stderr: [2026-05-28 02:07:43] INFO     | Initialisation du navigateur...
+[2026-05-28 02:07:43] INFO     | ✓ Navigateur prêt
+[2026-05-28 02:07:43] INFO     | Extraction de: https://www.facebook.com/100038752702795/posts/1485439262757816/?mibextid=wwXIfr&rdid=oGdj7XqNrLyVqwPz#
+[2026-05-28 02:07:46] INFO     | Page title: ضياء الحق ابيه - عاجل اطفيل غزواني الذي زوجه بوه غزواني... | Facebook
+[2026-05-28 02:07:46] INFO     | URL actuelle: https://www.facebook.com/100038752702795/posts/1485439262757816/?mibextid=wwXIfr&rdid=oGdj7XqNrLyVqwPz#
+[2026-05-28 02:07:46] INFO     | Attente du chargement de la page...
+[2026-05-28 02:07:50] INFO     | Scroll pour charger le contenu...
+[2026-05-28 02:07:53] INFO     | Début extraction du contenu...
+[2026-05-28 02:07:53] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-05-28 02:07:53] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-05-28 02:07:53] INFO     | Contenu trouvé avec sélecteur #0: 240 chars
+[2026-05-28 02:07:53] INFO     | 📝 Contenu final: 239 caractères
+[2026-05-28 02:07:53] INFO     | Extraction de l'auteur...
+[2026-05-28 02:07:54] INFO     | Auteur retenu: ‎ضياء الحق ابيه‎ (score 90)
+[2026-05-28 02:07:54] INFO     | Extraction de l'image...
+[2026-05-28 02:07:54] INFO     | Image trouvée: https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808...
+[2026-05-28 02:07:54] INFO     | Extraction de la date...
+[2026-05-28 02:07:54] INFO     | 📋 Résumé extraction:
+[2026-05-28 02:07:54] INFO     |    • Auteur: ‎ضياء الحق ابيه‎
+[2026-05-28 02:07:54] INFO     |    • Contenu: 239 caractères
+[2026-05-28 02:07:54] INFO     |    • Image: Oui
+[2026-05-28 02:07:54] INFO     |    • Date: 2026-05-28T02:07:54.256652
+[2026-05-28 02:07:54] INFO     | Extraction réussie: ‎ضياء الحق ابيه‎
+[2026-05-28 02:07:54] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-05-28 02:07:54] INFO     | ✅ Post sauvegardé (ID: 23, author: ‎ضياء الحق ابيه‎)
+
+[2026-05-28 02:07:54] Stdout: {
+  "fb_post_url": "https://www.facebook.com/100038752702795/posts/1485439262757816/?mibextid=wwXIfr&rdid=oGdj7XqNrLyVqwPz#",
+  "author_name": "‎ضياء الحق ابيه‎",
+  "author_url": null,
+  "content": "عاجل اطفيل غزواني الذي زوجه بوه غزواني قبل اشهر من المال العام اشره املي يامس لزوجتو ليگزس 2025 ب35 مليون من المال العام هو مايشتغل ولا ينهدالو يغير اموال الشعب الموريتاني يعتبرها فظة بوه غزواني المجنونغزواني المجنون وأسرته يفسدون في الأرض",
+  "image_url": "https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808-6/565372883_1485438649424544_5355021778085423262_n.jpg?stp=dst-jpg_p843x403_tt6&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=i458kG-BcawQ7kNvwF34ZSP&_nc_oc=AdqX0ToO2MZiA-UgafDfRTPmx3wbBcjUXJ3KcS_856iuMreSbkryr-lPjmsgf52QtuE&_nc_zt=23&_nc_ht=scontent.fnkc1-1.fna&_nc_gid=v5N-PqcsUqA5CPKQnJWMLg&_nc_ss=7b289&oh=00_Af4PVV1mnT29alkHGCRdIXdPeaQ5tg4IbnRpFTdvavsHsg&oe=6A1D7D1A",
+  "published_at": "2026-05-28T02:07:54.256652",
+  "extracted_at": "2026-05-28T02:07:54.272665",
+  "status": "success"
+}
+
+[2026-05-28 02:07:54] Return Code: 0
+[2026-05-28 02:08:20] Command: C:\Users\HP\AppData\Local\Programs\Python\Python310\python.exe "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100038752702795/posts/1535878364380572/?mibextid=wwXIfr&rdid=cKkdeXZDSUgrQRuB#" --json --save-db
+[2026-05-28 02:08:35] Stderr: [2026-05-28 02:08:20] INFO     | Initialisation du navigateur...
+[2026-05-28 02:08:21] INFO     | ✓ Navigateur prêt
+[2026-05-28 02:08:21] INFO     | Extraction de: https://www.facebook.com/100038752702795/posts/1535878364380572/?mibextid=wwXIfr&rdid=cKkdeXZDSUgrQRuB#
+[2026-05-28 02:08:27] INFO     | Page title: ضياء الحق ابيه - الأولي ماتت وهي تناشد الدولة والوزراء... | Facebook
+[2026-05-28 02:08:27] INFO     | URL actuelle: https://www.facebook.com/100038752702795/posts/1535878364380572/?mibextid=wwXIfr&rdid=cKkdeXZDSUgrQRuB#
+[2026-05-28 02:08:27] INFO     | Attente du chargement de la page...
+[2026-05-28 02:08:31] INFO     | Scroll pour charger le contenu...
+[2026-05-28 02:08:34] INFO     | Début extraction du contenu...
+[2026-05-28 02:08:34] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-05-28 02:08:34] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-05-28 02:08:34] INFO     | Contenu trouvé avec sélecteur #0: 382 chars
+[2026-05-28 02:08:34] INFO     | 📝 Contenu final: 381 caractères
+[2026-05-28 02:08:34] INFO     | Extraction de l'auteur...
+[2026-05-28 02:08:35] INFO     | Auteur retenu: ‎ضياء الحق ابيه‎ (score 90)
+[2026-05-28 02:08:35] INFO     | Extraction de l'image...
+[2026-05-28 02:08:35] INFO     | Image trouvée: https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808...
+[2026-05-28 02:08:35] INFO     | Extraction de la date...
+[2026-05-28 02:08:35] INFO     | 📋 Résumé extraction:
+[2026-05-28 02:08:35] INFO     |    • Auteur: ‎ضياء الحق ابيه‎
+[2026-05-28 02:08:35] INFO     |    • Contenu: 381 caractères
+[2026-05-28 02:08:35] INFO     |    • Image: Oui
+[2026-05-28 02:08:35] INFO     |    • Date: 2026-05-28T02:08:35.157557
+[2026-05-28 02:08:35] INFO     | Extraction réussie: ‎ضياء الحق ابيه‎
+[2026-05-28 02:08:35] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-05-28 02:08:35] INFO     | ✅ Post sauvegardé (ID: 24, author: ‎ضياء الحق ابيه‎)
+
+[2026-05-28 02:08:35] Stdout: {
+  "fb_post_url": "https://www.facebook.com/100038752702795/posts/1535878364380572/?mibextid=wwXIfr&rdid=cKkdeXZDSUgrQRuB#",
+  "author_name": "‎ضياء الحق ابيه‎",
+  "author_url": null,
+  "content": "الأولي ماتت وهي تناشد الدولة والوزراء وغزواني إگسو بيها تونس وال سينغال تداوه فماتت مرضا وألما وقهرا ولم يجبها أحد ولاعطاوها من ثروات وطنها وحقها أوقية وحده باطوالثانية مشاولها 10 ملايين من المال العام الحرام اعل بنكيلي اومشاولها طايره وانتظرتها الطايره الثلاث ساعات لين إيبست حنتها ورفدتها شور ودان اياك اتنهول غزواني والوزراء!!( وتمتعوا قليلا إنكم مجرمون) وحسبنا الله ونعم الوكيل",
+  "image_url": "https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808-6/603921162_1535877894380619_2091206414230217836_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=hpfjRj3S-fcQ7kNvwFhnqBe&_nc_oc=Adpn4DS8VIsOnaV9JxUQBMU_xY1GgkII2wpczV3WDZ9IM_M5_mn3LbDjiEh8wtBktc4&_nc_zt=23&_nc_ht=scontent.fnkc1-1.fna&_nc_gid=XneWb_4oDFk1GlDJNHVG0A&_nc_ss=7b289&oh=00_Af4HTTsT5MAVYx7bdqS1UF3OEod_vQG4emB3U5eeFhDk1Q&oe=6A1D72C8",
+  "published_at": "2026-05-28T02:08:35.157557",
+  "extracted_at": "2026-05-28T02:08:35.177929",
+  "status": "success"
+}
+
+[2026-05-28 02:08:35] Return Code: 0
+[2026-05-28 02:08:49] Command: C:\Users\HP\AppData\Local\Programs\Python\Python310\python.exe "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/reel/1304416088319504" --json --save-db
+[2026-05-28 02:09:00] Stderr: [2026-05-28 02:08:49] INFO     | Initialisation du navigateur...
+[2026-05-28 02:08:50] INFO     | ✓ Navigateur prêt
+[2026-05-28 02:08:50] INFO     | Extraction de: https://www.facebook.com/reel/1304416088319504
+[2026-05-28 02:08:52] INFO     | Page title: Facebook
+[2026-05-28 02:08:52] INFO     | URL actuelle: https://www.facebook.com/reel/1304416088319504
+[2026-05-28 02:08:52] INFO     | Attente du chargement de la page...
+[2026-05-28 02:08:56] INFO     | Scroll pour charger le contenu...
+[2026-05-28 02:08:59] INFO     | Début extraction du contenu...
+[2026-05-28 02:08:59] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-05-28 02:08:59] WARNING  | Pas assez de contenu, extraction de tout le texte visible...
+[2026-05-28 02:08:59] INFO     | Texte visible extrait: 2244818 chars
+[2026-05-28 02:08:59] INFO     | 📝 Contenu final: 5000 caractères
+[2026-05-28 02:08:59] INFO     | Extraction de l'auteur...
+[2026-05-28 02:09:00] INFO     | Auteur retenu: Khaled Taya خالد الطايع (score 95)
+[2026-05-28 02:09:00] INFO     | Extraction de l'image...
+[2026-05-28 02:09:00] INFO     | Image trouvée: https://static.xx.fbcdn.net/rsrc.php/yY/r/oy_3KElq...
+[2026-05-28 02:09:00] INFO     | Extraction de la date...
+[2026-05-28 02:09:00] INFO     | 📋 Résumé extraction:
+[2026-05-28 02:09:00] INFO     |    • Auteur: Khaled Taya خالد الطايع
+[2026-05-28 02:09:00] INFO     |    • Contenu: 5000 caractères
+[2026-05-28 02:09:00] INFO     |    • Image: Oui
+[2026-05-28 02:09:00] INFO     |    • Date: 2026-05-28T02:09:00.042211
+[2026-05-28 02:09:00] INFO     | Extraction réussie: Khaled Taya خالد الطايع
+[2026-05-28 02:09:00] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-05-28 02:09:00] INFO     | ✅ Post sauvegardé (ID: 25, author: Khaled Taya خالد الطايع)
+
+[2026-05-28 02:09:00] Stdout: {
+  "fb_post_url": "https://www.facebook.com/reel/1304416088319504",
+  "author_name": "Khaled Taya خالد الطايع",
+  "author_url": "https://www.facebook.com/profile.php?id=100046880055941&sk=reels_tab&__cft__[0]=AZbS0GcazGLZw57DLjVa4MAFhzUfRcwE6Do-1dklMRbf3YPtjTsyy_SKz_8hWSYrVnyTXPz3yWXmCxCmYJTpL4JSV_3kA68rMVkuYe9uj9FwtfdQVS1w4A3c-0bUxt1u_qK4E6NMKBWprlFy6V6vkpKrBdKL8b1cqQ7w1S12Utx1fw&__tn__=-]",
+  "content": "{\"require\":[[\"qplTimingsServerJS\",null,null,[\"7644758883106006374\",\"splash_screen_show\"]]]} {\"require\":[[\"maybeDisableAnimations\",null,null,[]]]} {\"require\":[[\"replaceNativeTimer\",null,null,[]]]} {\"require\":[[\"bootstrapWebSession\",null,null,[1779934131]]]} {\"require\":[[\"qplTagServerJS\",null,null,[[\"comet_preloader_display_threads:1\",\"comet_preloader_deferred_threads:0\",\"comet_aa_coinflip:true\",\"should_use_bt_safe_js\",\"logged_out\"]]]]} {\"require\":[[\"qplTimingsServerJS\",null,null,[\"7644758883106006374\",\"tierOne\"]]]} {\"require\":[[\"CometSSRMergedContentInjector\",\"ssrInit\",null,[{\"enabled\":false,\"cavalry_get_lid\":\"7644758883106006374\",\"success_status\":\"success\",\"disabled_status\":\"fail_ssr_disabled\",\"bad_preloaders_status\":\"fail_bad_preloaders\",\"eid\":\"mount_0_0_en\",\"should_ignore_static_id\":true,\"gks\":{\"comet_ssr_wait_for_dev\":false,\"mwp_ssr_enabled\":true,\"stop_render_at_splashscreen\":false,\"use_content_visibility_hidden\":false,\"comet_ssr_unhide_early\":true,\"enable_render_to_container\":true,\"use_on_payload_received_from_hack\":false,\"use_ssr_state_manager\":false,\"html_only_mode\":false},\"is_in_crawler_mode\":false,\"disabled_reason\":\"fail_ssr_disabled\",\"client_request_id\":\"ANz2RQMQTpwxUw9hQQIS3yh\"}]]]} {\"require\":[[\"JSScheduler\",\"makeSchedulerGlobalEntry\",null,[\"null\",false,false]]]} {\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:310\",[\"RunWWW\"],{\"__rc\":[\"RunWWW\",null]},-1],[\"cr:1078\",[],{\"__rc\":[null,null]},-1],[\"cr:1080\",[\"unexpectedUseInComet\"],{\"__rc\":[\"unexpectedUseInComet\",null]},-1],[\"cr:1126\",[\"TimeSliceSham\"],{\"__rc\":[\"TimeSliceSham\",null]},-1],[\"cr:3725\",[\"clearTimeoutWWWOrMobile\"],{\"__rc\":[\"clearTimeoutWWWOrMobile\",null]},-1],[\"cr:4344\",[\"setTimeoutWWWOrMobile\"],{\"__rc\":[\"setTimeoutWWWOrMobile\",null]},-1],[\"cr:6640\",[],{\"__rc\":[null,null]},-1],[\"cr:7385\",[\"clearIntervalWWW\"],{\"__rc\":[\"clearIntervalWWW\",null]},-1],[\"cr:7386\",[\"clearTimeoutWWW\"],{\"__rc\":[\"clearTimeoutWWW\",null]},-1],[\"cr:7388\",[\"setIntervalWWW\"],{\"__rc\":[\"setIntervalWWW\",null]},-1],[\"cr:7389\",[\"setIntervalAcrossTransitionsWWW\"],{\"__rc\":[\"setIntervalAcrossTransitionsWWW\",null]},-1],[\"cr:7390\",[\"setTimeoutWWW\"],{\"__rc\":[\"setTimeoutWWW\",null]},-1],[\"cr:7391\",[\"setTimeoutAcrossTransitionsWWW\"],{\"__rc\":[\"setTimeoutAcrossTransitionsWWW\",null]},-1],[\"cr:8959\",[\"DTSG\"],{\"__rc\":[\"DTSG\",null]},-1],[\"cr:8960\",[\"DTSG_ASYNC\"],{\"__rc\":[\"DTSG_ASYNC\",null]},-1],[\"cr:696703\",[\"JSScheduler\"],{\"__rc\":[\"JSScheduler\",null]},-1],[\"cr:806696\",[\"clearTimeoutComet\"],{\"__rc\":[\"clearTimeoutComet\",null]},-1],[\"cr:807042\",[\"setTimeoutComet\"],{\"__rc\":[\"setTimeoutComet\",null]},-1],[\"cr:896461\",[\"setIntervalComet\"],{\"__rc\":[\"setIntervalComet\",null]},-1],[\"cr:896462\",[\"setIntervalComet\"],{\"__rc\":[\"setIntervalComet\",null]},-1],[\"cr:925100\",[\"RunComet\"],{\"__rc\":[\"RunComet\",null]},-1],[\"cr:986633\",[\"setTimeoutComet\"],{\"__rc\":[\"setTimeoutComet\",null]},-1],[\"cr:1003267\",[\"clearIntervalComet\"],{\"__rc\":[\"clearIntervalComet\",null]},-1],[\"cr:686\",[],{\"__rc\":[null,null]},-1],[\"cr:734\",[],{\"__rc\":[null,null]},-1],[\"cr:755\",[\"warningWWW\"],{\"__rc\":[\"warningWWW\",null]},-1],[\"cr:873\",[\"InteractionTracing\"],{\"__rc\":[\"InteractionTracing\",null]},-1],[\"cr:1293\",[\"ReactDOM.classic\"],{\"__rc\":[\"ReactDOM.classic\",null]},-1],[\"cr:2602\",[],{\"__rc\":[null,null]},-1],[\"cr:5473\",[],{\"__rc\":[null,null]},-1],[\"cr:7162\",[\"ReactDOMCompatibilityLayer\"],{\"__rc\":[\"ReactDOMCompatibilityLayer\",null]},-1],[\"cr:7422\",[\"ImageDownloadTrackerWWW\"],{\"__rc\":[\"ImageDownloadTrackerWWW\",null]},-1],[\"cr:8958\",[\"FBJSON\"],{\"__rc\":[\"FBJSON\",null]},-1],[\"cr:12180\",[],{\"__rc\":[null,null]},-1],[\"cr:15957\",[],{\"__rc\":[null,null]},-1],[\"cr:719780\",[],{\"__rc\":[null,null]},-1],[\"cr:1108857\",[],{\"__rc\":[null,null]},-1],[\"cr:1294158\",[\"React.classic\"],{\"__rc\":[\"React.classic\",null]},-1],[\"cr:1294159\",[\"ReactDOM.classic\"],{\"__rc\":[\"ReactDOM.classic\",null]},-1],[\"cr:1752405\",[\"QPLAddCometRequestHeaders\"],{\"__rc\":[\"QPLAddCometRequestHeaders\",null]},-1],[\"cr:1984081\",[],{\"__rc\":[null,null]},-1],[\"cr:69\",[\"CometRouterFocusRegion.react\"],{\"__rc\":[\"CometRouterFocusRegion.react\",null]},-1],[\"cr:537\",[\"useCAALoggedOutDialogWrapperHook\"],{\"__rc\":[\"useCAALoggedOutDialogWrapperHook\",null]},-1],[\"cr:564\",[\"ClickIDDomainBlacklistSVConfigJSModuleWrapper\"],{\"__rc\":[\"ClickIDDomainBlacklistSVConfigJSModuleWrapper\",null]},-1],[\"cr:619\",[\"setTimeoutCometLoggingPriWWW\"],{\"__rc\":[\"setTimeoutCometLoggingPriWWW\",null]},-1],[\"cr:805\",[\"CometDialogErrorRoot.react\"],{\"__rc\":[\"CometDialogErrorRoot.react\",null]},-1],[\"cr:945\",[],{\"__rc\":[null,null]},-1],[\"cr:1033\",[\"FalcoLoggerTransportsDeferredForDisplay\"],{\"__rc\":[\"FalcoLoggerTransportsDeferredForDisplay\",null]},-1],[\"cr:1049\",[],{\"__rc\":[null,null]},-1],[\"cr:2099\",[],{\"__rc\":[null,null]},-1],[\"cr:2448\",[\"useHeroBootloadedComponent\"],{\"__rc\":[\"useHeroBootloadedComponent\",null]},-1],[\"cr:2548\",[\"CometRelayEnvironmentWWW\"],{\"__rc\":[\"CometRelayEnvironmentWWW\",null]},-1],[\"cr:2654\",[],{\"__rc\":[null,null]},-1],[\"cr:2866\",[],{\"__rc\":[null,null]},-1],[\"cr:3376\",[\"cometAsyncFetchShared\"],{\"_",
+  "image_url": "https://static.xx.fbcdn.net/rsrc.php/yY/r/oy_3KElq-Ua.webp",
+  "published_at": "2026-05-28T02:09:00.042211",
+  "extracted_at": "2026-05-28T02:09:00.057818",
+  "status": "success"
+}
+
+[2026-05-28 02:09:00] Return Code: 0
+[2026-05-28 02:09:30] Command: C:\Users\HP\AppData\Local\Programs\Python\Python310\python.exe "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/100003222586839/posts/25394124840278253/?mibextid=wwXIfr&rdid=f9KbVPImpHwvEUSH#" --json --save-db
+[2026-05-28 02:09:40] Stderr: [2026-05-28 02:09:30] INFO     | Initialisation du navigateur...
+[2026-05-28 02:09:31] INFO     | ✓ Navigateur prêt
+[2026-05-28 02:09:31] INFO     | Extraction de: https://www.facebook.com/100003222586839/posts/25394124840278253/?mibextid=wwXIfr&rdid=f9KbVPImpHwvEUSH#
+[2026-05-28 02:09:32] INFO     | Page title: Mohamed Moine - تحقيق الأخبار غير مكتمل ويخلق الالتباس... | Facebook
+[2026-05-28 02:09:32] INFO     | URL actuelle: https://www.facebook.com/100003222586839/posts/25394124840278253/?mibextid=wwXIfr&rdid=f9KbVPImpHwvEUSH#
+[2026-05-28 02:09:32] INFO     | Attente du chargement de la page...
+[2026-05-28 02:09:36] INFO     | Scroll pour charger le contenu...
+[2026-05-28 02:09:39] INFO     | Début extraction du contenu...
+[2026-05-28 02:09:39] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-05-28 02:09:39] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-05-28 02:09:39] INFO     | Contenu trouvé avec sélecteur #0: 665 chars
+[2026-05-28 02:09:39] INFO     | 📝 Contenu final: 664 caractères
+[2026-05-28 02:09:39] INFO     | Extraction de l'auteur...
+[2026-05-28 02:09:40] INFO     | Auteur retenu: Mohamed Moine (score 90)
+[2026-05-28 02:09:40] INFO     | Extraction de l'image...
+[2026-05-28 02:09:40] INFO     | Extraction de la date...
+[2026-05-28 02:09:40] INFO     | 📋 Résumé extraction:
+[2026-05-28 02:09:40] INFO     |    • Auteur: Mohamed Moine
+[2026-05-28 02:09:40] INFO     |    • Contenu: 664 caractères
+[2026-05-28 02:09:40] INFO     |    • Image: Non
+[2026-05-28 02:09:40] INFO     |    • Date: 2026-05-28T02:09:40.199335
+[2026-05-28 02:09:40] INFO     | Extraction réussie: Mohamed Moine
+[2026-05-28 02:09:40] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-05-28 02:09:40] INFO     | ✅ Post sauvegardé (ID: 26, author: Mohamed Moine)
+
+[2026-05-28 02:09:40] Stdout: {
+  "fb_post_url": "https://www.facebook.com/100003222586839/posts/25394124840278253/?mibextid=wwXIfr&rdid=f9KbVPImpHwvEUSH#",
+  "author_name": "Mohamed Moine",
+  "author_url": null,
+  "content": "تحقيق الأخبار غير مكتمل ويخلق الالتباس لكنه لا يقدم ادلة جدية…ولا فضيحة حقيقية بقدر ما يحمل من تشهير..!مثلا :يتحدث عن حصول شركة يمثلها أخ  الرئيس علي صفقة معدات ثم يتحدث عن إلغاء الصفقة وسحب الأموال ..!إذا كان ما فهمت صحيحا فالأخبار تريد ان تقول ان أخ غزواني  تعرض لمظلمة وان الرئيس امر بإلغاء الصفقة واستعادة المال من الشركة التي  مثلها اسلمو ولد الغزواني.هنا يجب الانتباه إلى ان أخ رئيس صفة غير رسمية ولا يترتب عليها أي التزام قانوني.. ولا تمنع صاحبها من حقوقه الطبيعية في المتاجرة طبقا للقانون.ثم ان الانسان لا تمكن محاسبته علي صفقة ملغية وقد خسر جراءها  مالا ووقتا.الإكثار في التشهير وخلق الفقاعات مضر بسمعة الناس وأشنع ما فيه تعويم الفساد وتسخيف الحرب عليه..!",
+  "image_url": null,
+  "published_at": "2026-05-28T02:09:40.199335",
+  "extracted_at": "2026-05-28T02:09:40.217838",
+  "status": "success"
+}
+
+[2026-05-28 02:09:40] Return Code: 0
+[2026-05-28 02:10:10] Command: C:\Users\HP\AppData\Local\Programs\Python\Python310\python.exe "C:\wamp64\www\fake-news-platform-b\python-ai\facebook_post_extractor.py" --url "https://www.facebook.com/reel/1318980626769157" --json --save-db
+[2026-05-28 02:10:20] Stderr: [2026-05-28 02:10:10] INFO     | Initialisation du navigateur...
+[2026-05-28 02:10:11] INFO     | ✓ Navigateur prêt
+[2026-05-28 02:10:11] INFO     | Extraction de: https://www.facebook.com/reel/1318980626769157
+[2026-05-28 02:10:12] INFO     | Page title: Facebook
+[2026-05-28 02:10:12] INFO     | URL actuelle: https://www.facebook.com/reel/1318980626769157
+[2026-05-28 02:10:12] INFO     | Attente du chargement de la page...
+[2026-05-28 02:10:16] INFO     | Scroll pour charger le contenu...
+[2026-05-28 02:10:19] INFO     | Début extraction du contenu...
+[2026-05-28 02:10:19] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-05-28 02:10:19] WARNING  | Pas assez de contenu, extraction de tout le texte visible...
+[2026-05-28 02:10:19] INFO     | Texte visible extrait: 2365568 chars
+[2026-05-28 02:10:19] INFO     | 📝 Contenu final: 5000 caractères
+[2026-05-28 02:10:19] INFO     | Extraction de l'auteur...
+[2026-05-28 02:10:20] INFO     | Auteur retenu: Nezilou Mohamed (score 95)
+[2026-05-28 02:10:20] INFO     | Extraction de l'image...
+[2026-05-28 02:10:20] INFO     | Image trouvée: https://static.xx.fbcdn.net/rsrc.php/yY/r/oy_3KElq...
+[2026-05-28 02:10:20] INFO     | Extraction de la date...
+[2026-05-28 02:10:20] INFO     | 📋 Résumé extraction:
+[2026-05-28 02:10:20] INFO     |    • Auteur: Nezilou Mohamed
+[2026-05-28 02:10:20] INFO     |    • Contenu: 5000 caractères
+[2026-05-28 02:10:20] INFO     |    • Image: Oui
+[2026-05-28 02:10:20] INFO     |    • Date: 2026-05-28T02:10:20.109466
+[2026-05-28 02:10:20] INFO     | Extraction réussie: Nezilou Mohamed
+[2026-05-28 02:10:20] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-05-28 02:10:20] INFO     | ✅ Post sauvegardé (ID: 27, author: Nezilou Mohamed)
+
+[2026-05-28 02:10:20] Stdout: {
+  "fb_post_url": "https://www.facebook.com/reel/1318980626769157",
+  "author_name": "Nezilou Mohamed",
+  "author_url": "https://www.facebook.com/profile.php?id=100005903896381&sk=reels_tab&__cft__[0]=AZbMO5dBt1cOOqWEo07BIpuUODusur8G8F91d9mHg59Zfxan9_u3RIDHboLEZvaacrgOuG91RRz9nCIvAzQNE3mGFYTX9zZVrIBxf6nF4usiw-W9GReeUXBXbwi_2evCP5QJvlxIdN_c2VX2uHmaPkqAoJmOFPRokVkQHbJSbN5tPg&__tn__=-]",
+  "content": "{\"require\":[[\"qplTimingsServerJS\",null,null,[\"7644759230683677947\",\"splash_screen_show\"]]]} {\"require\":[[\"maybeDisableAnimations\",null,null,[]]]} {\"require\":[[\"replaceNativeTimer\",null,null,[]]]} {\"require\":[[\"bootstrapWebSession\",null,null,[1779934212]]]} {\"require\":[[\"qplTagServerJS\",null,null,[[\"comet_preloader_display_threads:1\",\"comet_preloader_deferred_threads:0\",\"comet_aa_coinflip:false\",\"should_use_bt_safe_js\",\"logged_out\"]]]]} {\"require\":[[\"qplTimingsServerJS\",null,null,[\"7644759230683677947\",\"tierOne\"]]]} {\"require\":[[\"CometSSRMergedContentInjector\",\"ssrInit\",null,[{\"enabled\":false,\"cavalry_get_lid\":\"7644759230683677947\",\"success_status\":\"success\",\"disabled_status\":\"fail_ssr_disabled\",\"bad_preloaders_status\":\"fail_bad_preloaders\",\"eid\":\"mount_0_0_3S\",\"should_ignore_static_id\":true,\"gks\":{\"comet_ssr_wait_for_dev\":false,\"mwp_ssr_enabled\":true,\"stop_render_at_splashscreen\":false,\"use_content_visibility_hidden\":false,\"comet_ssr_unhide_early\":true,\"enable_render_to_container\":true,\"use_on_payload_received_from_hack\":false,\"use_ssr_state_manager\":false,\"html_only_mode\":false},\"is_in_crawler_mode\":false,\"disabled_reason\":\"fail_ssr_disabled\",\"client_request_id\":\"AD-hahEWeGA20FEx9XQ5Hvv\"}]]]} {\"require\":[[\"JSScheduler\",\"makeSchedulerGlobalEntry\",null,[\"null\",false,false]]]} {\"require\":[[\"ScheduledServerJS\",\"handle\",null,[{\"__bbox\":{\"define\":[[\"cr:310\",[\"RunWWW\"],{\"__rc\":[\"RunWWW\",null]},-1],[\"cr:1078\",[],{\"__rc\":[null,null]},-1],[\"cr:1080\",[\"unexpectedUseInComet\"],{\"__rc\":[\"unexpectedUseInComet\",null]},-1],[\"cr:1126\",[\"TimeSliceSham\"],{\"__rc\":[\"TimeSliceSham\",null]},-1],[\"cr:3725\",[\"clearTimeoutWWWOrMobile\"],{\"__rc\":[\"clearTimeoutWWWOrMobile\",null]},-1],[\"cr:4344\",[\"setTimeoutWWWOrMobile\"],{\"__rc\":[\"setTimeoutWWWOrMobile\",null]},-1],[\"cr:6640\",[],{\"__rc\":[null,null]},-1],[\"cr:7385\",[\"clearIntervalWWW\"],{\"__rc\":[\"clearIntervalWWW\",null]},-1],[\"cr:7386\",[\"clearTimeoutWWW\"],{\"__rc\":[\"clearTimeoutWWW\",null]},-1],[\"cr:7388\",[\"setIntervalWWW\"],{\"__rc\":[\"setIntervalWWW\",null]},-1],[\"cr:7389\",[\"setIntervalAcrossTransitionsWWW\"],{\"__rc\":[\"setIntervalAcrossTransitionsWWW\",null]},-1],[\"cr:7390\",[\"setTimeoutWWW\"],{\"__rc\":[\"setTimeoutWWW\",null]},-1],[\"cr:7391\",[\"setTimeoutAcrossTransitionsWWW\"],{\"__rc\":[\"setTimeoutAcrossTransitionsWWW\",null]},-1],[\"cr:8959\",[\"DTSG\"],{\"__rc\":[\"DTSG\",null]},-1],[\"cr:8960\",[\"DTSG_ASYNC\"],{\"__rc\":[\"DTSG_ASYNC\",null]},-1],[\"cr:696703\",[\"JSScheduler\"],{\"__rc\":[\"JSScheduler\",null]},-1],[\"cr:806696\",[\"clearTimeoutComet\"],{\"__rc\":[\"clearTimeoutComet\",null]},-1],[\"cr:807042\",[\"setTimeoutComet\"],{\"__rc\":[\"setTimeoutComet\",null]},-1],[\"cr:896461\",[\"setIntervalComet\"],{\"__rc\":[\"setIntervalComet\",null]},-1],[\"cr:896462\",[\"setIntervalComet\"],{\"__rc\":[\"setIntervalComet\",null]},-1],[\"cr:925100\",[\"RunComet\"],{\"__rc\":[\"RunComet\",null]},-1],[\"cr:986633\",[\"setTimeoutComet\"],{\"__rc\":[\"setTimeoutComet\",null]},-1],[\"cr:1003267\",[\"clearIntervalComet\"],{\"__rc\":[\"clearIntervalComet\",null]},-1],[\"cr:686\",[],{\"__rc\":[null,null]},-1],[\"cr:734\",[],{\"__rc\":[null,null]},-1],[\"cr:755\",[\"warningWWW\"],{\"__rc\":[\"warningWWW\",null]},-1],[\"cr:873\",[\"InteractionTracing\"],{\"__rc\":[\"InteractionTracing\",null]},-1],[\"cr:1293\",[\"ReactDOM.classic\"],{\"__rc\":[\"ReactDOM.classic\",null]},-1],[\"cr:2602\",[],{\"__rc\":[null,null]},-1],[\"cr:5473\",[],{\"__rc\":[null,null]},-1],[\"cr:7162\",[\"ReactDOMCompatibilityLayer\"],{\"__rc\":[\"ReactDOMCompatibilityLayer\",null]},-1],[\"cr:7422\",[\"ImageDownloadTrackerWWW\"],{\"__rc\":[\"ImageDownloadTrackerWWW\",null]},-1],[\"cr:8958\",[\"FBJSON\"],{\"__rc\":[\"FBJSON\",null]},-1],[\"cr:12180\",[],{\"__rc\":[null,null]},-1],[\"cr:15957\",[],{\"__rc\":[null,null]},-1],[\"cr:719780\",[],{\"__rc\":[null,null]},-1],[\"cr:1108857\",[],{\"__rc\":[null,null]},-1],[\"cr:1294158\",[\"React.classic\"],{\"__rc\":[\"React.classic\",null]},-1],[\"cr:1294159\",[\"ReactDOM.classic\"],{\"__rc\":[\"ReactDOM.classic\",null]},-1],[\"cr:1752405\",[\"QPLAddCometRequestHeaders\"],{\"__rc\":[\"QPLAddCometRequestHeaders\",null]},-1],[\"cr:1984081\",[],{\"__rc\":[null,null]},-1],[\"cr:69\",[\"CometRouterFocusRegion.react\"],{\"__rc\":[\"CometRouterFocusRegion.react\",null]},-1],[\"cr:537\",[\"useCAALoggedOutDialogWrapperHook\"],{\"__rc\":[\"useCAALoggedOutDialogWrapperHook\",null]},-1],[\"cr:564\",[\"ClickIDDomainBlacklistSVConfigJSModuleWrapper\"],{\"__rc\":[\"ClickIDDomainBlacklistSVConfigJSModuleWrapper\",null]},-1],[\"cr:619\",[\"setTimeoutCometLoggingPriWWW\"],{\"__rc\":[\"setTimeoutCometLoggingPriWWW\",null]},-1],[\"cr:805\",[\"CometDialogErrorRoot.react\"],{\"__rc\":[\"CometDialogErrorRoot.react\",null]},-1],[\"cr:945\",[],{\"__rc\":[null,null]},-1],[\"cr:1033\",[\"FalcoLoggerTransportsDeferredForDisplay\"],{\"__rc\":[\"FalcoLoggerTransportsDeferredForDisplay\",null]},-1],[\"cr:1049\",[],{\"__rc\":[null,null]},-1],[\"cr:2099\",[],{\"__rc\":[null,null]},-1],[\"cr:2448\",[\"useHeroBootloadedComponent\"],{\"__rc\":[\"useHeroBootloadedComponent\",null]},-1],[\"cr:2548\",[\"CometRelayEnvironmentWWW\"],{\"__rc\":[\"CometRelayEnvironmentWWW\",null]},-1],[\"cr:2654\",[],{\"__rc\":[null,null]},-1],[\"cr:2866\",[],{\"__rc\":[null,null]},-1],[\"cr:3376\",[\"cometAsyncFetchShared\"],{\"",
+  "image_url": "https://static.xx.fbcdn.net/rsrc.php/yY/r/oy_3KElq-Ua.webp",
+  "published_at": "2026-05-28T02:10:20.109466",
+  "extracted_at": "2026-05-28T02:10:20.125949",
+  "status": "success"
+}
+
+[2026-05-28 02:10:20] Return Code: 0
+[2026-06-07 15:35:43] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1U27BkziVT/?mibextid=wwXIfr' --json --save-db
+[2026-06-07 15:35:43] Stderr: Traceback (most recent call last):
+  File "/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py", line 40, in <module>
+    from playwright.async_api import async_playwright, Page
+ModuleNotFoundError: No module named 'playwright'
+
+[2026-06-07 15:35:43] Stdout: 
+[2026-06-07 15:35:43] Return Code: 1
+[2026-06-07 15:35:45] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1U27BkziVT/?mibextid=wwXIfr' --json --save-db
+[2026-06-07 15:35:45] Stderr: Traceback (most recent call last):
+  File "/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py", line 40, in <module>
+    from playwright.async_api import async_playwright, Page
+ModuleNotFoundError: No module named 'playwright'
+
+[2026-06-07 15:35:45] Stdout: 
+[2026-06-07 15:35:45] Return Code: 1
+[2026-06-07 15:36:19] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1U27BkziVT/?mibextid=wwXIfr' --json --save-db
+[2026-06-07 15:36:19] Stderr: Traceback (most recent call last):
+  File "/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py", line 40, in <module>
+    from playwright.async_api import async_playwright, Page
+ModuleNotFoundError: No module named 'playwright'
+
+[2026-06-07 15:36:19] Stdout: 
+[2026-06-07 15:36:19] Return Code: 1
+[2026-06-07 15:38:15] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1U27BkziVT/?mibextid=wwXIfr' --json --save-db
+[2026-06-07 15:38:15] Stderr: [2026-06-07 15:38:15] INFO     | Initialisation du navigateur...
+[2026-06-07 15:38:15] ERROR    | ✗ Erreur navigateur: BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome"
+[2026-06-07 15:38:15] INFO     | Extraction de: https://www.facebook.com/share/p/1U27BkziVT/?mibextid=wwXIfr
+[2026-06-07 15:38:15] WARNING  | Navigation échouée: 'NoneType' object has no attribute 'goto'
+
+[2026-06-07 15:38:15] Stdout: {
+  "status": "error",
+  "message": "Publication restreinte ou supprimée",
+  "fb_post_url": "https://www.facebook.com/share/p/1U27BkziVT/?mibextid=wwXIfr",
+  "extracted_at": "2026-06-07T15:38:15.768048"
+}
+
+[2026-06-07 15:38:15] Return Code: 1
+[2026-06-07 15:38:26] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1U27BkziVT/?mibextid=wwXIfr' --json --save-db
+[2026-06-07 15:38:26] Stderr: [2026-06-07 15:38:26] INFO     | Initialisation du navigateur...
+[2026-06-07 15:38:26] ERROR    | ✗ Erreur navigateur: BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome"
+[2026-06-07 15:38:26] INFO     | Extraction de: https://www.facebook.com/share/p/1U27BkziVT/?mibextid=wwXIfr
+[2026-06-07 15:38:26] WARNING  | Navigation échouée: 'NoneType' object has no attribute 'goto'
+
+[2026-06-07 15:38:26] Stdout: {
+  "status": "error",
+  "message": "Publication restreinte ou supprimée",
+  "fb_post_url": "https://www.facebook.com/share/p/1U27BkziVT/?mibextid=wwXIfr",
+  "extracted_at": "2026-06-07T15:38:26.913006"
+}
+
+[2026-06-07 15:38:26] Return Code: 1
+[2026-06-07 15:39:52] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1U27BkziVT/?mibextid=wwXIfr' --json --save-db
+[2026-06-07 15:40:02] Stderr: [2026-06-07 15:39:52] INFO     | Initialisation du navigateur...
+[2026-06-07 15:39:52] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-07 15:39:52] INFO     | Navigateur: Chromium Playwright
+[2026-06-07 15:39:52] INFO     | ✓ Navigateur prêt
+[2026-06-07 15:39:52] INFO     | Extraction de: https://www.facebook.com/share/p/1U27BkziVT/?mibextid=wwXIfr
+[2026-06-07 15:39:54] INFO     | Page title: اسلم حباله - عجيب لدي اخوة اسغر مني متخرجين من اكبر... | Facebook
+[2026-06-07 15:39:54] INFO     | URL actuelle: https://www.facebook.com/story.php?story_fbid=2080601952874044&id=100027727772108&mibextid=wwXIfr&rdid=pj7ggyGeLVAmabhn
+[2026-06-07 15:39:54] INFO     | Attente du chargement de la page...
+[2026-06-07 15:39:58] INFO     | Scroll pour charger le contenu...
+[2026-06-07 15:40:01] INFO     | Début extraction du contenu...
+[2026-06-07 15:40:01] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-07 15:40:01] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-06-07 15:40:01] INFO     | Contenu trouvé avec sélecteur #0: 303 chars
+[2026-06-07 15:40:01] INFO     | 📝 Contenu final: 302 caractères
+[2026-06-07 15:40:01] INFO     | Extraction de l'auteur...
+[2026-06-07 15:40:01] INFO     | Auteur retenu: ‎اسلم حباله‎ (score 90)
+[2026-06-07 15:40:01] INFO     | Extraction de l'image...
+[2026-06-07 15:40:01] INFO     | Extraction de la date...
+[2026-06-07 15:40:01] INFO     | 📋 Résumé extraction:
+[2026-06-07 15:40:01] INFO     |    • Auteur: ‎اسلم حباله‎
+[2026-06-07 15:40:01] INFO     |    • Contenu: 302 caractères
+[2026-06-07 15:40:01] INFO     |    • Image: Non
+[2026-06-07 15:40:01] INFO     |    • Date: 2026-06-07T15:40:01.958446
+[2026-06-07 15:40:01] INFO     | Extraction réussie: ‎اسلم حباله‎
+[2026-06-07 15:40:02] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-07 15:40:02] INFO     | ✅ Post sauvegardé (ID: 1, author: ‎اسلم حباله‎)
+
+[2026-06-07 15:40:02] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/1U27BkziVT/?mibextid=wwXIfr",
+  "author_name": "‎اسلم حباله‎",
+  "author_url": null,
+  "content": "عجيب  لدي اخوة   اسغر مني متخرجين من اكبر   الجامعات  الأجنبية  وكراو في ظروف يعلمها إلا الله بفضل الله ثم جهود الوالده  رحمها الله مايعدلو  امتحان  ماتم اقصائهم  ك باقي  أبناء  الفقراء   وطلعو بلدهم مدة ثانيه  بينما أبناء  أصحاب  النفوذ  يتم تعينهم  بكل بساطه  حتى المستوى  باط ماهو واحد   كفاكم  ظلما",
+  "image_url": null,
+  "published_at": "2026-06-07T15:40:01.958446",
+  "extracted_at": "2026-06-07T15:40:01.993640",
+  "status": "success"
+}
+
+[2026-06-07 15:40:02] Return Code: 0
+[2026-06-07 15:40:45] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/18P64uLZiS/?mibextid=wwXIfr' --json --save-db
+[2026-06-07 15:40:56] Stderr: [2026-06-07 15:40:46] INFO     | Initialisation du navigateur...
+[2026-06-07 15:40:46] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-07 15:40:46] INFO     | Navigateur: Chromium Playwright
+[2026-06-07 15:40:46] INFO     | ✓ Navigateur prêt
+[2026-06-07 15:40:46] INFO     | Extraction de: https://www.facebook.com/share/p/18P64uLZiS/?mibextid=wwXIfr
+[2026-06-07 15:40:48] INFO     | Page title: اسلم حباله - عجيب لدي اخوة اسغر مني متخرجين من اكبر... | Facebook
+[2026-06-07 15:40:48] INFO     | URL actuelle: https://www.facebook.com/isselmou.haballa/posts/pfbid0Cfnsw6nAbVdiQcL2iAKUUfcJNFB5ox9QmAhzEfYXv5XNTV2X3Dhj6pxnZG3pVmoFl?mibextid=wwXIfr&rdid=yBJfJUYiYbUswWQ0
+[2026-06-07 15:40:48] INFO     | Attente du chargement de la page...
+[2026-06-07 15:40:52] INFO     | Scroll pour charger le contenu...
+[2026-06-07 15:40:55] INFO     | Début extraction du contenu...
+[2026-06-07 15:40:55] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-07 15:40:55] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-06-07 15:40:55] INFO     | Contenu trouvé avec sélecteur #0: 303 chars
+[2026-06-07 15:40:55] INFO     | 📝 Contenu final: 302 caractères
+[2026-06-07 15:40:55] INFO     | Extraction de l'auteur...
+[2026-06-07 15:40:55] INFO     | Auteur retenu: ‎اسلم حباله‎ (score 90)
+[2026-06-07 15:40:55] INFO     | Extraction de l'image...
+[2026-06-07 15:40:55] INFO     | Extraction de la date...
+[2026-06-07 15:40:56] INFO     | 📋 Résumé extraction:
+[2026-06-07 15:40:56] INFO     |    • Auteur: ‎اسلم حباله‎
+[2026-06-07 15:40:56] INFO     |    • Contenu: 302 caractères
+[2026-06-07 15:40:56] INFO     |    • Image: Non
+[2026-06-07 15:40:56] INFO     |    • Date: 2026-06-07T15:40:55.965261
+[2026-06-07 15:40:56] INFO     | Extraction réussie: ‎اسلم حباله‎
+[2026-06-07 15:40:56] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-07 15:40:56] INFO     | ✅ Post sauvegardé (ID: 3, author: ‎اسلم حباله‎)
+
+[2026-06-07 15:40:56] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/18P64uLZiS/?mibextid=wwXIfr",
+  "author_name": "‎اسلم حباله‎",
+  "author_url": null,
+  "content": "عجيب  لدي اخوة   اسغر مني متخرجين من اكبر   الجامعات  الأجنبية  وكراو في ظروف يعلمها إلا الله بفضل الله ثم جهود الوالده  رحمها الله مايعدلو  امتحان  ماتم اقصائهم  ك باقي  أبناء  الفقراء   وطلعو بلدهم مدة ثانيه  بينما أبناء  أصحاب  النفوذ  يتم تعينهم  بكل بساطه  حتى المستوى  باط ماهو واحد   كفاكم  ظلما",
+  "image_url": null,
+  "published_at": "2026-06-07T15:40:55.965261",
+  "extracted_at": "2026-06-07T15:40:56.002109",
+  "status": "success"
+}
+
+[2026-06-07 15:40:56] Return Code: 0
+[2026-06-07 15:41:44] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/18P64uLZiS/?mibextid=wwXIfr' --json --save-db
+[2026-06-07 15:41:55] Stderr: [2026-06-07 15:41:45] INFO     | Initialisation du navigateur...
+[2026-06-07 15:41:45] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-07 15:41:46] INFO     | Navigateur: Chromium Playwright
+[2026-06-07 15:41:46] INFO     | ✓ Navigateur prêt
+[2026-06-07 15:41:46] INFO     | Extraction de: https://www.facebook.com/share/p/18P64uLZiS/?mibextid=wwXIfr
+[2026-06-07 15:41:47] INFO     | Page title: اسلم حباله - عجيب لدي اخوة اسغر مني متخرجين من اكبر... | Facebook
+[2026-06-07 15:41:47] INFO     | URL actuelle: https://www.facebook.com/isselmou.haballa/posts/pfbid0Cfnsw6nAbVdiQcL2iAKUUfcJNFB5ox9QmAhzEfYXv5XNTV2X3Dhj6pxnZG3pVmoFl?mibextid=wwXIfr&rdid=eSdPXEfOtZZFodUt
+[2026-06-07 15:41:47] INFO     | Attente du chargement de la page...
+[2026-06-07 15:41:52] INFO     | Scroll pour charger le contenu...
+[2026-06-07 15:41:55] INFO     | Début extraction du contenu...
+[2026-06-07 15:41:55] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-07 15:41:55] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-06-07 15:41:55] INFO     | Contenu trouvé avec sélecteur #0: 303 chars
+[2026-06-07 15:41:55] INFO     | 📝 Contenu final: 302 caractères
+[2026-06-07 15:41:55] INFO     | Extraction de l'auteur...
+[2026-06-07 15:41:55] INFO     | Auteur retenu: ‎اسلم حباله‎ (score 90)
+[2026-06-07 15:41:55] INFO     | Extraction de l'image...
+[2026-06-07 15:41:55] INFO     | Extraction de la date...
+[2026-06-07 15:41:55] INFO     | 📋 Résumé extraction:
+[2026-06-07 15:41:55] INFO     |    • Auteur: ‎اسلم حباله‎
+[2026-06-07 15:41:55] INFO     |    • Contenu: 302 caractères
+[2026-06-07 15:41:55] INFO     |    • Image: Non
+[2026-06-07 15:41:55] INFO     |    • Date: 2026-06-07T15:41:55.479640
+[2026-06-07 15:41:55] INFO     | Extraction réussie: ‎اسلم حباله‎
+[2026-06-07 15:41:55] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-07 15:41:55] INFO     | ✅ Post sauvegardé (ID: 3, author: ‎اسلم حباله‎)
+
+[2026-06-07 15:41:55] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/18P64uLZiS/?mibextid=wwXIfr",
+  "author_name": "‎اسلم حباله‎",
+  "author_url": null,
+  "content": "عجيب  لدي اخوة   اسغر مني متخرجين من اكبر   الجامعات  الأجنبية  وكراو في ظروف يعلمها إلا الله بفضل الله ثم جهود الوالده  رحمها الله مايعدلو  امتحان  ماتم اقصائهم  ك باقي  أبناء  الفقراء   وطلعو بلدهم مدة ثانيه  بينما أبناء  أصحاب  النفوذ  يتم تعينهم  بكل بساطه  حتى المستوى  باط ماهو واحد   كفاكم  ظلما",
+  "image_url": null,
+  "published_at": "2026-06-07T15:41:55.479640",
+  "extracted_at": "2026-06-07T15:41:55.508526",
+  "status": "success"
+}
+
+[2026-06-07 15:41:55] Return Code: 0
+[2026-06-07 15:42:52] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/18P64uLZiS/?mibextid=wwXIfr' --json --save-db
+[2026-06-07 15:43:04] Stderr: [2026-06-07 15:42:53] INFO     | Initialisation du navigateur...
+[2026-06-07 15:42:53] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-07 15:42:53] INFO     | Navigateur: Chromium Playwright
+[2026-06-07 15:42:54] INFO     | ✓ Navigateur prêt
+[2026-06-07 15:42:54] INFO     | Extraction de: https://www.facebook.com/share/p/18P64uLZiS/?mibextid=wwXIfr
+[2026-06-07 15:42:56] INFO     | Page title: اسلم حباله - عجيب لدي اخوة اسغر مني متخرجين من اكبر... | Facebook
+[2026-06-07 15:42:56] INFO     | URL actuelle: https://www.facebook.com/isselmou.haballa/posts/pfbid0Cfnsw6nAbVdiQcL2iAKUUfcJNFB5ox9QmAhzEfYXv5XNTV2X3Dhj6pxnZG3pVmoFl?mibextid=wwXIfr&rdid=Z8Ssxg1LJ8HVI2FZ
+[2026-06-07 15:42:56] INFO     | Attente du chargement de la page...
+[2026-06-07 15:43:00] INFO     | Scroll pour charger le contenu...
+[2026-06-07 15:43:03] INFO     | Début extraction du contenu...
+[2026-06-07 15:43:03] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-07 15:43:03] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-06-07 15:43:03] INFO     | Contenu trouvé avec sélecteur #0: 303 chars
+[2026-06-07 15:43:03] INFO     | 📝 Contenu final: 302 caractères
+[2026-06-07 15:43:03] INFO     | Extraction de l'auteur...
+[2026-06-07 15:43:04] INFO     | Auteur retenu: ‎اسلم حباله‎ (score 90)
+[2026-06-07 15:43:04] INFO     | Extraction de l'image...
+[2026-06-07 15:43:04] INFO     | Extraction de la date...
+[2026-06-07 15:43:04] INFO     | 📋 Résumé extraction:
+[2026-06-07 15:43:04] INFO     |    • Auteur: ‎اسلم حباله‎
+[2026-06-07 15:43:04] INFO     |    • Contenu: 302 caractères
+[2026-06-07 15:43:04] INFO     |    • Image: Non
+[2026-06-07 15:43:04] INFO     |    • Date: 2026-06-07T15:43:04.151231
+[2026-06-07 15:43:04] INFO     | Extraction réussie: ‎اسلم حباله‎
+[2026-06-07 15:43:04] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-07 15:43:04] INFO     | ✅ Post sauvegardé (ID: 3, author: ‎اسلم حباله‎)
+
+[2026-06-07 15:43:04] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/18P64uLZiS/?mibextid=wwXIfr",
+  "author_name": "‎اسلم حباله‎",
+  "author_url": null,
+  "content": "عجيب  لدي اخوة   اسغر مني متخرجين من اكبر   الجامعات  الأجنبية  وكراو في ظروف يعلمها إلا الله بفضل الله ثم جهود الوالده  رحمها الله مايعدلو  امتحان  ماتم اقصائهم  ك باقي  أبناء  الفقراء   وطلعو بلدهم مدة ثانيه  بينما أبناء  أصحاب  النفوذ  يتم تعينهم  بكل بساطه  حتى المستوى  باط ماهو واحد   كفاكم  ظلما",
+  "image_url": null,
+  "published_at": "2026-06-07T15:43:04.151231",
+  "extracted_at": "2026-06-07T15:43:04.189188",
+  "status": "success"
+}
+
+[2026-06-07 15:43:04] Return Code: 0
+[2026-06-07 16:39:16] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/18Z3RzDXoZ/' --json --save-db
+[2026-06-07 16:39:28] Stderr: [2026-06-07 16:39:17] INFO     | Initialisation du navigateur...
+[2026-06-07 16:39:18] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-07 16:39:19] INFO     | Navigateur: Chromium Playwright
+[2026-06-07 16:39:19] INFO     | ✓ Navigateur prêt
+[2026-06-07 16:39:19] INFO     | Extraction de: https://www.facebook.com/share/p/18Z3RzDXoZ/
+[2026-06-07 16:39:21] INFO     | Page title: Al Ya - 🧐🧐🧐ابدي ذ العيطه لي فيه المشاهير البارح شنهي | Facebook
+[2026-06-07 16:39:21] INFO     | URL actuelle: https://www.facebook.com/alia.mokhtar.3950/posts/pfbid0rB3CdqbBru4ARBvFo3HKCJnLKPWiJjdVRkxEd9wwVg9HV1M7hpKbTdsVn16KuoY5l?rdid=o0DSz1ErULH2UFrT
+[2026-06-07 16:39:21] INFO     | Attente du chargement de la page...
+[2026-06-07 16:39:25] INFO     | Scroll pour charger le contenu...
+[2026-06-07 16:39:28] INFO     | Début extraction du contenu...
+[2026-06-07 16:39:28] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-07 16:39:28] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-06-07 16:39:28] INFO     | Contenu trouvé avec sélecteur #0: 42 chars
+[2026-06-07 16:39:28] INFO     | 📝 Contenu final: 41 caractères
+[2026-06-07 16:39:28] INFO     | Extraction de l'auteur...
+[2026-06-07 16:39:28] INFO     | Auteur retenu: Al Ya (score 90)
+[2026-06-07 16:39:28] INFO     | Extraction de l'image...
+[2026-06-07 16:39:28] INFO     | Image trouvée: https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808...
+[2026-06-07 16:39:28] INFO     | Extraction de la date...
+[2026-06-07 16:39:28] INFO     | 📋 Résumé extraction:
+[2026-06-07 16:39:28] INFO     |    • Auteur: Al Ya
+[2026-06-07 16:39:28] INFO     |    • Contenu: 41 caractères
+[2026-06-07 16:39:28] INFO     |    • Image: Oui
+[2026-06-07 16:39:28] INFO     |    • Date: 2026-06-07T16:39:28.611766
+[2026-06-07 16:39:28] INFO     | Extraction réussie: Al Ya
+[2026-06-07 16:39:28] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-07 16:39:28] INFO     | ✅ Post sauvegardé (ID: 6, author: Al Ya)
+
+[2026-06-07 16:39:28] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/18Z3RzDXoZ/",
+  "author_name": "Al Ya",
+  "author_url": null,
+  "content": "ابدي ذ العيطه لي فيه المشاهير البارح شنهي",
+  "image_url": "https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808-6/718906763_981258978027293_2619948510987410848_n.jpg?stp=dst-jpg_tt6&cstp=mx1152x892&ctp=s261x260&_nc_cat=107&ccb=1-7&_nc_sid=bd9a62&_nc_ohc=7S2esP1wgpAQ7kNvwH9gdr6&_nc_oc=AdoONrtPrUyuY_8DyXsejVe_xVV7BoWHfav-nVLCByn5drvkEGd07JS3Nll_2O-f-hY&_nc_zt=23&_nc_ht=scontent.fnkc1-1.fna&_nc_gid=xgLezA5ykr5U6ekckyWIQA&_nc_ss=79289&oh=00_Af9m9nlrAdwedXZ1ktfnHixjohEAEhyZMXXYEMCcF59rhg&oe=6A2B7F5D",
+  "published_at": "2026-06-07T16:39:28.611766",
+  "extracted_at": "2026-06-07T16:39:28.649767",
+  "status": "success"
+}
+
+[2026-06-07 16:39:28] Return Code: 0
+[2026-06-07 22:14:41] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1awr8A958e/' --json --save-db
+[2026-06-07 22:14:42] Stderr: [2026-06-07 22:14:42] INFO     | Initialisation du navigateur...
+[2026-06-07 22:14:42] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-07 22:14:42] ERROR    | ✗ Erreur navigateur: BrowserType.launch_persistent_context: Executable doesn't exist at /tmp/cursor-sandbox-cache/650cfed2b47cefea8095e7e406ddf473/playwright/chromium_headless_shell-1223/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[2026-06-07 22:14:42] INFO     | Extraction de: https://www.facebook.com/share/p/1awr8A958e/
+[2026-06-07 22:14:42] WARNING  | Navigation échouée: 'NoneType' object has no attribute 'goto'
+
+[2026-06-07 22:14:42] Stdout: {
+  "status": "error",
+  "message": "Publication restreinte ou supprimée",
+  "fb_post_url": "https://www.facebook.com/share/p/1awr8A958e/",
+  "link_status": "inaccessible",
+  "extracted_at": "2026-06-07T22:14:42.757809"
+}
+
+[2026-06-07 22:14:42] Return Code: 1
+[2026-06-07 22:15:16] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1awr8A958e/' --json --save-db
+[2026-06-07 22:15:17] Stderr: [2026-06-07 22:15:16] INFO     | Initialisation du navigateur...
+[2026-06-07 22:15:17] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-07 22:15:17] ERROR    | ✗ Erreur navigateur: BrowserType.launch_persistent_context: Executable doesn't exist at /tmp/cursor-sandbox-cache/650cfed2b47cefea8095e7e406ddf473/playwright/chromium_headless_shell-1223/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[2026-06-07 22:15:17] INFO     | Extraction de: https://www.facebook.com/share/p/1awr8A958e/
+[2026-06-07 22:15:17] WARNING  | Navigation échouée: 'NoneType' object has no attribute 'goto'
+
+[2026-06-07 22:15:17] Stdout: {
+  "status": "error",
+  "message": "Publication restreinte ou supprimée",
+  "fb_post_url": "https://www.facebook.com/share/p/1awr8A958e/",
+  "link_status": "inaccessible",
+  "extracted_at": "2026-06-07T22:15:17.057387"
+}
+
+[2026-06-07 22:15:17] Return Code: 1
+[2026-06-07 22:32:55] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1awr8A958e/' --json --save-db
+[2026-06-07 22:32:56] Stderr: [2026-06-07 22:32:55] INFO     | Initialisation du navigateur...
+[2026-06-07 22:32:56] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-07 22:32:56] ERROR    | ✗ Erreur navigateur: BrowserType.launch_persistent_context: Executable doesn't exist at /tmp/cursor-sandbox-cache/650cfed2b47cefea8095e7e406ddf473/playwright/chromium_headless_shell-1223/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[2026-06-07 22:32:56] INFO     | Extraction de: https://www.facebook.com/share/p/1awr8A958e/
+[2026-06-07 22:32:56] WARNING  | Navigation échouée: 'NoneType' object has no attribute 'goto'
+
+[2026-06-07 22:32:56] Stdout: {
+  "status": "error",
+  "message": "Publication restreinte ou supprimée",
+  "fb_post_url": "https://www.facebook.com/share/p/1awr8A958e/",
+  "link_status": "inaccessible",
+  "extracted_at": "2026-06-07T22:32:56.273824"
+}
+
+[2026-06-07 22:32:56] Return Code: 1
+[2026-06-07 22:33:05] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1awr8A958e/' --json --save-db
+[2026-06-07 22:33:06] Stderr: [2026-06-07 22:33:06] INFO     | Initialisation du navigateur...
+[2026-06-07 22:33:06] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-07 22:33:06] ERROR    | ✗ Erreur navigateur: BrowserType.launch_persistent_context: Executable doesn't exist at /tmp/cursor-sandbox-cache/650cfed2b47cefea8095e7e406ddf473/playwright/chromium_headless_shell-1223/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[2026-06-07 22:33:06] INFO     | Extraction de: https://www.facebook.com/share/p/1awr8A958e/
+[2026-06-07 22:33:06] WARNING  | Navigation échouée: 'NoneType' object has no attribute 'goto'
+
+[2026-06-07 22:33:06] Stdout: {
+  "status": "error",
+  "message": "Publication restreinte ou supprimée",
+  "fb_post_url": "https://www.facebook.com/share/p/1awr8A958e/",
+  "link_status": "inaccessible",
+  "extracted_at": "2026-06-07T22:33:06.489773"
+}
+
+[2026-06-07 22:33:06] Return Code: 1
+[2026-06-07 22:39:45] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1awr8A958e/' --json --save-db
+[2026-06-07 22:39:46] Stderr: [2026-06-07 22:39:46] INFO     | Initialisation du navigateur...
+[2026-06-07 22:39:46] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-07 22:39:46] ERROR    | ✗ Erreur navigateur: BrowserType.launch_persistent_context: Executable doesn't exist at /tmp/cursor-sandbox-cache/650cfed2b47cefea8095e7e406ddf473/playwright/chromium_headless_shell-1223/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+
+[2026-06-07 22:39:46] Stdout: {
+  "status": "error",
+  "message": "Navigateur indisponible — exécutez: playwright install chromium",
+  "fb_post_url": "https://www.facebook.com/share/p/1awr8A958e/",
+  "link_status": "inaccessible",
+  "extracted_at": "2026-06-07T22:39:46.384607"
+}
+
+[2026-06-07 22:39:46] Return Code: 1
+[2026-06-07 22:48:24] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1M4qq9Kxvi/' --json --save-db
+[2026-06-07 22:48:24] Stderr: [2026-06-07 22:48:24] INFO     | Initialisation du navigateur...
+[2026-06-07 22:48:24] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-07 22:48:24] ERROR    | ✗ Erreur navigateur: BrowserType.launch_persistent_context: Executable doesn't exist at /tmp/cursor-sandbox-cache/650cfed2b47cefea8095e7e406ddf473/playwright/chromium_headless_shell-1223/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+
+[2026-06-07 22:48:24] Stdout: {
+  "status": "error",
+  "message": "Navigateur indisponible — exécutez: playwright install chromium",
+  "fb_post_url": "https://www.facebook.com/share/p/1M4qq9Kxvi/",
+  "link_status": "inaccessible",
+  "extracted_at": "2026-06-07T22:48:24.704906"
+}
+
+[2026-06-07 22:48:24] Return Code: 1
+[2026-06-07 22:48:51] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1M4qq9Kxvi/' --json --save-db
+[2026-06-07 22:48:52] Stderr: [2026-06-07 22:48:51] INFO     | Initialisation du navigateur...
+[2026-06-07 22:48:52] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-07 22:48:52] ERROR    | ✗ Erreur navigateur: BrowserType.launch_persistent_context: Executable doesn't exist at /tmp/cursor-sandbox-cache/650cfed2b47cefea8095e7e406ddf473/playwright/chromium_headless_shell-1223/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+
+[2026-06-07 22:48:52] Stdout: {
+  "status": "error",
+  "message": "Navigateur indisponible — exécutez: playwright install chromium",
+  "fb_post_url": "https://www.facebook.com/share/p/1M4qq9Kxvi/",
+  "link_status": "inaccessible",
+  "extracted_at": "2026-06-07T22:48:52.151359"
+}
+
+[2026-06-07 22:48:52] Return Code: 1
+[2026-06-07 22:49:06] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1M4qq9Kxvi/' --json --save-db
+[2026-06-07 22:49:06] Stderr: [2026-06-07 22:49:06] INFO     | Initialisation du navigateur...
+[2026-06-07 22:49:06] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-07 22:49:06] ERROR    | ✗ Erreur navigateur: BrowserType.launch_persistent_context: Executable doesn't exist at /tmp/cursor-sandbox-cache/650cfed2b47cefea8095e7e406ddf473/playwright/chromium_headless_shell-1223/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+
+[2026-06-07 22:49:06] Stdout: {
+  "status": "error",
+  "message": "Navigateur indisponible — exécutez: playwright install chromium",
+  "fb_post_url": "https://www.facebook.com/share/p/1M4qq9Kxvi/",
+  "link_status": "inaccessible",
+  "extracted_at": "2026-06-07T22:49:06.892990"
+}
+
+[2026-06-07 22:49:06] Return Code: 1
+[2026-06-07 23:13:59] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1M4qq9Kxvi/' --json --save-db
+[2026-06-07 23:14:11] Stderr: [2026-06-07 23:13:59] INFO     | Initialisation du navigateur...
+[2026-06-07 23:14:00] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-07 23:14:01] INFO     | Navigateur: Chromium Playwright
+[2026-06-07 23:14:01] INFO     | ✓ Navigateur prêt
+[2026-06-07 23:14:01] INFO     | Extraction de: https://www.facebook.com/share/p/1M4qq9Kxvi/
+[2026-06-07 23:14:02] INFO     | Page title: مليون مبرمج مصري | يا جماعة لغة الالة دي اخترعوها بأي لغة برمجة؟
+[2026-06-07 23:14:02] INFO     | URL actuelle: https://www.facebook.com/groups/253583927080658/permalink/1001816512257392/?rdid=uAAyEqkAyKmVMJcr&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1M4qq9Kxvi%2F
+[2026-06-07 23:14:02] INFO     | Attente du chargement de la page...
+[2026-06-07 23:14:07] INFO     | Scroll pour charger le contenu...
+[2026-06-07 23:14:10] INFO     | Début extraction du contenu...
+[2026-06-07 23:14:10] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-07 23:14:10] INFO     |    ✓ Sélecteur #1: 'div[role='main'] >> div[dir='auto']' trouvé 6 éléments
+[2026-06-07 23:14:10] INFO     | Contenu trouvé avec sélecteur #1: 598 chars
+[2026-06-07 23:14:10] INFO     | 📝 Contenu final: 597 caractères
+[2026-06-07 23:14:10] INFO     | Extraction de l'auteur...
+[2026-06-07 23:14:10] INFO     | Auteur retenu: مليون مبرمج مصري (score 95)
+[2026-06-07 23:14:10] INFO     | Extraction de l'image...
+[2026-06-07 23:14:10] INFO     | Image trouvée: https://static.xx.fbcdn.net/images/emoji.php/v9/ta...
+[2026-06-07 23:14:10] INFO     | Extraction de la date...
+[2026-06-07 23:14:10] INFO     | 📋 Résumé extraction:
+[2026-06-07 23:14:10] INFO     |    • Auteur: مليون مبرمج مصري
+[2026-06-07 23:14:10] INFO     |    • Contenu: 597 caractères
+[2026-06-07 23:14:10] INFO     |    • Image: Oui
+[2026-06-07 23:14:10] INFO     |    • Date: 2026-06-07T23:14:10.874695
+[2026-06-07 23:14:10] INFO     | Extraction réussie: مليون مبرمج مصري
+[2026-06-07 23:14:10] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-07 23:14:11] INFO     | ✅ Post sauvegardé (ID: 8, author: مليون مبرمج مصري)
+
+[2026-06-07 23:14:11] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/1M4qq9Kxvi/",
+  "author_name": "مليون مبرمج مصري",
+  "author_url": "https://www.facebook.com/groups/253583927080658/?__cft__[0]=AZZqTWTHwVc3XNRWQga22J7g9aBZWn_jArJs61npdxM6h6NgfJFh8irlAf-SDGXN2U-_Jn6_UtjFJJDknTdNlsj4TBD4CblWhkyyHV2UtuyntJ9qvcZ5C4FAK04d867q_1DLJtpEG3szSWzSb-YbQTz5EPLMgzErVtscmJu0ejhE6kzksefJa1qVBwG9J-qYoU8LBs0Dt8eAo_HwTp580ebL&__tn__=-UC%2CP-R",
+  "content": "يا جماعة لغة الالة دي اخترعوها بأي لغة برمجة؟وكيف بتعرف الأصفار والواحدات دي تقبلها حروف؟يا جماعة لغة الالة دي اخترعوها بأي لغة برمجة؟وكيف بتعرف الأصفار والواحدات دي تقبلها حروف؟ عشان تفهم دى لاازم تفهم معنى ترانزستور وبروسيسور وبعدين تاريخ الكمبيوتر هذا أمر شرحه يطول و انا الان مشغول في اختراع اسمه الذكاء الصناعي … En voir plus الكومبيوتر مش بيفهم اللغه بتاعتنا دي.. لغة الاله هي أول لغة اتعملت للكومبيوتر بتعتمد على الأصفار والوحايد كل حرف في اللغة عبارة عن مجموعه من الأصفار والوحايد المبرمجين زمان عملوها كده واتفقوا على نظام اسمه الASCII كل حرف ليه رقم مثلا Aب 65 ونكمل ال B ب… En voir plus",
+  "image_url": "https://static.xx.fbcdn.net/images/emoji.php/v9/ta5/1/30/1f610.png",
+  "content_type": "text_image",
+  "link_status": "active",
+  "published_at": "2026-06-07T23:14:10.874695",
+  "extracted_at": "2026-06-07T23:14:10.920186",
+  "status": "success"
+}
+
+[2026-06-07 23:14:11] Return Code: 0
+[2026-06-07 23:43:42] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1C9U5Ph679/' --json --save-db
+[2026-06-07 23:43:53] Stderr: [2026-06-07 23:43:43] INFO     | Initialisation du navigateur...
+[2026-06-07 23:43:43] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-07 23:43:44] INFO     | Navigateur: Chromium Playwright
+[2026-06-07 23:43:44] INFO     | ✓ Navigateur prêt
+[2026-06-07 23:43:44] INFO     | Extraction de: https://www.facebook.com/share/p/1C9U5Ph679/
+[2026-06-07 23:43:45] INFO     | Page title: Nwey Ne - الساحة طاريالهَ اتبان مُنافقيه | Facebook
+[2026-06-07 23:43:45] INFO     | URL actuelle: https://www.facebook.com/lem.neysira/posts/pfbid0H67DNm9DUqhW5buDc4m8Z9XjMjBReJfZF9w7o37F8vaqeA4bZo7qzhuweAfnpjQcl?rdid=PQFsOhukgzaMDzHv
+[2026-06-07 23:43:45] INFO     | Attente du chargement de la page...
+[2026-06-07 23:43:50] INFO     | Scroll pour charger le contenu...
+[2026-06-07 23:43:53] INFO     | Début extraction du contenu...
+[2026-06-07 23:43:53] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-07 23:43:53] INFO     |    ✓ Sélecteur #2: 'div[role='article'] span[dir='auto']' trouvé 48 éléments
+[2026-06-07 23:43:53] INFO     | Contenu trouvé avec sélecteur #2: 631 chars
+[2026-06-07 23:43:53] INFO     | 📝 Contenu final: 630 caractères
+[2026-06-07 23:43:53] INFO     | Extraction de l'auteur...
+[2026-06-07 23:43:53] INFO     | Auteur retenu: Nwey Ne (score 90)
+[2026-06-07 23:43:53] INFO     | Extraction de l'image...
+[2026-06-07 23:43:53] INFO     | Extraction de la date...
+[2026-06-07 23:43:53] INFO     | 📋 Résumé extraction:
+[2026-06-07 23:43:53] INFO     |    • Auteur: Nwey Ne
+[2026-06-07 23:43:53] INFO     |    • Contenu: 630 caractères
+[2026-06-07 23:43:53] INFO     |    • Image: Non
+[2026-06-07 23:43:53] INFO     |    • Date: 2026-06-07T23:43:53.415235
+[2026-06-07 23:43:53] INFO     | Extraction réussie: Nwey Ne
+[2026-06-07 23:43:53] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-07 23:43:53] INFO     | ✅ Post sauvegardé (ID: 10, author: Nwey Ne)
+
+[2026-06-07 23:43:53] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/1C9U5Ph679/",
+  "author_name": "Nwey Ne",
+  "author_url": null,
+  "content": "21 commentaires بالله عليكم ما اتوحشتُ افليشاتي Nwey Ne a répondu  · 1 réponses12 min منهي يمه ولل تبانى شويبة  تعرفى الحك  فهمتى اول مرة انشوف حد يفلشيى على راصو Nwey Ne a répondu  · 1 réponses10 min ويلك من سبركهَــ Nwey Ne a répondu  · 3 réponses11 min وحدات انتى منهم ملى Zeinebou Meed Mokhtar Yahya El Kory أفلش أمسكم ههه Nwey Ne a répondu  · 1 réponses10 min Khadijetou Sidi Nwey Ne a répondu  · 1 réponses7 min بالله عليكم ما اتوحشتُ افليشاتي منهي يمه ولل تبانى شويبة  تعرفى الحك  فهمتى اول مرة انشوف حد يفلشيى على راصو ويلك من سبركهَــ وحدات انتى منهم ملى Zeinebou Meed Mokhtar Yahya El Kory أفلش أمسكم ههه Khadijetou Sidi",
+  "image_url": null,
+  "content_type": "text",
+  "link_status": "active",
+  "published_at": "2026-06-07T23:43:53.415235",
+  "extracted_at": "2026-06-07T23:43:53.433847",
+  "status": "success"
+}
+
+[2026-06-07 23:43:53] Return Code: 0
+[2026-06-08 02:58:17] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/18rskgtrmR/' --json --save-db
+[2026-06-08 02:58:29] Stderr: [2026-06-08 02:58:17] INFO     | Initialisation du navigateur...
+[2026-06-08 02:58:18] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 02:58:19] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 02:58:19] INFO     | ✓ Navigateur prêt
+[2026-06-08 02:58:19] INFO     | Extraction de: https://www.facebook.com/share/p/18rskgtrmR/
+[2026-06-08 02:58:20] INFO     | Page title: 🇵🇱⬛️| الحكم البولندي سيمون مارتشينياك... - Sileye Djiby Sow | Facebook
+[2026-06-08 02:58:20] INFO     | URL actuelle: https://www.facebook.com/permalink.php?story_fbid=pfbid0aD3dqRC8DYZx1kRSJRea4KMB14Tr5zujbjaH9pMQNseUTBmCoKvTNmqpJFiCUpP3l&id=61586092851913&rdid=x3D5trMZqOadN9bx
+[2026-06-08 02:58:20] INFO     | Attente du chargement de la page...
+[2026-06-08 02:58:24] INFO     | Scroll pour charger le contenu...
+[2026-06-08 02:58:27] INFO     | Début extraction du contenu...
+[2026-06-08 02:58:27] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-08 02:58:27] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-06-08 02:58:27] INFO     | Contenu trouvé avec sélecteur #0: 129 chars
+[2026-06-08 02:58:27] INFO     | 📝 Contenu final: 128 caractères
+[2026-06-08 02:58:27] INFO     | Extraction de l'auteur...
+[2026-06-08 02:58:28] INFO     | Auteur retenu: Sileye Djiby Sow (score 90)
+[2026-06-08 02:58:28] INFO     | Extraction de l'image...
+[2026-06-08 02:58:28] INFO     | Image trouvée: https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808...
+[2026-06-08 02:58:28] INFO     | Extraction de la date...
+[2026-06-08 02:58:28] INFO     | Extraction des commentaires texte...
+[2026-06-08 02:58:29] INFO     | Commentaires texte extraits: 9
+[2026-06-08 02:58:29] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 02:58:29] INFO     | Engagement: likes=0, commentaires=127, partages=0, abonnés=0
+[2026-06-08 02:58:29] INFO     | 📋 Résumé extraction:
+[2026-06-08 02:58:29] INFO     |    • Auteur: Sileye Djiby Sow
+[2026-06-08 02:58:29] INFO     |    • Contenu: 128 caractères
+[2026-06-08 02:58:29] INFO     |    • Image: Oui
+[2026-06-08 02:58:29] INFO     |    • Date: 2026-06-08T02:58:28.304051
+[2026-06-08 02:58:29] INFO     |    • J'aime: 0
+[2026-06-08 02:58:29] INFO     |    • Partages: 0
+[2026-06-08 02:58:29] INFO     |    • Commentaires (texte): 9
+[2026-06-08 02:58:29] INFO     |    • Commentaires (compteur): 127
+[2026-06-08 02:58:29] INFO     |    • Abonnés: 0
+[2026-06-08 02:58:29] INFO     | Extraction réussie: Sileye Djiby Sow
+[2026-06-08 02:58:29] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 02:58:29] WARNING  | ⚠️ Erreur sauvegarde: 1265 (01000): Data truncated for column 'type' at row 1
+
+[2026-06-08 02:58:29] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/18rskgtrmR/",
+  "author_name": "Sileye Djiby Sow",
+  "author_url": null,
+  "content": "| الحكم البولندي سيمون مارتشينياك خلال الصور الرسمية لكأس العالم 2026.هذا ملعون في دوري أبطال أوروبا يحشمو و متعدل في كأس العالم",
+  "image_url": "https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808-6/718816734_122130947679203095_4111024483930753365_n.jpg?stp=dst-jpg_tt6&cstp=mx853x1280&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=YV_BHJ487zIQ7kNvwFs8FoU&_nc_oc=AdqQG1AijyC6d7YjdJR1Y5jkbr0oF_vAsDrayyWHTtN4FIve4zbh5hUXq5w3zazCeg8&_nc_zt=23&_nc_ht=scontent.fnkc1-1.fna&_nc_gid=gWOb00wQyP32-hNt1-RD4A&_nc_ss=79289&oh=00_Af-yJsIBKItDGTTDNWZTiKrZxX3XeWkFvMt0dzBFwynRvA&oe=6A2BE903",
+  "content_type": "text_image",
+  "link_status": "active",
+  "published_at": "2026-06-08T02:58:28.304051",
+  "likes_count": 0,
+  "shares_count": 0,
+  "comments_count": 127,
+  "followers_count": 0,
+  "comments": [
+    {
+      "author_name": "Hassen Abou Ba",
+      "content": "أفضل",
+      "position": 1
+    },
+    {
+      "author_name": "Med Salem",
+      "content": "يعطيه عذاب اف الدنيه و الاخره",
+      "position": 2
+    },
+    {
+      "author_name": "Rida Sidi Sibe",
+      "content": "البطرون",
+      "position": 3
+    },
+    {
+      "author_name": "Med Salem",
+      "content": "والله يمين اندور نموت ماسمحتلو",
+      "position": 4
+    },
+    {
+      "author_name": "Tchøūåmêní Mgm",
+      "content": "Med Salem جيرارد سمحلو شي فات فات",
+      "position": 5
+    },
+    {
+      "author_name": "محمد فاضل سيدي محمد",
+      "content": "كان له حضور قوي في نهائي كأس العالم ههه",
+      "position": 6
+    },
+    {
+      "author_name": "الشيخ ألب",
+      "content": "GIPHY",
+      "position": 7
+    },
+    {
+      "author_name": "Sidi Amar Med Abdalla",
+      "content": "يسلف ان في كأس العالم ويكبظ ضعف في دوري الأبطال",
+      "position": 8
+    },
+    {
+      "author_name": "Sydne Ali Med",
+      "content": "اههههههههههه",
+      "position": 9
+    }
+  ],
+  "extracted_at": "2026-06-08T02:58:29.333398",
+  "status": "success"
+}
+
+[2026-06-08 02:58:29] Return Code: 0
+[2026-06-08 03:00:34] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1D8C2yyrc5/' --json --save-db
+[2026-06-08 03:00:45] Stderr: [2026-06-08 03:00:34] INFO     | Initialisation du navigateur...
+[2026-06-08 03:00:34] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 03:00:34] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 03:00:35] INFO     | ✓ Navigateur prêt
+[2026-06-08 03:00:35] INFO     | Extraction de: https://www.facebook.com/share/p/1D8C2yyrc5/
+[2026-06-08 03:00:36] INFO     | Page title: Bellahii Mh - اليوم نبدأ رحلة الباكالوريا بقلبٍ مملوءٍ... | Facebook
+[2026-06-08 03:00:36] INFO     | URL actuelle: https://www.facebook.com/bellahii.mh/posts/pfbid02ULdwbiRYtvC6hDDptDLG3feUyFSQ1Uk39EU1jkfYgPCQfkhyuysEG8XvhrB4x8Jrl?rdid=4z7RLqjwO4vErxff
+[2026-06-08 03:00:36] INFO     | Attente du chargement de la page...
+[2026-06-08 03:00:40] INFO     | Scroll pour charger le contenu...
+[2026-06-08 03:00:43] INFO     | Début extraction du contenu...
+[2026-06-08 03:00:43] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-08 03:00:43] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-06-08 03:00:43] INFO     | Contenu trouvé avec sélecteur #0: 250 chars
+[2026-06-08 03:00:43] INFO     | 📝 Contenu final: 249 caractères
+[2026-06-08 03:00:43] INFO     | Extraction de l'auteur...
+[2026-06-08 03:00:44] INFO     | Auteur retenu: Bellahii Mh (score 90)
+[2026-06-08 03:00:44] INFO     | Extraction de l'image...
+[2026-06-08 03:00:44] INFO     | Image trouvée: https://static.xx.fbcdn.net/images/emoji.php/v9/t6...
+[2026-06-08 03:00:44] INFO     | Extraction de la date...
+[2026-06-08 03:00:44] INFO     | Extraction des commentaires texte...
+[2026-06-08 03:00:45] INFO     | Commentaires texte extraits: 13
+[2026-06-08 03:00:45] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 03:00:45] INFO     | Engagement: likes=1, commentaires=194, partages=0, abonnés=0
+[2026-06-08 03:00:45] INFO     | 📋 Résumé extraction:
+[2026-06-08 03:00:45] INFO     |    • Auteur: Bellahii Mh
+[2026-06-08 03:00:45] INFO     |    • Contenu: 249 caractères
+[2026-06-08 03:00:45] INFO     |    • Image: Oui
+[2026-06-08 03:00:45] INFO     |    • Date: 2026-06-08T03:00:44.381312
+[2026-06-08 03:00:45] INFO     |    • J'aime: 1
+[2026-06-08 03:00:45] INFO     |    • Partages: 0
+[2026-06-08 03:00:45] INFO     |    • Commentaires (texte): 13
+[2026-06-08 03:00:45] INFO     |    • Commentaires (compteur): 194
+[2026-06-08 03:00:45] INFO     |    • Abonnés: 0
+[2026-06-08 03:00:45] INFO     | Extraction réussie: Bellahii Mh
+[2026-06-08 03:00:45] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 03:00:45] WARNING  | ⚠️ Erreur sauvegarde: 1265 (01000): Data truncated for column 'type' at row 1
+
+[2026-06-08 03:00:45] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/1D8C2yyrc5/",
+  "author_name": "Bellahii Mh",
+  "author_url": null,
+  "content": "اليوم نبدأ رحلة الباكالوريابقلبٍ مملوءٍ بالأمل والإصرار، وعقلٍ عاقدٍ العزم على الاجتهاد والمثابرة، أسألُ اللهَ التوفيقَ والسداد، وأن يجعل النجاح حليفي وحليفَ أخي والمسلمين اجمعين. فاللهم وفّقنا فيه وبارك لنا في جهدنا، وقرّ أعيننا بتحقيق ما نطمح إليه",
+  "image_url": "https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/2764.png",
+  "content_type": "text_image",
+  "link_status": "active",
+  "published_at": "2026-06-08T03:00:44.381312",
+  "likes_count": 1,
+  "shares_count": 0,
+  "comments_count": 194,
+  "followers_count": 0,
+  "comments": [
+    {
+      "author_name": "Śēy Déti",
+      "content": "التوفيق ياربي",
+      "position": 1
+    },
+    {
+      "author_name": "Mohamed Youssef",
+      "content": "التوفيق بإذن الله",
+      "position": 2
+    },
+    {
+      "author_name": "أيوب الوالد أعبيدكه",
+      "content": "التوفيق إن شاء الله باك بسيط يغير حد ماكرالو ماهو لاهي يجبرو قطعا",
+      "position": 3
+    },
+    {
+      "author_name": "Maram Sidiya",
+      "content": "التوفيق انشالله والنجاح",
+      "position": 4
+    },
+    {
+      "author_name": "Häyati Cheikh",
+      "content": "الدعاء إذا عم استجاب زين فيك اتم اتكول وللمسلمين ان شالل ماهي امخصرة شي\nعلى كل التوفيق والنجاح الزين المحظور فيه لك ولجميع المسلمين ياربِ",
+      "position": 5
+    },
+    {
+      "author_name": "Malik Haymoude Medllah",
+      "content": "توفيق ان شاء الله باك ماه شي كبر من كدو\nاول مرة لك ولل",
+      "position": 6
+    },
+    {
+      "author_name": "Æhmed Mahmoud M'bareck",
+      "content": "التوفيق",
+      "position": 7
+    },
+    {
+      "author_name": "Limam Abdrhman",
+      "content": "التوفيق يارب والنجاح المحظور فيه\nكنت متأكد عنك في الجامعة",
+      "position": 8
+    },
+    {
+      "author_name": "Amnę Med",
+      "content": "اللهم آمين يارب العالمين",
+      "position": 9
+    },
+    {
+      "author_name": "با شتهم",
+      "content": "التوفيق ويااااسر من النجاح",
+      "position": 10
+    },
+    {
+      "author_name": "Häyati Cheikh",
+      "content": "الدعاء إذا عم استجاب زين فيك اتم اتكول وللمسلمين ان شالل ماهي امخصرة شي على كل التوفيق والنجاح الزين المحظور فيه لك ولجميع المسلمين ياربِ",
+      "position": 15
+    },
+    {
+      "author_name": "Malik Haymoude Medllah",
+      "content": "توفيق ان شاء الله باك ماه شي كبر من كدو اول مرة لك ولل",
+      "position": 16
+    },
+    {
+      "author_name": "Limam Abdrhman",
+      "content": "التوفيق يارب  والنجاح  المحظور فيه كنت متأكد عنك في الجامعة",
+      "position": 18
+    }
+  ],
+  "extracted_at": "2026-06-08T03:00:45.525157",
+  "status": "success"
+}
+
+[2026-06-08 03:00:45] Return Code: 0
+[2026-06-08 03:03:27] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1D8C2yyrc5/' --json --save-db
+[2026-06-08 03:03:40] Stderr: [2026-06-08 03:03:27] INFO     | Initialisation du navigateur...
+[2026-06-08 03:03:28] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 03:03:29] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 03:03:29] INFO     | ✓ Navigateur prêt
+[2026-06-08 03:03:29] INFO     | Extraction de: https://www.facebook.com/share/p/1D8C2yyrc5/
+[2026-06-08 03:03:31] INFO     | Page title: Bellahii Mh - اليوم نبدأ رحلة الباكالوريا بقلبٍ مملوءٍ... | Facebook
+[2026-06-08 03:03:31] INFO     | URL actuelle: https://www.facebook.com/bellahii.mh/posts/pfbid02ULdwbiRYtvC6hDDptDLG3feUyFSQ1Uk39EU1jkfYgPCQfkhyuysEG8XvhrB4x8Jrl?rdid=8AoTwEeKoeGWWJEQ
+[2026-06-08 03:03:31] INFO     | Attente du chargement de la page...
+[2026-06-08 03:03:35] INFO     | Scroll pour charger le contenu...
+[2026-06-08 03:03:38] INFO     | Début extraction du contenu...
+[2026-06-08 03:03:38] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-08 03:03:38] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-06-08 03:03:38] INFO     | Contenu trouvé avec sélecteur #0: 250 chars
+[2026-06-08 03:03:38] INFO     | 📝 Contenu final: 249 caractères
+[2026-06-08 03:03:38] INFO     | Extraction de l'auteur...
+[2026-06-08 03:03:38] INFO     | Auteur retenu: Bellahii Mh (score 90)
+[2026-06-08 03:03:38] INFO     | Extraction de l'image...
+[2026-06-08 03:03:38] INFO     | Image trouvée: https://static.xx.fbcdn.net/images/emoji.php/v9/t6...
+[2026-06-08 03:03:38] INFO     | Extraction de la date...
+[2026-06-08 03:03:38] INFO     | Extraction des commentaires texte...
+[2026-06-08 03:03:39] INFO     | Commentaires texte extraits: 13
+[2026-06-08 03:03:39] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 03:03:39] INFO     | Engagement: likes=1, commentaires=194, partages=0, abonnés=0
+[2026-06-08 03:03:39] INFO     | 📋 Résumé extraction:
+[2026-06-08 03:03:39] INFO     |    • Auteur: Bellahii Mh
+[2026-06-08 03:03:39] INFO     |    • Contenu: 249 caractères
+[2026-06-08 03:03:39] INFO     |    • Image: Oui
+[2026-06-08 03:03:39] INFO     |    • Date: 2026-06-08T03:03:38.854396
+[2026-06-08 03:03:39] INFO     |    • J'aime: 1
+[2026-06-08 03:03:39] INFO     |    • Partages: 0
+[2026-06-08 03:03:39] INFO     |    • Commentaires (texte): 13
+[2026-06-08 03:03:39] INFO     |    • Commentaires (compteur): 194
+[2026-06-08 03:03:39] INFO     |    • Abonnés: 0
+[2026-06-08 03:03:39] INFO     | Extraction réussie: Bellahii Mh
+[2026-06-08 03:03:39] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 03:03:40] WARNING  | ⚠️ Erreur sauvegarde: 1265 (01000): Data truncated for column 'type' at row 1
+
+[2026-06-08 03:03:40] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/1D8C2yyrc5/",
+  "author_name": "Bellahii Mh",
+  "author_url": null,
+  "content": "اليوم نبدأ رحلة الباكالوريابقلبٍ مملوءٍ بالأمل والإصرار، وعقلٍ عاقدٍ العزم على الاجتهاد والمثابرة، أسألُ اللهَ التوفيقَ والسداد، وأن يجعل النجاح حليفي وحليفَ أخي والمسلمين اجمعين. فاللهم وفّقنا فيه وبارك لنا في جهدنا، وقرّ أعيننا بتحقيق ما نطمح إليه",
+  "image_url": "https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/2764.png",
+  "content_type": "text_image",
+  "link_status": "active",
+  "published_at": "2026-06-08T03:03:38.854396",
+  "likes_count": 1,
+  "shares_count": 0,
+  "comments_count": 194,
+  "followers_count": 0,
+  "comments": [
+    {
+      "author_name": "Śēy Déti",
+      "content": "التوفيق ياربي",
+      "position": 1
+    },
+    {
+      "author_name": "Mohamed Youssef",
+      "content": "التوفيق بإذن الله",
+      "position": 2
+    },
+    {
+      "author_name": "أيوب الوالد أعبيدكه",
+      "content": "التوفيق إن شاء الله باك بسيط يغير حد ماكرالو ماهو لاهي يجبرو قطعا",
+      "position": 3
+    },
+    {
+      "author_name": "Maram Sidiya",
+      "content": "التوفيق انشالله والنجاح",
+      "position": 4
+    },
+    {
+      "author_name": "Häyati Cheikh",
+      "content": "الدعاء إذا عم استجاب زين فيك اتم اتكول وللمسلمين ان شالل ماهي امخصرة شي\nعلى كل التوفيق والنجاح الزين المحظور فيه لك ولجميع المسلمين ياربِ",
+      "position": 5
+    },
+    {
+      "author_name": "Malik Haymoude Medllah",
+      "content": "توفيق ان شاء الله باك ماه شي كبر من كدو\nاول مرة لك ولل",
+      "position": 6
+    },
+    {
+      "author_name": "Æhmed Mahmoud M'bareck",
+      "content": "التوفيق",
+      "position": 7
+    },
+    {
+      "author_name": "Limam Abdrhman",
+      "content": "التوفيق يارب والنجاح المحظور فيه\nكنت متأكد عنك في الجامعة",
+      "position": 8
+    },
+    {
+      "author_name": "Amnę Med",
+      "content": "اللهم آمين يارب العالمين",
+      "position": 9
+    },
+    {
+      "author_name": "با شتهم",
+      "content": "التوفيق ويااااسر من النجاح",
+      "position": 10
+    },
+    {
+      "author_name": "Häyati Cheikh",
+      "content": "الدعاء إذا عم استجاب زين فيك اتم اتكول وللمسلمين ان شالل ماهي امخصرة شي على كل التوفيق والنجاح الزين المحظور فيه لك ولجميع المسلمين ياربِ",
+      "position": 15
+    },
+    {
+      "author_name": "Malik Haymoude Medllah",
+      "content": "توفيق ان شاء الله باك ماه شي كبر من كدو اول مرة لك ولل",
+      "position": 16
+    },
+    {
+      "author_name": "Limam Abdrhman",
+      "content": "التوفيق يارب  والنجاح  المحظور فيه كنت متأكد عنك في الجامعة",
+      "position": 18
+    }
+  ],
+  "extracted_at": "2026-06-08T03:03:39.939248",
+  "status": "success"
+}
+
+[2026-06-08 03:03:40] Return Code: 0
+[2026-06-08 03:14:20] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1a87hBMYbY/' --json --save-db
+[2026-06-08 03:14:32] Stderr: [2026-06-08 03:14:20] INFO     | Initialisation du navigateur...
+[2026-06-08 03:14:21] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 03:14:22] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 03:14:22] INFO     | ✓ Navigateur prêt
+[2026-06-08 03:14:22] INFO     | Extraction de: https://www.facebook.com/share/p/1a87hBMYbY/
+[2026-06-08 03:14:23] INFO     | Page title: 🇵🇱⬛️| الحكم البولندي سيمون مارتشينياك... - Sileye Djiby Sow | Facebook
+[2026-06-08 03:14:23] INFO     | URL actuelle: https://www.facebook.com/permalink.php?story_fbid=pfbid0aD3dqRC8DYZx1kRSJRea4KMB14Tr5zujbjaH9pMQNseUTBmCoKvTNmqpJFiCUpP3l&id=61586092851913&rdid=8lUHN8nI1zJKjDxa
+[2026-06-08 03:14:23] INFO     | Attente du chargement de la page...
+[2026-06-08 03:14:27] INFO     | Scroll pour charger le contenu...
+[2026-06-08 03:14:30] INFO     | Début extraction du contenu...
+[2026-06-08 03:14:30] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-08 03:14:30] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-06-08 03:14:31] INFO     | Contenu trouvé avec sélecteur #0: 129 chars
+[2026-06-08 03:14:31] INFO     | 📝 Contenu final: 128 caractères
+[2026-06-08 03:14:31] INFO     | Extraction de l'auteur...
+[2026-06-08 03:14:31] INFO     | Auteur retenu: Sileye Djiby Sow (score 90)
+[2026-06-08 03:14:31] INFO     | Extraction de l'image...
+[2026-06-08 03:14:31] INFO     | Image trouvée: https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808...
+[2026-06-08 03:14:31] INFO     | Extraction de la date...
+[2026-06-08 03:14:31] INFO     | Extraction des commentaires texte...
+[2026-06-08 03:14:32] INFO     | Commentaires texte extraits: 9
+[2026-06-08 03:14:32] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 03:14:32] INFO     | Engagement: likes=0, commentaires=127, partages=0, abonnés=0
+[2026-06-08 03:14:32] INFO     | 📋 Résumé extraction:
+[2026-06-08 03:14:32] INFO     |    • Auteur: Sileye Djiby Sow
+[2026-06-08 03:14:32] INFO     |    • Contenu: 128 caractères
+[2026-06-08 03:14:32] INFO     |    • Image: Oui
+[2026-06-08 03:14:32] INFO     |    • Date: 2026-06-08T03:14:31.372033
+[2026-06-08 03:14:32] INFO     |    • J'aime: 0
+[2026-06-08 03:14:32] INFO     |    • Partages: 0
+[2026-06-08 03:14:32] INFO     |    • Commentaires (texte): 9
+[2026-06-08 03:14:32] INFO     |    • Commentaires (compteur): 127
+[2026-06-08 03:14:32] INFO     |    • Abonnés: 0
+[2026-06-08 03:14:32] INFO     | Extraction réussie: Sileye Djiby Sow
+[2026-06-08 03:14:32] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 03:14:32] WARNING  | ⚠️ Erreur sauvegarde: 1265 (01000): Data truncated for column 'type' at row 1
+
+[2026-06-08 03:14:32] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/1a87hBMYbY/",
+  "author_name": "Sileye Djiby Sow",
+  "author_url": null,
+  "content": "| الحكم البولندي سيمون مارتشينياك خلال الصور الرسمية لكأس العالم 2026.هذا ملعون في دوري أبطال أوروبا يحشمو و متعدل في كأس العالم",
+  "image_url": "https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808-6/718816734_122130947679203095_4111024483930753365_n.jpg?stp=dst-jpg_tt6&cstp=mx853x1280&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=YV_BHJ487zIQ7kNvwFs8FoU&_nc_oc=AdqQG1AijyC6d7YjdJR1Y5jkbr0oF_vAsDrayyWHTtN4FIve4zbh5hUXq5w3zazCeg8&_nc_zt=23&_nc_ht=scontent.fnkc1-1.fna&_nc_gid=0n_jgi8NpnBOlr2lOX7CvA&_nc_ss=79289&oh=00_Af-vHsbYXtRvLJWrVyYqjgNlEub5xC-BXQcYfqwVfNfgIw&oe=6A2C2143",
+  "content_type": "text_image",
+  "link_status": "active",
+  "published_at": "2026-06-08T03:14:31.372033",
+  "likes_count": 0,
+  "shares_count": 0,
+  "comments_count": 127,
+  "followers_count": 0,
+  "comments": [
+    {
+      "author_name": "Hassen Abou Ba",
+      "content": "أفضل",
+      "position": 1
+    },
+    {
+      "author_name": "Med Salem",
+      "content": "يعطيه عذاب اف الدنيه و الاخره",
+      "position": 2
+    },
+    {
+      "author_name": "Rida Sidi Sibe",
+      "content": "البطرون",
+      "position": 3
+    },
+    {
+      "author_name": "Med Salem",
+      "content": "والله يمين اندور نموت ماسمحتلو",
+      "position": 4
+    },
+    {
+      "author_name": "Tchøūåmêní Mgm",
+      "content": "Med Salem جيرارد سمحلو شي فات فات",
+      "position": 5
+    },
+    {
+      "author_name": "محمد فاضل سيدي محمد",
+      "content": "كان له حضور قوي في نهائي كأس العالم ههه",
+      "position": 6
+    },
+    {
+      "author_name": "الشيخ ألب",
+      "content": "GIPHY",
+      "position": 7
+    },
+    {
+      "author_name": "Sidi Amar Med Abdalla",
+      "content": "يسلف ان في كأس العالم ويكبظ ضعف في دوري الأبطال",
+      "position": 8
+    },
+    {
+      "author_name": "Sydne Ali Med",
+      "content": "اههههههههههه",
+      "position": 9
+    }
+  ],
+  "extracted_at": "2026-06-08T03:14:32.433507",
+  "status": "success"
+}
+
+[2026-06-08 03:14:32] Return Code: 0
+[2026-06-08 03:14:54] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1a87hBMYbY/' --json --save-db
+[2026-06-08 03:15:05] Stderr: [2026-06-08 03:14:54] INFO     | Initialisation du navigateur...
+[2026-06-08 03:14:54] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 03:14:54] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 03:14:54] INFO     | ✓ Navigateur prêt
+[2026-06-08 03:14:54] INFO     | Extraction de: https://www.facebook.com/share/p/1a87hBMYbY/
+[2026-06-08 03:14:56] INFO     | Page title: 🇵🇱⬛️| الحكم البولندي سيمون مارتشينياك... - Sileye Djiby Sow | Facebook
+[2026-06-08 03:14:56] INFO     | URL actuelle: https://www.facebook.com/permalink.php?story_fbid=pfbid0aD3dqRC8DYZx1kRSJRea4KMB14Tr5zujbjaH9pMQNseUTBmCoKvTNmqpJFiCUpP3l&id=61586092851913&rdid=daaJpXuzPdMDBVSy
+[2026-06-08 03:14:56] INFO     | Attente du chargement de la page...
+[2026-06-08 03:15:00] INFO     | Scroll pour charger le contenu...
+[2026-06-08 03:15:03] INFO     | Début extraction du contenu...
+[2026-06-08 03:15:03] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-08 03:15:03] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-06-08 03:15:03] INFO     | Contenu trouvé avec sélecteur #0: 129 chars
+[2026-06-08 03:15:03] INFO     | 📝 Contenu final: 128 caractères
+[2026-06-08 03:15:03] INFO     | Extraction de l'auteur...
+[2026-06-08 03:15:03] INFO     | Auteur retenu: Sileye Djiby Sow (score 90)
+[2026-06-08 03:15:03] INFO     | Extraction de l'image...
+[2026-06-08 03:15:03] INFO     | Image trouvée: https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808...
+[2026-06-08 03:15:03] INFO     | Extraction de la date...
+[2026-06-08 03:15:03] INFO     | Extraction des commentaires texte...
+[2026-06-08 03:15:04] INFO     | Commentaires texte extraits: 9
+[2026-06-08 03:15:04] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 03:15:04] INFO     | Engagement: likes=0, commentaires=127, partages=0, abonnés=0
+[2026-06-08 03:15:04] INFO     | 📋 Résumé extraction:
+[2026-06-08 03:15:04] INFO     |    • Auteur: Sileye Djiby Sow
+[2026-06-08 03:15:04] INFO     |    • Contenu: 128 caractères
+[2026-06-08 03:15:04] INFO     |    • Image: Oui
+[2026-06-08 03:15:04] INFO     |    • Date: 2026-06-08T03:15:03.902117
+[2026-06-08 03:15:04] INFO     |    • J'aime: 0
+[2026-06-08 03:15:04] INFO     |    • Partages: 0
+[2026-06-08 03:15:04] INFO     |    • Commentaires (texte): 9
+[2026-06-08 03:15:04] INFO     |    • Commentaires (compteur): 127
+[2026-06-08 03:15:04] INFO     |    • Abonnés: 0
+[2026-06-08 03:15:04] INFO     | Extraction réussie: Sileye Djiby Sow
+[2026-06-08 03:15:04] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 03:15:04] WARNING  | ⚠️ Erreur sauvegarde: 1265 (01000): Data truncated for column 'type' at row 1
+
+[2026-06-08 03:15:05] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/1a87hBMYbY/",
+  "author_name": "Sileye Djiby Sow",
+  "author_url": null,
+  "content": "| الحكم البولندي سيمون مارتشينياك خلال الصور الرسمية لكأس العالم 2026.هذا ملعون في دوري أبطال أوروبا يحشمو و متعدل في كأس العالم",
+  "image_url": "https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808-6/718816734_122130947679203095_4111024483930753365_n.jpg?stp=dst-jpg_tt6&cstp=mx853x1280&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=YV_BHJ487zIQ7kNvwFs8FoU&_nc_oc=AdqQG1AijyC6d7YjdJR1Y5jkbr0oF_vAsDrayyWHTtN4FIve4zbh5hUXq5w3zazCeg8&_nc_zt=23&_nc_ht=scontent.fnkc1-1.fna&_nc_gid=t41a_gVhIjP9io_v93mvXA&_nc_ss=79289&oh=00_Af_1mkhMFJVx7e-S4H9cmNxUh_EmFvmOPo-aQLZVhvdk_A&oe=6A2C2143",
+  "content_type": "text_image",
+  "link_status": "active",
+  "published_at": "2026-06-08T03:15:03.902117",
+  "likes_count": 0,
+  "shares_count": 0,
+  "comments_count": 127,
+  "followers_count": 0,
+  "comments": [
+    {
+      "author_name": "Hassen Abou Ba",
+      "content": "أفضل",
+      "position": 1
+    },
+    {
+      "author_name": "Med Salem",
+      "content": "يعطيه عذاب اف الدنيه و الاخره",
+      "position": 2
+    },
+    {
+      "author_name": "Rida Sidi Sibe",
+      "content": "البطرون",
+      "position": 3
+    },
+    {
+      "author_name": "Med Salem",
+      "content": "والله يمين اندور نموت ماسمحتلو",
+      "position": 4
+    },
+    {
+      "author_name": "Tchøūåmêní Mgm",
+      "content": "Med Salem جيرارد سمحلو شي فات فات",
+      "position": 5
+    },
+    {
+      "author_name": "محمد فاضل سيدي محمد",
+      "content": "كان له حضور قوي في نهائي كأس العالم ههه",
+      "position": 6
+    },
+    {
+      "author_name": "الشيخ ألب",
+      "content": "GIPHY",
+      "position": 7
+    },
+    {
+      "author_name": "Sidi Amar Med Abdalla",
+      "content": "يسلف ان في كأس العالم ويكبظ ضعف في دوري الأبطال",
+      "position": 8
+    },
+    {
+      "author_name": "Sydne Ali Med",
+      "content": "اههههههههههه",
+      "position": 9
+    }
+  ],
+  "extracted_at": "2026-06-08T03:15:04.929104",
+  "status": "success"
+}
+
+[2026-06-08 03:15:05] Return Code: 0
+[2026-06-08 03:22:23] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1a87hBMYbY/' --json --save-db
+[2026-06-08 03:22:35] Stderr: [2026-06-08 03:22:24] INFO     | Initialisation du navigateur...
+[2026-06-08 03:22:24] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 03:22:25] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 03:22:25] INFO     | ✓ Navigateur prêt
+[2026-06-08 03:22:25] INFO     | Extraction de: https://www.facebook.com/share/p/1a87hBMYbY/
+[2026-06-08 03:22:26] INFO     | Page title: 🇵🇱⬛️| الحكم البولندي سيمون مارتشينياك... - Sileye Djiby Sow | Facebook
+[2026-06-08 03:22:26] INFO     | URL actuelle: https://www.facebook.com/permalink.php?story_fbid=pfbid0aD3dqRC8DYZx1kRSJRea4KMB14Tr5zujbjaH9pMQNseUTBmCoKvTNmqpJFiCUpP3l&id=61586092851913&rdid=KJljnrD9HwYET2bl
+[2026-06-08 03:22:26] INFO     | Attente du chargement de la page...
+[2026-06-08 03:22:30] INFO     | Scroll pour charger le contenu...
+[2026-06-08 03:22:33] INFO     | Début extraction du contenu...
+[2026-06-08 03:22:33] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-08 03:22:33] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-06-08 03:22:33] INFO     | Contenu trouvé avec sélecteur #0: 129 chars
+[2026-06-08 03:22:33] INFO     | 📝 Contenu final: 128 caractères
+[2026-06-08 03:22:33] INFO     | Extraction de l'auteur...
+[2026-06-08 03:22:33] INFO     | Auteur retenu: Sileye Djiby Sow (score 90)
+[2026-06-08 03:22:33] INFO     | Extraction de l'image...
+[2026-06-08 03:22:33] INFO     | Image trouvée: https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808...
+[2026-06-08 03:22:33] INFO     | Extraction de la date...
+[2026-06-08 03:22:34] INFO     | Extraction des commentaires texte...
+[2026-06-08 03:22:34] INFO     | Commentaires texte extraits: 9
+[2026-06-08 03:22:34] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 03:22:35] INFO     | Engagement: likes=0, commentaires=127, partages=0, abonnés=0
+[2026-06-08 03:22:35] INFO     | 📋 Résumé extraction:
+[2026-06-08 03:22:35] INFO     |    • Auteur: Sileye Djiby Sow
+[2026-06-08 03:22:35] INFO     |    • Contenu: 128 caractères
+[2026-06-08 03:22:35] INFO     |    • Image: Oui
+[2026-06-08 03:22:35] INFO     |    • Date: 2026-06-08T03:22:33.991898
+[2026-06-08 03:22:35] INFO     |    • J'aime: 0
+[2026-06-08 03:22:35] INFO     |    • Partages: 0
+[2026-06-08 03:22:35] INFO     |    • Commentaires (texte): 9
+[2026-06-08 03:22:35] INFO     |    • Commentaires (compteur): 127
+[2026-06-08 03:22:35] INFO     |    • Abonnés: 0
+[2026-06-08 03:22:35] INFO     | Extraction réussie: Sileye Djiby Sow
+[2026-06-08 03:22:35] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 03:22:35] WARNING  | ⚠️ Erreur sauvegarde: 1265 (01000): Data truncated for column 'type' at row 1
+
+[2026-06-08 03:22:35] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/1a87hBMYbY/",
+  "author_name": "Sileye Djiby Sow",
+  "author_url": null,
+  "content": "| الحكم البولندي سيمون مارتشينياك خلال الصور الرسمية لكأس العالم 2026.هذا ملعون في دوري أبطال أوروبا يحشمو و متعدل في كأس العالم",
+  "image_url": "https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808-6/718816734_122130947679203095_4111024483930753365_n.jpg?stp=dst-jpg_tt6&cstp=mx853x1280&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=YV_BHJ487zIQ7kNvwFs8FoU&_nc_oc=AdqQG1AijyC6d7YjdJR1Y5jkbr0oF_vAsDrayyWHTtN4FIve4zbh5hUXq5w3zazCeg8&_nc_zt=23&_nc_ht=scontent.fnkc1-1.fna&_nc_gid=qtGevfGO624saxE2GA0ipw&_nc_ss=79289&oh=00_Af9OQf-p9_EG4fg6HAorWrj2u4PM3lcP08BIckRvTqT_Aw&oe=6A2C2143",
+  "content_type": "text_image",
+  "link_status": "active",
+  "published_at": "2026-06-08T03:22:33.991898",
+  "likes_count": 0,
+  "shares_count": 0,
+  "comments_count": 127,
+  "followers_count": 0,
+  "comments": [
+    {
+      "author_name": "Hassen Abou Ba",
+      "content": "أفضل",
+      "position": 1
+    },
+    {
+      "author_name": "Med Salem",
+      "content": "يعطيه عذاب اف الدنيه و الاخره",
+      "position": 2
+    },
+    {
+      "author_name": "Rida Sidi Sibe",
+      "content": "البطرون",
+      "position": 3
+    },
+    {
+      "author_name": "Med Salem",
+      "content": "والله يمين اندور نموت ماسمحتلو",
+      "position": 4
+    },
+    {
+      "author_name": "Tchøūåmêní Mgm",
+      "content": "Med Salem جيرارد سمحلو شي فات فات",
+      "position": 5
+    },
+    {
+      "author_name": "محمد فاضل سيدي محمد",
+      "content": "كان له حضور قوي في نهائي كأس العالم ههه",
+      "position": 6
+    },
+    {
+      "author_name": "الشيخ ألب",
+      "content": "GIPHY",
+      "position": 7
+    },
+    {
+      "author_name": "Sidi Amar Med Abdalla",
+      "content": "يسلف ان في كأس العالم ويكبظ ضعف في دوري الأبطال",
+      "position": 8
+    },
+    {
+      "author_name": "Sydne Ali Med",
+      "content": "اههههههههههه",
+      "position": 9
+    }
+  ],
+  "extracted_at": "2026-06-08T03:22:35.006935",
+  "status": "success"
+}
+
+[2026-06-08 03:22:35] Return Code: 0
+[2026-06-08 03:28:14] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1a87hBMYbY/' --json --save-db
+[2026-06-08 03:28:26] Stderr: [2026-06-08 03:28:14] INFO     | Initialisation du navigateur...
+[2026-06-08 03:28:15] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 03:28:16] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 03:28:16] INFO     | ✓ Navigateur prêt
+[2026-06-08 03:28:16] INFO     | Extraction de: https://www.facebook.com/share/p/1a87hBMYbY/
+[2026-06-08 03:28:17] INFO     | Page title: 🇵🇱⬛️| الحكم البولندي سيمون مارتشينياك... - Sileye Djiby Sow | Facebook
+[2026-06-08 03:28:17] INFO     | URL actuelle: https://www.facebook.com/permalink.php?story_fbid=pfbid0aD3dqRC8DYZx1kRSJRea4KMB14Tr5zujbjaH9pMQNseUTBmCoKvTNmqpJFiCUpP3l&id=61586092851913&rdid=qx4ShjfaJeRHfLaa
+[2026-06-08 03:28:17] INFO     | Attente du chargement de la page...
+[2026-06-08 03:28:21] INFO     | Scroll pour charger le contenu...
+[2026-06-08 03:28:24] INFO     | Début extraction du contenu...
+[2026-06-08 03:28:24] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-08 03:28:24] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 2 éléments
+[2026-06-08 03:28:24] INFO     | Contenu trouvé avec sélecteur #0: 258 chars
+[2026-06-08 03:28:24] INFO     | 📝 Contenu final: 257 caractères
+[2026-06-08 03:28:24] INFO     | Extraction de l'auteur...
+[2026-06-08 03:28:25] INFO     | Auteur retenu: Sileye Djiby Sow (score 90)
+[2026-06-08 03:28:25] INFO     | Extraction de l'image...
+[2026-06-08 03:28:25] INFO     | Image trouvée: https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808...
+[2026-06-08 03:28:25] INFO     | Extraction de la date...
+[2026-06-08 03:28:25] INFO     | Extraction des commentaires texte...
+[2026-06-08 03:28:26] INFO     | Commentaires texte extraits: 9
+[2026-06-08 03:28:26] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 03:28:26] INFO     | Engagement: likes=0, commentaires=128, partages=0, abonnés=0
+[2026-06-08 03:28:26] INFO     | 📋 Résumé extraction:
+[2026-06-08 03:28:26] INFO     |    • Auteur: Sileye Djiby Sow
+[2026-06-08 03:28:26] INFO     |    • Contenu: 257 caractères
+[2026-06-08 03:28:26] INFO     |    • Image: Oui
+[2026-06-08 03:28:26] INFO     |    • Date: 2026-06-08T03:28:25.148244
+[2026-06-08 03:28:26] INFO     |    • J'aime: 0
+[2026-06-08 03:28:26] INFO     |    • Partages: 0
+[2026-06-08 03:28:26] INFO     |    • Commentaires (texte): 9
+[2026-06-08 03:28:26] INFO     |    • Commentaires (compteur): 128
+[2026-06-08 03:28:26] INFO     |    • Abonnés: 0
+[2026-06-08 03:28:26] INFO     | Extraction réussie: Sileye Djiby Sow
+[2026-06-08 03:28:26] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 03:28:26] WARNING  | ⚠️ Erreur sauvegarde: 1265 (01000): Data truncated for column 'type' at row 1
+
+[2026-06-08 03:28:26] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/1a87hBMYbY/",
+  "author_name": "Sileye Djiby Sow",
+  "author_url": null,
+  "content": "| الحكم البولندي سيمون مارتشينياك خلال الصور الرسمية لكأس العالم 2026.هذا ملعون في دوري أبطال أوروبا يحشمو و متعدل في كأس العالم | الحكم البولندي سيمون مارتشينياك خلال الصور الرسمية لكأس العالم 2026.هذا ملعون في دوري أبطال أوروبا يحشمو و متعدل في كأس العالم",
+  "image_url": "https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808-6/718816734_122130947679203095_4111024483930753365_n.jpg?stp=dst-jpg_tt6&cstp=mx853x1280&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=YV_BHJ487zIQ7kNvwFs8FoU&_nc_oc=AdqQG1AijyC6d7YjdJR1Y5jkbr0oF_vAsDrayyWHTtN4FIve4zbh5hUXq5w3zazCeg8&_nc_zt=23&_nc_ht=scontent.fnkc1-1.fna&_nc_gid=4SFopntdzQPdi6gdEVlosA&_nc_ss=79289&oh=00_Af_TF3KKP5myjfbeN2H2yDjS_r9T0kEKG7thnbYKGAvJyw&oe=6A2C2143",
+  "content_type": "text_image",
+  "link_status": "active",
+  "published_at": "2026-06-08T03:28:25.148244",
+  "likes_count": 0,
+  "shares_count": 0,
+  "comments_count": 128,
+  "followers_count": 0,
+  "comments": [
+    {
+      "author_name": "Hassen Abou Ba",
+      "content": "أفضل",
+      "position": 1
+    },
+    {
+      "author_name": "Med Salem",
+      "content": "يعطيه عذاب اف الدنيه و الاخره",
+      "position": 2
+    },
+    {
+      "author_name": "Rida Sidi Sibe",
+      "content": "البطرون",
+      "position": 3
+    },
+    {
+      "author_name": "Med Salem",
+      "content": "والله يمين اندور نموت ماسمحتلو",
+      "position": 4
+    },
+    {
+      "author_name": "Tchøūåmêní Mgm",
+      "content": "Med Salem جيرارد سمحلو شي فات فات",
+      "position": 5
+    },
+    {
+      "author_name": "محمد فاضل سيدي محمد",
+      "content": "كان له حضور قوي في نهائي كأس العالم ههه",
+      "position": 6
+    },
+    {
+      "author_name": "الشيخ ألب",
+      "content": "GIPHY",
+      "position": 7
+    },
+    {
+      "author_name": "Sidi Amar Med Abdalla",
+      "content": "يسلف ان في كأس العالم ويكبظ ضعف في دوري الأبطال",
+      "position": 8
+    },
+    {
+      "author_name": "Sydne Ali Med",
+      "content": "اههههههههههه",
+      "position": 9
+    }
+  ],
+  "extracted_at": "2026-06-08T03:28:26.192604",
+  "status": "success"
+}
+
+[2026-06-08 03:28:26] Return Code: 0
+[2026-06-08 11:14:27] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/194XXaRPys/' --json --save-db
+[2026-06-08 11:14:40] Stderr: [2026-06-08 11:14:27] INFO     | Initialisation du navigateur...
+[2026-06-08 11:14:28] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 11:14:29] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 11:14:29] INFO     | ✓ Navigateur prêt
+[2026-06-08 11:14:29] INFO     | Extraction de: https://www.facebook.com/share/p/194XXaRPys/
+[2026-06-08 11:14:31] INFO     | Page title: هاذي هي المشكلة امعاي ظرك... - الفقيه نوح عيسى الشنقيطي | Facebook
+[2026-06-08 11:14:31] INFO     | URL actuelle: https://www.facebook.com/alfqyh.nwh.ysy.alshnqyty/posts/pfbid0ergmR3GnCY4nSpQYFmyGKTTkVeP5GRNCp9qdbVxzFRJkBHsm4o9MbUBW2tzUHjewl?rdid=oIEKvo4FnqY4vhxP
+[2026-06-08 11:14:31] INFO     | Attente du chargement de la page...
+[2026-06-08 11:14:35] INFO     | Scroll pour charger le contenu...
+[2026-06-08 11:14:38] INFO     | Début extraction du contenu...
+[2026-06-08 11:14:38] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-08 11:14:38] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-06-08 11:14:38] INFO     | Contenu trouvé avec sélecteur #0: 127 chars
+[2026-06-08 11:14:38] INFO     | 📝 Contenu final: 126 caractères
+[2026-06-08 11:14:38] INFO     | Extraction de l'auteur...
+[2026-06-08 11:14:38] INFO     | Auteur retenu: ‎الفقيه نوح عيسى الشنقيطي‎ (score 90)
+[2026-06-08 11:14:38] INFO     | Extraction de l'image...
+[2026-06-08 11:14:38] INFO     | Extraction de la date...
+[2026-06-08 11:14:38] INFO     | Extraction des commentaires texte...
+[2026-06-08 11:14:39] INFO     | Commentaires texte extraits: 13
+[2026-06-08 11:14:39] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 11:14:39] INFO     | Engagement: likes=4, commentaires=242, partages=2, abonnés=0
+[2026-06-08 11:14:39] INFO     | 📋 Résumé extraction:
+[2026-06-08 11:14:39] INFO     |    • Auteur: ‎الفقيه نوح عيسى الشنقيطي‎
+[2026-06-08 11:14:39] INFO     |    • Contenu: 126 caractères
+[2026-06-08 11:14:39] INFO     |    • Image: Non
+[2026-06-08 11:14:39] INFO     |    • Date: 2026-06-08T11:14:38.781002
+[2026-06-08 11:14:39] INFO     |    • J'aime: 4
+[2026-06-08 11:14:39] INFO     |    • Partages: 2
+[2026-06-08 11:14:39] INFO     |    • Commentaires (texte): 13
+[2026-06-08 11:14:39] INFO     |    • Commentaires (compteur): 242
+[2026-06-08 11:14:39] INFO     |    • Abonnés: 0
+[2026-06-08 11:14:39] INFO     | Extraction réussie: ‎الفقيه نوح عيسى الشنقيطي‎
+[2026-06-08 11:14:39] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 11:14:39] WARNING  | ⚠️ Erreur sauvegarde: 1265 (01000): Data truncated for column 'type' at row 1
+
+[2026-06-08 11:14:40] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/194XXaRPys/",
+  "author_name": "‎الفقيه نوح عيسى الشنقيطي‎",
+  "author_url": null,
+  "content": "هاذي هي المشكلةامعاي ظرك فالمكتب امره مزوجه وزوجها من البارح كاردينو اهلو وگالولها ولنا نحن كاردينو وانت الا السماحذ ظرك ايصح؟",
+  "image_url": null,
+  "content_type": "text",
+  "link_status": "active",
+  "published_at": "2026-06-08T11:14:38.781002",
+  "likes_count": 4,
+  "shares_count": 2,
+  "comments_count": 242,
+  "followers_count": 0,
+  "comments": [
+    {
+      "author_name": "Ahmede Mahmoude",
+      "content": "السيد الفقيه انت مكتبك امنين",
+      "position": 1
+    },
+    {
+      "author_name": "محمد سيدي عالي",
+      "content": "هذا هو ثامن المبيقات",
+      "position": 2
+    },
+    {
+      "author_name": "محمد سالم سيدي حمودي",
+      "content": "مفرق شقلها أمعاك الشدور أنت أصل مانك القاضي",
+      "position": 3
+    },
+    {
+      "author_name": "الهيبه بن حسنه",
+      "content": "انت اثرك قاضي عدت",
+      "position": 4
+    },
+    {
+      "author_name": "Mohamed El Moustapha El Hayba",
+      "content": "لاحول ولاقوة الا بالله",
+      "position": 5
+    },
+    {
+      "author_name": "سيداعمر ولدعابدين",
+      "content": "يصح بعد فالراجل الذي لايملك الشخصية والقيمه\nوهو عبارة عن نعجة لابسه دراعه\nوخلاص",
+      "position": 6
+    },
+    {
+      "author_name": "أباه ولد خيري",
+      "content": "هذا ألا خرص لعل إعود الراجل ماه بالغ فات عاد\nهذا الراجل فيه إن",
+      "position": 7
+    },
+    {
+      "author_name": "Meymatou Brahim",
+      "content": "وهو يحكم اعظم معتون اعليه",
+      "position": 8
+    },
+    {
+      "author_name": "حنان القلاوية القلال",
+      "content": "هههههه ذا إلا ماه حت ولل. مزال اسقير",
+      "position": 9
+    },
+    {
+      "author_name": "سيدي محمد حمود",
+      "content": "أنت عدت امكتبك وتفْتِ، يوضعه أدْنيه",
+      "position": 10
+    },
+    {
+      "author_name": "سيداعمر ولدعابدين",
+      "content": "يصح بعد فالراجل الذي لايملك الشخصية والقيمه وهو عبارة عن نعجة لابسه دراعه وخلاص",
+      "position": 16
+    },
+    {
+      "author_name": "أباه ولد خيري",
+      "content": "هذا ألا خرص لعل إعود الراجل ماه بالغ فات عاد هذا الراجل فيه إن",
+      "position": 17
+    },
+    {
+      "author_name": "حنان القلاوية القلال",
+      "content": "هههههه    ذا إلا ماه حت ولل. مزال اسقير",
+      "position": 19
+    }
+  ],
+  "extracted_at": "2026-06-08T11:14:39.853069",
+  "status": "success"
+}
+
+[2026-06-08 11:14:40] Return Code: 0
+[2026-06-08 11:39:04] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/194XXaRPys/' --json --save-db
+[2026-06-08 11:39:17] Stderr: [2026-06-08 11:39:04] INFO     | Initialisation du navigateur...
+[2026-06-08 11:39:05] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 11:39:06] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 11:39:06] INFO     | ✓ Navigateur prêt
+[2026-06-08 11:39:06] INFO     | Extraction de: https://www.facebook.com/share/p/194XXaRPys/
+[2026-06-08 11:39:08] INFO     | Page title: هاذي هي المشكلة امعاي ظرك... - الفقيه نوح عيسى الشنقيطي
+[2026-06-08 11:39:08] INFO     | URL actuelle: https://www.facebook.com/alfqyh.nwh.ysy.alshnqyty/posts/pfbid0ergmR3GnCY4nSpQYFmyGKTTkVeP5GRNCp9qdbVxzFRJkBHsm4o9MbUBW2tzUHjewl?rdid=ILi9DKxCdUu03QYJ
+[2026-06-08 11:39:08] INFO     | Attente du chargement de la page...
+[2026-06-08 11:39:12] INFO     | Scroll pour charger le contenu...
+[2026-06-08 11:39:15] INFO     | Début extraction du contenu...
+[2026-06-08 11:39:15] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-08 11:39:15] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-06-08 11:39:15] INFO     | Contenu trouvé avec sélecteur #0: 127 chars
+[2026-06-08 11:39:15] INFO     | 📝 Contenu final: 126 caractères
+[2026-06-08 11:39:15] INFO     | Extraction de l'auteur...
+[2026-06-08 11:39:15] INFO     | Auteur retenu: ‎الفقيه نوح عيسى الشنقيطي‎ (score 90)
+[2026-06-08 11:39:15] INFO     | Extraction de l'image...
+[2026-06-08 11:39:15] INFO     | Extraction de la date...
+[2026-06-08 11:39:15] INFO     | Extraction des commentaires texte...
+[2026-06-08 11:39:16] INFO     | Commentaires texte extraits: 13
+[2026-06-08 11:39:16] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 11:39:16] INFO     | Engagement: likes=4, commentaires=274, partages=2, abonnés=0
+[2026-06-08 11:39:16] INFO     | 📋 Résumé extraction:
+[2026-06-08 11:39:16] INFO     |    • Auteur: ‎الفقيه نوح عيسى الشنقيطي‎
+[2026-06-08 11:39:16] INFO     |    • Contenu: 126 caractères
+[2026-06-08 11:39:16] INFO     |    • Image: Non
+[2026-06-08 11:39:16] INFO     |    • Date: 2026-06-08T11:39:15.860608
+[2026-06-08 11:39:16] INFO     |    • J'aime: 4
+[2026-06-08 11:39:16] INFO     |    • Partages: 2
+[2026-06-08 11:39:16] INFO     |    • Commentaires (texte): 13
+[2026-06-08 11:39:16] INFO     |    • Commentaires (compteur): 274
+[2026-06-08 11:39:16] INFO     |    • Abonnés: 0
+[2026-06-08 11:39:16] INFO     | Extraction réussie: ‎الفقيه نوح عيسى الشنقيطي‎
+[2026-06-08 11:39:17] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 11:39:17] WARNING  | ⚠️ Erreur sauvegarde: 1265 (01000): Data truncated for column 'type' at row 1
+
+[2026-06-08 11:39:17] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/194XXaRPys/",
+  "author_name": "‎الفقيه نوح عيسى الشنقيطي‎",
+  "author_url": null,
+  "content": "هاذي هي المشكلةامعاي ظرك فالمكتب امره مزوجه وزوجها من البارح كاردينو اهلو وگالولها ولنا نحن كاردينو وانت الا السماحذ ظرك ايصح؟",
+  "image_url": null,
+  "content_type": "text",
+  "link_status": "active",
+  "published_at": "2026-06-08T11:39:15.860608",
+  "likes_count": 4,
+  "shares_count": 2,
+  "comments_count": 274,
+  "followers_count": 0,
+  "comments": [
+    {
+      "author_name": "Ahmede Mahmoude",
+      "content": "السيد الفقيه انت مكتبك امنين",
+      "position": 1
+    },
+    {
+      "author_name": "محمد سيدي عالي",
+      "content": "هذا هو ثامن المبيقات",
+      "position": 2
+    },
+    {
+      "author_name": "محمد سالم سيدي حمودي",
+      "content": "مفرق شقلها أمعاك الشدور أنت أصل مانك القاضي",
+      "position": 3
+    },
+    {
+      "author_name": "الهيبه بن حسنه",
+      "content": "انت اثرك قاضي عدت",
+      "position": 4
+    },
+    {
+      "author_name": "Mohamed El Moustapha El Hayba",
+      "content": "لاحول ولاقوة الا بالله",
+      "position": 5
+    },
+    {
+      "author_name": "سيداعمر ولدعابدين",
+      "content": "يصح بعد فالراجل الذي لايملك الشخصية والقيمه\nوهو عبارة عن نعجة لابسه دراعه\nوخلاص",
+      "position": 6
+    },
+    {
+      "author_name": "أباه ولد خيري",
+      "content": "هذا ألا خرص لعل إعود الراجل ماه بالغ فات عاد\nهذا الراجل فيه إن",
+      "position": 7
+    },
+    {
+      "author_name": "Meymatou Brahim",
+      "content": "وهو يحكم اعظم معتون اعليه",
+      "position": 8
+    },
+    {
+      "author_name": "حنان القلاوية القلال",
+      "content": "هههههه ذا إلا ماه حت ولل. مزال اسقير",
+      "position": 9
+    },
+    {
+      "author_name": "سيدي محمد حمود",
+      "content": "أنت عدت امكتبك وتفْتِ، يوضعه أدْنيه",
+      "position": 10
+    },
+    {
+      "author_name": "سيداعمر ولدعابدين",
+      "content": "يصح بعد فالراجل الذي لايملك الشخصية والقيمه وهو عبارة عن نعجة لابسه دراعه وخلاص",
+      "position": 16
+    },
+    {
+      "author_name": "أباه ولد خيري",
+      "content": "هذا ألا خرص لعل إعود الراجل ماه بالغ فات عاد هذا الراجل فيه إن",
+      "position": 17
+    },
+    {
+      "author_name": "حنان القلاوية القلال",
+      "content": "هههههه    ذا إلا ماه حت ولل. مزال اسقير",
+      "position": 19
+    }
+  ],
+  "extracted_at": "2026-06-08T11:39:16.981508",
+  "status": "success"
+}
+
+[2026-06-08 11:39:17] Return Code: 0
+[2026-06-08 11:41:30] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/194XXaRPys/' --json --save-db
+[2026-06-08 11:41:42] Stderr: [2026-06-08 11:41:30] INFO     | Initialisation du navigateur...
+[2026-06-08 11:41:31] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 11:41:31] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 11:41:31] INFO     | ✓ Navigateur prêt
+[2026-06-08 11:41:31] INFO     | Extraction de: https://www.facebook.com/share/p/194XXaRPys/
+[2026-06-08 11:41:33] INFO     | Page title: هاذي هي المشكلة امعاي ظرك... - الفقيه نوح عيسى الشنقيطي
+[2026-06-08 11:41:33] INFO     | URL actuelle: https://www.facebook.com/alfqyh.nwh.ysy.alshnqyty/posts/pfbid0ergmR3GnCY4nSpQYFmyGKTTkVeP5GRNCp9qdbVxzFRJkBHsm4o9MbUBW2tzUHjewl?rdid=N0ePp7xXPCWuOvrt
+[2026-06-08 11:41:33] INFO     | Attente du chargement de la page...
+[2026-06-08 11:41:37] INFO     | Scroll pour charger le contenu...
+[2026-06-08 11:41:40] INFO     | Début extraction du contenu...
+[2026-06-08 11:41:40] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-08 11:41:40] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-06-08 11:41:40] INFO     | Contenu trouvé avec sélecteur #0: 127 chars
+[2026-06-08 11:41:40] INFO     | 📝 Contenu final: 126 caractères
+[2026-06-08 11:41:40] INFO     | Extraction de l'auteur...
+[2026-06-08 11:41:40] INFO     | Auteur retenu: ‎الفقيه نوح عيسى الشنقيطي‎ (score 90)
+[2026-06-08 11:41:40] INFO     | Extraction de l'image...
+[2026-06-08 11:41:40] INFO     | Extraction de la date...
+[2026-06-08 11:41:40] INFO     | Extraction des commentaires texte...
+[2026-06-08 11:41:41] INFO     | Commentaires texte extraits: 13
+[2026-06-08 11:41:41] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 11:41:41] INFO     | Engagement: likes=4, commentaires=276, partages=2, abonnés=0
+[2026-06-08 11:41:41] INFO     | 📋 Résumé extraction:
+[2026-06-08 11:41:41] INFO     |    • Auteur: ‎الفقيه نوح عيسى الشنقيطي‎
+[2026-06-08 11:41:41] INFO     |    • Contenu: 126 caractères
+[2026-06-08 11:41:41] INFO     |    • Image: Non
+[2026-06-08 11:41:41] INFO     |    • Date: 2026-06-08T11:41:40.787482
+[2026-06-08 11:41:41] INFO     |    • J'aime: 4
+[2026-06-08 11:41:41] INFO     |    • Partages: 2
+[2026-06-08 11:41:41] INFO     |    • Commentaires (texte): 13
+[2026-06-08 11:41:41] INFO     |    • Commentaires (compteur): 276
+[2026-06-08 11:41:41] INFO     |    • Abonnés: 0
+[2026-06-08 11:41:41] INFO     | Extraction réussie: ‎الفقيه نوح عيسى الشنقيطي‎
+[2026-06-08 11:41:41] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 11:41:42] INFO     | ✅ Post sauvegardé (ID: 16, author: ‎الفقيه نوح عيسى الشنقيطي‎, commentaires: 13)
+
+[2026-06-08 11:41:42] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/194XXaRPys/",
+  "author_name": "‎الفقيه نوح عيسى الشنقيطي‎",
+  "author_url": null,
+  "content": "هاذي هي المشكلةامعاي ظرك فالمكتب امره مزوجه وزوجها من البارح كاردينو اهلو وگالولها ولنا نحن كاردينو وانت الا السماحذ ظرك ايصح؟",
+  "image_url": null,
+  "content_type": "text",
+  "link_status": "active",
+  "published_at": "2026-06-08T11:41:40.787482",
+  "likes_count": 4,
+  "shares_count": 2,
+  "comments_count": 276,
+  "followers_count": 0,
+  "comments": [
+    {
+      "author_name": "Ahmede Mahmoude",
+      "content": "السيد الفقيه انت مكتبك امنين",
+      "position": 1
+    },
+    {
+      "author_name": "محمد سيدي عالي",
+      "content": "هذا هو ثامن المبيقات",
+      "position": 2
+    },
+    {
+      "author_name": "محمد سالم سيدي حمودي",
+      "content": "مفرق شقلها أمعاك الشدور أنت أصل مانك القاضي",
+      "position": 3
+    },
+    {
+      "author_name": "الهيبه بن حسنه",
+      "content": "انت اثرك قاضي عدت",
+      "position": 4
+    },
+    {
+      "author_name": "Mohamed El Moustapha El Hayba",
+      "content": "لاحول ولاقوة الا بالله",
+      "position": 5
+    },
+    {
+      "author_name": "سيداعمر ولدعابدين",
+      "content": "يصح بعد فالراجل الذي لايملك الشخصية والقيمه\nوهو عبارة عن نعجة لابسه دراعه\nوخلاص",
+      "position": 6
+    },
+    {
+      "author_name": "أباه ولد خيري",
+      "content": "هذا ألا خرص لعل إعود الراجل ماه بالغ فات عاد\nهذا الراجل فيه إن",
+      "position": 7
+    },
+    {
+      "author_name": "Meymatou Brahim",
+      "content": "وهو يحكم اعظم معتون اعليه",
+      "position": 8
+    },
+    {
+      "author_name": "حنان القلاوية القلال",
+      "content": "هههههه ذا إلا ماه حت ولل. مزال اسقير",
+      "position": 9
+    },
+    {
+      "author_name": "سيدي محمد حمود",
+      "content": "أنت عدت امكتبك وتفْتِ، يوضعه أدْنيه",
+      "position": 10
+    },
+    {
+      "author_name": "سيداعمر ولدعابدين",
+      "content": "يصح بعد فالراجل الذي لايملك الشخصية والقيمه وهو عبارة عن نعجة لابسه دراعه وخلاص",
+      "position": 16
+    },
+    {
+      "author_name": "أباه ولد خيري",
+      "content": "هذا ألا خرص لعل إعود الراجل ماه بالغ فات عاد هذا الراجل فيه إن",
+      "position": 17
+    },
+    {
+      "author_name": "حنان القلاوية القلال",
+      "content": "هههههه    ذا إلا ماه حت ولل. مزال اسقير",
+      "position": 19
+    }
+  ],
+  "extracted_at": "2026-06-08T11:41:41.901162",
+  "status": "success"
+}
+
+[2026-06-08 11:41:42] Return Code: 0
+[2026-06-08 12:26:23] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1DsDzFWJ3Z/?mibextid=wwXIfr' --json --save-db
+[2026-06-08 12:26:34] Stderr: [2026-06-08 12:26:23] INFO     | Initialisation du navigateur...
+[2026-06-08 12:26:23] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 12:26:24] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 12:26:24] INFO     | ✓ Navigateur prêt
+[2026-06-08 12:26:24] INFO     | Extraction de: https://www.facebook.com/share/p/1DsDzFWJ3Z/?mibextid=wwXIfr
+[2026-06-08 12:26:25] INFO     | Page title: ضياء الحق ابيه - الغريب عندي أن الكثر من الذين يقولون أن... | Facebook
+[2026-06-08 12:26:25] INFO     | URL actuelle: https://www.facebook.com/dya.alhq.abyh/posts/pfbid0wHmD9iqx5cFRCsbajPGBoz26GNjKKUTMeVL2kmr9AZVqQ5UYwo3eUiQ6Frf47Refl?mibextid=wwXIfr&rdid=sil7IYqs3ES7s2Yf
+[2026-06-08 12:26:25] INFO     | Attente du chargement de la page...
+[2026-06-08 12:26:29] INFO     | Scroll pour charger le contenu...
+[2026-06-08 12:26:32] INFO     | Début extraction du contenu...
+[2026-06-08 12:26:32] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-08 12:26:32] INFO     |    ✓ Sélecteur #0: 'div[data-ad-preview='message']' trouvé 1 éléments
+[2026-06-08 12:26:32] INFO     | Contenu trouvé avec sélecteur #0: 472 chars
+[2026-06-08 12:26:32] INFO     | 📝 Contenu final: 471 caractères
+[2026-06-08 12:26:32] INFO     | Extraction de l'auteur...
+[2026-06-08 12:26:32] INFO     | Auteur retenu: ‎ضياء الحق ابيه‎ (score 90)
+[2026-06-08 12:26:32] INFO     | Extraction de l'image...
+[2026-06-08 12:26:32] INFO     | Image trouvée: https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808...
+[2026-06-08 12:26:32] INFO     | Extraction de la date...
+[2026-06-08 12:26:33] INFO     | Extraction des commentaires texte...
+[2026-06-08 12:26:33] INFO     | Commentaires texte extraits: 13
+[2026-06-08 12:26:33] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 12:26:33] INFO     | Engagement: likes=1, commentaires=49000000, partages=9, abonnés=0
+[2026-06-08 12:26:33] INFO     | 📋 Résumé extraction:
+[2026-06-08 12:26:33] INFO     |    • Auteur: ‎ضياء الحق ابيه‎
+[2026-06-08 12:26:33] INFO     |    • Contenu: 471 caractères
+[2026-06-08 12:26:33] INFO     |    • Image: Oui
+[2026-06-08 12:26:33] INFO     |    • Date: 2026-06-08T12:26:32.984841
+[2026-06-08 12:26:33] INFO     |    • J'aime: 1
+[2026-06-08 12:26:33] INFO     |    • Partages: 9
+[2026-06-08 12:26:33] INFO     |    • Commentaires (texte): 13
+[2026-06-08 12:26:33] INFO     |    • Commentaires (compteur): 49000000
+[2026-06-08 12:26:33] INFO     |    • Abonnés: 0
+[2026-06-08 12:26:33] INFO     | Extraction réussie: ‎ضياء الحق ابيه‎
+[2026-06-08 12:26:34] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 12:26:34] INFO     | ✅ Post sauvegardé (ID: 19, author: ‎ضياء الحق ابيه‎, commentaires: 13)
+
+[2026-06-08 12:26:34] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/1DsDzFWJ3Z/?mibextid=wwXIfr",
+  "author_name": "‎ضياء الحق ابيه‎",
+  "author_url": null,
+  "content": "الغريب عندي أن الكثر من الذين يقولون أن ولد الددو وولد الوالد سارقين ومجرمين لا يجرؤون على قول أن غزواني وولد احويرثي سارقين ومجرمين بل ينهون عن ذلك ويقولون (ابدي ابدي ذماهو اكلام ولاهو نقد ولاهو شي)!! لنفترض أن تبرعات الآلاف من الناس سرقها الإخوان وإخوان الإخوان أما مانحن متأكدون منه يقينا دون أدنى شك أن أموال وخيرات وأمانات 5 ملايين من الشعب الموريتاني سرقها غزواني وولد احويرثي واخواني غزواني واخوان ولد احويرثي فأي الفرقين أحق بالسب والشتم والنسخ وفظمه…..اللهم وحدك",
+  "image_url": "https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808-6/718265047_1668602767774797_1016448913072221175_n.jpg?stp=dst-jpg_tt6&cstp=mx750x907&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Z2LGGOhPNkQQ7kNvwFAh4tr&_nc_oc=AdqihokYc83oGCPdVgtvN8oUa0eyGsv9Vg0Xq8wAqcz07Oj1tbGwL8ilZ1IgE5XTl6M&_nc_zt=23&_nc_ht=scontent.fnkc1-1.fna&_nc_gid=cFtJHIO8o2wru5y3hK8stQ&_nc_ss=79289&oh=00_Af909c4lQOYHWodebf0_yt177eG-DA2-DFNT4E8efkRu5Q&oe=6A2C84E8",
+  "content_type": "text_image",
+  "link_status": "active",
+  "published_at": "2026-06-08T12:26:32.984841",
+  "likes_count": 1,
+  "shares_count": 9,
+  "comments_count": 49000000,
+  "followers_count": 0,
+  "comments": [
+    {
+      "author_name": "Meali Sidi Med",
+      "content": "عندك قانون الرموز",
+      "position": 1
+    },
+    {
+      "author_name": "Mamezoi Jilafe",
+      "content": "صدقت صوت الحق",
+      "position": 2
+    },
+    {
+      "author_name": "Sidi Med Vall",
+      "content": "نزل قانون الرموز من أبلاي أستور",
+      "position": 3
+    },
+    {
+      "author_name": "محمد المصطفى الامام",
+      "content": "صحيح صدقت",
+      "position": 4
+    },
+    {
+      "author_name": "الوزير الوزير",
+      "content": "لاه افهم ان البظان دئما يتصدرون مشهد واتهام بسرقه الناس مايكد يصبر على الفقر وتحصيل اموال بطرق شرعية",
+      "position": 5
+    },
+    {
+      "author_name": "إني أخاف الله استغفرالله",
+      "content": "ذاك ثابت حفيظ الله ولدالددو من كل سوء ومكروه شعيب الموريتاني يستاهل حكومتو والحمدلله على كل حال شعيب مطبيل",
+      "position": 6
+    },
+    {
+      "author_name": "Sidi Med Wél Édjah",
+      "content": "انت مشكلتك واضحة وابشر داه ماه عسير الحمد لله معناه عنك",
+      "position": 7
+    },
+    {
+      "author_name": "مريم ابراهيم",
+      "content": "ماقلت إلى الحق النصر لك",
+      "position": 8
+    },
+    {
+      "author_name": "Boubekar Med Sidi",
+      "content": "حفظ الله الشيخ الددو ورعاه من كل مكروه",
+      "position": 9
+    },
+    {
+      "author_name": "محمد رضا",
+      "content": "يخي نت بعد لا تخاف ألا الله الله إسلمك",
+      "position": 10
+    },
+    {
+      "author_name": "Sidi Med Vall",
+      "content": "نزل قانون الرموز من  أبلاي أستور",
+      "position": 13
+    },
+    {
+      "author_name": "الوزير الوزير",
+      "content": "لاه افهم  ان البظان دئما يتصدرون مشهد واتهام بسرقه   الناس مايكد يصبر على الفقر  وتحصيل اموال بطرق شرعية",
+      "position": 15
+    },
+    {
+      "author_name": "مريم ابراهيم",
+      "content": "ماقلت إلى الحق  النصر لك",
+      "position": 18
+    }
+  ],
+  "extracted_at": "2026-06-08T12:26:33.994046",
+  "status": "success"
+}
+
+[2026-06-08 12:26:34] Return Code: 0
+[2026-06-08 12:40:22] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1AzYq1HW4K/' --json --save-db
+[2026-06-08 12:40:34] Stderr: [2026-06-08 12:40:22] INFO     | Initialisation du navigateur...
+[2026-06-08 12:40:22] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 12:40:23] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 12:40:23] INFO     | ✓ Navigateur prêt
+[2026-06-08 12:40:23] INFO     | Extraction de: https://www.facebook.com/share/p/1AzYq1HW4K/
+[2026-06-08 12:40:25] INFO     | Page title: Savra Vouad - اغريسات التعليقات الخاسرة في الجماعة لا... | Facebook
+[2026-06-08 12:40:25] INFO     | URL actuelle: https://www.facebook.com/savra.vouad/posts/pfbid0zcJMbnoWxVzMCpsKYAxcECfNaycAg2dSUQJwKW5iCpPfEZJKvLmzAiiAjZNv1zLol?rdid=esW3ESx7bAuuxrwD
+[2026-06-08 12:40:25] INFO     | Attente du chargement de la page...
+[2026-06-08 12:40:29] INFO     | Scroll pour charger le contenu...
+[2026-06-08 12:40:32] INFO     | Début extraction du contenu...
+[2026-06-08 12:40:32] INFO     | Test de 12 sélecteurs pour le texte...
+[2026-06-08 12:40:32] INFO     |    ✓ Sélecteur #2: 'div[role='article'] span[dir='auto']' trouvé 47 éléments
+[2026-06-08 12:40:32] INFO     | Contenu trouvé avec sélecteur #2: 1405 chars
+[2026-06-08 12:40:32] INFO     | 📝 Contenu final: 1404 caractères
+[2026-06-08 12:40:32] INFO     | Extraction de l'auteur...
+[2026-06-08 12:40:33] INFO     | Auteur retenu: Savra Vouad (score 90)
+[2026-06-08 12:40:33] INFO     | Extraction de l'image...
+[2026-06-08 12:40:33] INFO     | Image trouvée: https://static.xx.fbcdn.net/images/emoji.php/v9/tb...
+[2026-06-08 12:40:33] INFO     | Extraction de la date...
+[2026-06-08 12:40:33] INFO     | Extraction des commentaires texte...
+[2026-06-08 12:40:34] INFO     | Commentaires texte extraits: 11
+[2026-06-08 12:40:34] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 12:40:34] INFO     | Engagement: likes=6, commentaires=53000000, partages=2, abonnés=0
+[2026-06-08 12:40:34] INFO     | 📋 Résumé extraction:
+[2026-06-08 12:40:34] INFO     |    • Auteur: Savra Vouad
+[2026-06-08 12:40:34] INFO     |    • Contenu: 1404 caractères
+[2026-06-08 12:40:34] INFO     |    • Image: Oui
+[2026-06-08 12:40:34] INFO     |    • Date: 2026-06-08T12:40:33.176702
+[2026-06-08 12:40:34] INFO     |    • J'aime: 6
+[2026-06-08 12:40:34] INFO     |    • Partages: 2
+[2026-06-08 12:40:34] INFO     |    • Commentaires (texte): 11
+[2026-06-08 12:40:34] INFO     |    • Commentaires (compteur): 53000000
+[2026-06-08 12:40:34] INFO     |    • Abonnés: 0
+[2026-06-08 12:40:34] INFO     | Extraction réussie: Savra Vouad
+[2026-06-08 12:40:34] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 12:40:34] INFO     | ✅ Post sauvegardé (ID: 20, author: Savra Vouad, commentaires: 11)
+
+[2026-06-08 12:40:34] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/1AzYq1HW4K/",
+  "author_name": "Savra Vouad",
+  "author_url": null,
+  "content": "172 commentaires Sidahmed Alyen اراهو اص الماء اخلط اعل كزوال حك حك Voir 1 réponse Yahya Cheikh Lhadrami عودة الحرب للأسف ههه Aichetou Mkalef هههه لا شي طيب Mousse Lakdaf يخي حسن من الفاظك Savra Vouad a répondu  · 1 réponses53 min محمد سعدبوه السالم إن لم يهدك الله إلا الله يلطف إن شاءالله ماتعود لاهي تمصمص فيها قبل دخول الجنة لأن من يشهدأن لاإله إلا الله وأن محمداًً رسول الله صلى الله ..موقناً بذلك لم يخلد في النار لكن ربما يطهر قبل دخول الجنة من سيئات اعماله، Rajel Mohamed ههههههههههه قريبي يضرب ولا يبالى Mohamed Sudne ياأخي العزيز. ذات اكبير عليه الشافعي الأبييري دخلوني ناركم بعد زين ههه ألا شهد لايكفروك الناس هه Abdellahi Beidja ذو كلمات أغنية من أغانيك ؟؟؟؟دور أتغنبهم حور الصبح Voir 1 réponse Yehye Salem فؤاد صلي على النبي ماه فالك Sidahmed Alyen اراهو اص الماء اخلط اعل كزوال حك حك Yahya Cheikh Lhadrami عودة الحرب للأسف ههه Aichetou Mkalef هههه لا شي طيب Mousse Lakdaf يخي حسن من الفاظك محمد سعدبوه السالم إن لم يهدك الله إلا الله يلطف إن شاءالله ماتعود لاهي تمصمص فيها قبل دخول الجنة لأن من يشهدأن لاإله إلا الله وأن محمداًً رسول الله صلى الله ..موقناً بذلك لم يخلد في النار لكن ربما يطهر قبل دخول الجنة من سيئات اعماله، Rajel Mohamed ههههههههههه قريبي يضرب ولا يبالى Mohamed Sudne ياأخي العزيز. ذات اكبير عليه الشافعي الأبييري دخلوني ناركم بعد زين ههه ألا شهد لايكفروك الناس هه Abdellahi Beidja ذو كلمات أغنية من أغانيك ؟؟؟؟دور أتغنبهم حور الصبح Yehye Salem فؤاد صلي على النبي ماه فالك",
+  "image_url": "https://static.xx.fbcdn.net/images/emoji.php/v9/tb3/1/30/1f44c.png",
+  "content_type": "text_image",
+  "link_status": "active",
+  "published_at": "2026-06-08T12:40:33.176702",
+  "likes_count": 6,
+  "shares_count": 2,
+  "comments_count": 53000000,
+  "followers_count": 0,
+  "comments": [
+    {
+      "author_name": "Sidahmed Alyen",
+      "content": "اراهو اص الماء اخلط اعل كزوال حك حك",
+      "position": 1
+    },
+    {
+      "author_name": "Yahya Cheikh Lhadrami",
+      "content": "عودة الحرب للأسف ههه",
+      "position": 2
+    },
+    {
+      "author_name": "Aichetou Mkalef",
+      "content": "هههه لا شي طيب",
+      "position": 3
+    },
+    {
+      "author_name": "Mousse Lakdaf",
+      "content": "يخي حسن من الفاظك",
+      "position": 4
+    },
+    {
+      "author_name": "محمد سعدبوه السالم",
+      "content": "إن لم يهدك الله إلا الله يلطف إن شاءالله ماتعود لاهي تمصمص فيها قبل دخول الجنة لأن من يشهدأن لاإله إلا الله وأن محمداًً رسول الله صلى الله ..\nموقناً بذلك لم يخلد في النار لكن ربما يطهر قبل دخول الجنة من سيئات اعماله،",
+      "position": 5
+    },
+    {
+      "author_name": "Rajel Mohamed",
+      "content": "ههههههههههه قريبي يضرب ولا يبالى",
+      "position": 6
+    },
+    {
+      "author_name": "Mohamed Sudne",
+      "content": "ياأخي العزيز. ذات اكبير عليه",
+      "position": 7
+    },
+    {
+      "author_name": "الشافعي الأبييري",
+      "content": "دخلوني ناركم بعد زين ههه ألا شهد لايكفروك الناس هه",
+      "position": 8
+    },
+    {
+      "author_name": "Abdellahi Beidja",
+      "content": "ذو كلمات أغنية من أغانيك ؟؟؟؟\nدور أتغنبهم حور الصبح",
+      "position": 9
+    },
+    {
+      "author_name": "Yehye Salem",
+      "content": "فؤاد صلي على النبي ماه فالك",
+      "position": 10
+    },
+    {
+      "author_name": "Abdellahi Beidja",
+      "content": "ذو كلمات أغنية من أغانيك ؟؟؟؟دور أتغنبهم حور الصبح",
+      "position": 19
+    }
+  ],
+  "extracted_at": "2026-06-08T12:40:34.262471",
+  "status": "success"
+}
+
+[2026-06-08 12:40:34] Return Code: 0
+[2026-06-08 13:42:49] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/v/1HDgKwzZLd/' --json --save-db
+[2026-06-08 13:43:00] Stderr: [2026-06-08 13:42:49] INFO     | Initialisation du navigateur...
+[2026-06-08 13:42:50] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 13:42:50] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 13:42:50] INFO     | ✓ Navigateur prêt
+[2026-06-08 13:42:50] INFO     | Extraction de: https://www.facebook.com/share/v/1HDgKwzZLd/
+[2026-06-08 13:42:52] INFO     | Page title: Facebook
+[2026-06-08 13:42:52] INFO     | URL actuelle: https://www.facebook.com/reel/1813334022658607
+[2026-06-08 13:42:52] INFO     | Attente du chargement de la page...
+[2026-06-08 13:42:56] INFO     | Scroll pour charger le contenu...
+[2026-06-08 13:42:59] INFO     | Début extraction du contenu...
+[2026-06-08 13:42:59] INFO     | Message publication (sans commentaires): 99 caractères
+[2026-06-08 13:42:59] INFO     | 📝 Contenu final: 99 caractères
+[2026-06-08 13:42:59] INFO     | Extraction de l'auteur...
+[2026-06-08 13:42:59] INFO     | Auteur retenu: Abdellahi El Moctar Mhamat (score 95)
+[2026-06-08 13:42:59] INFO     | Extraction de l'image...
+[2026-06-08 13:42:59] INFO     | Image trouvée: https://static.xx.fbcdn.net/rsrc.php/yY/r/oy_3KElq...
+[2026-06-08 13:42:59] INFO     | Extraction de la date...
+[2026-06-08 13:42:59] INFO     | Extraction des commentaires texte...
+[2026-06-08 13:43:00] INFO     | Commentaires texte extraits: 0
+[2026-06-08 13:43:00] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 13:43:00] INFO     | Engagement: likes=0, commentaires=0, partages=0, abonnés=0
+[2026-06-08 13:43:00] INFO     | 📋 Résumé extraction:
+[2026-06-08 13:43:00] INFO     |    • Auteur: Abdellahi El Moctar Mhamat
+[2026-06-08 13:43:00] INFO     |    • Contenu: 99 caractères
+[2026-06-08 13:43:00] INFO     |    • Image: Oui
+[2026-06-08 13:43:00] INFO     |    • Date: 2026-06-08T13:42:59.423530
+[2026-06-08 13:43:00] INFO     |    • J'aime: 0
+[2026-06-08 13:43:00] INFO     |    • Partages: 0
+[2026-06-08 13:43:00] INFO     |    • Commentaires (texte): 0
+[2026-06-08 13:43:00] INFO     |    • Commentaires (compteur): 0
+[2026-06-08 13:43:00] INFO     |    • Abonnés: 0
+[2026-06-08 13:43:00] INFO     | Extraction réussie: Abdellahi El Moctar Mhamat
+[2026-06-08 13:43:00] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 13:43:00] INFO     | ✅ Post sauvegardé (ID: 35, author: Abdellahi El Moctar Mhamat, commentaires: 0)
+
+[2026-06-08 13:43:00] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/v/1HDgKwzZLd/",
+  "author_name": "Abdellahi El Moctar Mhamat",
+  "author_url": "https://www.facebook.com/profile.php?id=100054508530039&sk=reels_tab&__cft__[0]=AZZBfV3uRrDzzGhI4VOMq-bwvnqvq8XTbWAyfIaZmdtH9e5ZbYucoNEzM92IHp1ZJcEcSw89-PrnV0IAuP2E4HxP0mqrdnzpAiBOKaOtFzvguwCRMPOIA2wuVQx_7RI-dwUYLJWP7l0yNtODh5h2YIM2Vg4Pw5c-0fvr1PCCZxz6Dg&__tn__=-]",
+  "content": "الحلقة 10 #برنامج_أجواء_رمضان_في_توجنين مع مدون توجنين عبد الله تحديد عند ملتقى طرق النائب الدخلاني",
+  "image_url": "https://static.xx.fbcdn.net/rsrc.php/yY/r/oy_3KElq-Ua.webp",
+  "content_type": "text_image",
+  "link_status": "active",
+  "published_at": "2026-06-08T13:42:59.423530",
+  "likes_count": 0,
+  "shares_count": 0,
+  "comments_count": 0,
+  "followers_count": 0,
+  "comments": [],
+  "extracted_at": "2026-06-08T13:43:00.314919",
+  "status": "success"
+}
+
+[2026-06-08 13:43:00] Return Code: 0
+[2026-06-08 13:43:06] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/v/1HDgKwzZLd/' --json --save-db
+[2026-06-08 13:43:16] Stderr: [2026-06-08 13:43:06] INFO     | Initialisation du navigateur...
+[2026-06-08 13:43:06] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 13:43:06] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 13:43:06] INFO     | ✓ Navigateur prêt
+[2026-06-08 13:43:06] INFO     | Extraction de: https://www.facebook.com/share/v/1HDgKwzZLd/
+[2026-06-08 13:43:08] INFO     | Page title: Facebook
+[2026-06-08 13:43:08] INFO     | URL actuelle: https://www.facebook.com/reel/1813334022658607/?rdid=TH6VmWod1xMv09wz&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv%2F1HDgKwzZLd%2F
+[2026-06-08 13:43:08] INFO     | Attente du chargement de la page...
+[2026-06-08 13:43:12] INFO     | Scroll pour charger le contenu...
+[2026-06-08 13:43:15] INFO     | Début extraction du contenu...
+[2026-06-08 13:43:15] INFO     | Message publication (sans commentaires): 99 caractères
+[2026-06-08 13:43:15] INFO     | 📝 Contenu final: 99 caractères
+[2026-06-08 13:43:15] INFO     | Extraction de l'auteur...
+[2026-06-08 13:43:15] INFO     | Auteur retenu: Abdellahi El Moctar Mhamat (score 95)
+[2026-06-08 13:43:15] INFO     | Extraction de l'image...
+[2026-06-08 13:43:15] INFO     | Image trouvée: https://static.xx.fbcdn.net/rsrc.php/yY/r/oy_3KElq...
+[2026-06-08 13:43:15] INFO     | Extraction de la date...
+[2026-06-08 13:43:15] INFO     | Extraction des commentaires texte...
+[2026-06-08 13:43:16] INFO     | Commentaires texte extraits: 0
+[2026-06-08 13:43:16] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 13:43:16] INFO     | Engagement: likes=0, commentaires=0, partages=0, abonnés=0
+[2026-06-08 13:43:16] INFO     | 📋 Résumé extraction:
+[2026-06-08 13:43:16] INFO     |    • Auteur: Abdellahi El Moctar Mhamat
+[2026-06-08 13:43:16] INFO     |    • Contenu: 99 caractères
+[2026-06-08 13:43:16] INFO     |    • Image: Oui
+[2026-06-08 13:43:16] INFO     |    • Date: 2026-06-08T13:43:15.340446
+[2026-06-08 13:43:16] INFO     |    • J'aime: 0
+[2026-06-08 13:43:16] INFO     |    • Partages: 0
+[2026-06-08 13:43:16] INFO     |    • Commentaires (texte): 0
+[2026-06-08 13:43:16] INFO     |    • Commentaires (compteur): 0
+[2026-06-08 13:43:16] INFO     |    • Abonnés: 0
+[2026-06-08 13:43:16] INFO     | Extraction réussie: Abdellahi El Moctar Mhamat
+[2026-06-08 13:43:16] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 13:43:16] INFO     | ✅ Post sauvegardé (ID: 35, author: Abdellahi El Moctar Mhamat, commentaires: 0)
+
+[2026-06-08 13:43:16] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/v/1HDgKwzZLd/",
+  "author_name": "Abdellahi El Moctar Mhamat",
+  "author_url": "https://www.facebook.com/profile.php?id=100054508530039&sk=reels_tab&__cft__[0]=AZaho5yL1H-jT4bYp52vH7Ime6PBveBV-cyLxsi7nswiQDZKkpp0c1tvptvy3egN8hB7r1DmT8VJnSaUp7mFUWylfrN2gx4-SnBj-YCrFSdxABMrgD080bhsgxtZ_R90wV8wuIUQgKaz9FD7e87ct8SaBWtgtrZx7cjEQkOGmt3_oQ&__tn__=-]",
+  "content": "الحلقة 10 #برنامج_أجواء_رمضان_في_توجنين مع مدون توجنين عبد الله تحديد عند ملتقى طرق النائب الدخلاني",
+  "image_url": "https://static.xx.fbcdn.net/rsrc.php/yY/r/oy_3KElq-Ua.webp",
+  "content_type": "text_image",
+  "link_status": "active",
+  "published_at": "2026-06-08T13:43:15.340446",
+  "likes_count": 0,
+  "shares_count": 0,
+  "comments_count": 0,
+  "followers_count": 0,
+  "comments": [],
+  "extracted_at": "2026-06-08T13:43:16.245472",
+  "status": "success"
+}
+
+[2026-06-08 13:43:16] Return Code: 0
+[2026-06-08 14:55:15] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/share/p/1Nngjo72GM/' --json --save-db
+[2026-06-08 14:55:28] Stderr: [2026-06-08 14:55:15] INFO     | Initialisation du navigateur...
+[2026-06-08 14:55:16] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 14:55:17] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 14:55:17] INFO     | ✓ Navigateur prêt
+[2026-06-08 14:55:17] INFO     | Extraction de: https://www.facebook.com/share/p/1Nngjo72GM/
+[2026-06-08 14:55:19] INFO     | Page title: نواكشوط – المنصة أفادت مصادر بأن... - المنصة-Lminassa
+[2026-06-08 14:55:19] INFO     | URL actuelle: https://www.facebook.com/LMINASSA/posts/pfbid02yBqz7Z5Wc7tEusF1SgSqtcSQ84mgwjTg4ZHmjTQDvhmCRidT75FKdaAchDGjdQVzl?rdid=QbVRcuwXwjzYeqNu
+[2026-06-08 14:55:19] INFO     | Attente du chargement de la page...
+[2026-06-08 14:55:23] INFO     | Scroll pour charger le contenu...
+[2026-06-08 14:55:26] INFO     | Début extraction du contenu...
+[2026-06-08 14:55:26] INFO     | Message publication (sans commentaires): 807 caractères
+[2026-06-08 14:55:26] INFO     | 📝 Contenu final: 807 caractères
+[2026-06-08 14:55:26] INFO     | Extraction de l'auteur...
+[2026-06-08 14:55:27] INFO     | Auteur retenu: ‎المنصة-Lminassa ‎ (score 90)
+[2026-06-08 14:55:27] INFO     | Extraction de l'image...
+[2026-06-08 14:55:27] INFO     | Image trouvée: https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808...
+[2026-06-08 14:55:27] INFO     | Extraction de la date...
+[2026-06-08 14:55:27] INFO     | Extraction des commentaires texte...
+[2026-06-08 14:55:27] INFO     | Commentaires texte extraits: 10
+[2026-06-08 14:55:27] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 14:55:28] INFO     | Engagement: likes=9, commentaires=49000000, partages=6, abonnés=0
+[2026-06-08 14:55:28] INFO     | 📋 Résumé extraction:
+[2026-06-08 14:55:28] INFO     |    • Auteur: ‎المنصة-Lminassa ‎
+[2026-06-08 14:55:28] INFO     |    • Contenu: 807 caractères
+[2026-06-08 14:55:28] INFO     |    • Image: Oui
+[2026-06-08 14:55:28] INFO     |    • Date: 2026-06-08T14:55:27.063203
+[2026-06-08 14:55:28] INFO     |    • J'aime: 9
+[2026-06-08 14:55:28] INFO     |    • Partages: 6
+[2026-06-08 14:55:28] INFO     |    • Commentaires (texte): 10
+[2026-06-08 14:55:28] INFO     |    • Commentaires (compteur): 49000000
+[2026-06-08 14:55:28] INFO     |    • Abonnés: 0
+[2026-06-08 14:55:28] INFO     | Extraction réussie: ‎المنصة-Lminassa ‎
+[2026-06-08 14:55:28] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 14:55:28] INFO     | ✅ Post sauvegardé (ID: 37, author: ‎المنصة-Lminassa ‎, commentaires: 10)
+
+[2026-06-08 14:55:28] Stdout: {
+  "fb_post_url": "https://www.facebook.com/share/p/1Nngjo72GM/",
+  "author_name": "‎المنصة-Lminassa ‎",
+  "author_url": null,
+  "content": "نواكشوط – المنصة أفادت مصادر بأن الشائعات التي جرى تداولها خلال الأيام الأخيرة بشأن وجود تلوث بالمياه في المحروقات المتداولة بالسوق، تقف وراءها جهات داخل السلطة، وذلك في إطار مساعٍ – وفق المصادر – إلى التأثير على مستويات الاستهلاك ودفع المواطنين نحو ترشيد استخدام الوقود. وبحسب المصادر، فإن هذه الرواية تم تداولها على نطاق واسع عبر وسائل التواصل الاجتماعي، في وقت لم تصدر فيه معطيات فنية أو تقارير رسمية تثبت وجود تلوث فعلي في المحروقات. وأضافت المصادر أن الهدف من ترويج هذه المعلومات – وفق تقديرها – يتمثل في خلق حالة من الحذر لدى المستهلكين، بما يؤدي إلى خفض وتيرة الاستهلاك اليومي للمحروقات، انسجامًا مع توجهات مرتبطة بترشيد الطاقة. وأكدت المصادر أن أي معلومات تتعلق بجودة المحروقات وسلامتها تبقى من اختصاص الجهات الفنية والرقابية المختصة، التي تمتلك وحدها صلاحية إجراء الفحوص وإعلان النتائج للرأي العام.",
+  "image_url": "https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808-6/716590739_1009102535314305_4448321295562271234_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=p526x296&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=tThqIRS74ZkQ7kNvwGg96-R&_nc_oc=AdoKupoBGAi_sLeq8R4oQcfX-xaIN1EZ3DrkhpSpekYeUpjPamWG3aclwa63PcCKSWw&_nc_zt=23&_nc_ht=scontent.fnkc1-1.fna&_nc_gid=BenasfLEA1Z0tbbWYlEOig&_nc_ss=79289&oh=00_Af9gwE2H-_Z617nrUUR5shf430w4D_WAisJN_6-M0KxZ5Q&oe=6A2CB7CF",
+  "content_type": "text_image",
+  "link_status": "active",
+  "published_at": "2026-06-08T14:55:27.063203",
+  "likes_count": 9,
+  "shares_count": 6,
+  "comments_count": 49000000,
+  "followers_count": 0,
+  "comments": [
+    {
+      "author_name": "Nizar Nafe",
+      "content": "وتي انا معنانها متآمرة معاهم باط",
+      "position": 1
+    },
+    {
+      "author_name": "Mouhamed Saadbouh Med Lemine",
+      "content": "ههههههههه الله يلطف",
+      "position": 2
+    },
+    {
+      "author_name": "عبدالله أعميرين",
+      "content": "السداد يوافيكم بكل ما هو جديد",
+      "position": 3
+    },
+    {
+      "author_name": "نسيب احمد",
+      "content": "هاذ إصح يخوتي",
+      "position": 4
+    },
+    {
+      "author_name": "Mohamed Mahmoud",
+      "content": "والناس وتاته امخصرتهم شنه الغرض منو ههههههه",
+      "position": 5
+    },
+    {
+      "author_name": "Brahim Hjour",
+      "content": "بنكيلي",
+      "position": 6
+    },
+    {
+      "author_name": "Moctar Abbad",
+      "content": "أشعر مصادر في منطقة أفريقيا والكاريبي والمحيط الهادي",
+      "position": 7
+    },
+    {
+      "author_name": "Mohamed Babah",
+      "content": "ذاك ماه حد هي حقيقية",
+      "position": 8
+    },
+    {
+      "author_name": "صاحب العافية يامولان العافية",
+      "content": "لاحول ولاقوة إلابالله",
+      "position": 9
+    },
+    {
+      "author_name": "Ahmed Taleb",
+      "content": "هههههههههههه هي فوضى امتينة",
+      "position": 10
+    }
+  ],
+  "extracted_at": "2026-06-08T14:55:28.125944",
+  "status": "success"
+}
+
+[2026-06-08 14:55:28] Return Code: 0
+[2026-06-08 16:02:42] Command: /home/kali/gbert_project/venv/bin/python3 '/home/kali/Downloads/fake-news-platform-bouchra/fake-news-platform-b/python-ai/facebook_post_extractor.py' --url 'https://www.facebook.com/mdwn.twjnyn.bd.allh/posts/pfbid02zBj6zy64eALhrjmcVyeeUqoW1SHS86WiNdDbGY8CmMfgY12T3D6NASAiagyq8mM3l' --json --save-db
+[2026-06-08 16:02:53] Stderr: [2026-06-08 16:02:42] INFO     | Initialisation du navigateur...
+[2026-06-08 16:02:43] WARNING  | Chrome introuvable (BrowserType.launch_persistent_context: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "playwright install chrome") — fallback Chromium Playwright
+[2026-06-08 16:02:43] INFO     | Navigateur: Chromium Playwright
+[2026-06-08 16:02:43] INFO     | ✓ Navigateur prêt
+[2026-06-08 16:02:43] INFO     | Extraction de: https://www.facebook.com/mdwn.twjnyn.bd.allh/posts/pfbid02zBj6zy64eALhrjmcVyeeUqoW1SHS86WiNdDbGY8CmMfgY12T3D6NASAiagyq8mM3l
+[2026-06-08 16:02:44] INFO     | Page title: واتعرس Abd El Moumen Lehbib... - Abdellahi El Moctar Mhamat | Facebook
+[2026-06-08 16:02:44] INFO     | URL actuelle: https://www.facebook.com/mdwn.twjnyn.bd.allh/posts/pfbid02zBj6zy64eALhrjmcVyeeUqoW1SHS86WiNdDbGY8CmMfgY12T3D6NASAiagyq8mM3l
+[2026-06-08 16:02:44] INFO     | Attente du chargement de la page...
+[2026-06-08 16:02:48] INFO     | Scroll pour charger le contenu...
+[2026-06-08 16:02:51] INFO     | Début extraction du contenu...
+[2026-06-08 16:02:51] INFO     | Message publication (sans commentaires): 112 caractères
+[2026-06-08 16:02:51] INFO     | 📝 Contenu final: 112 caractères
+[2026-06-08 16:02:51] INFO     | Extraction de l'auteur...
+[2026-06-08 16:02:52] INFO     | Auteur retenu: Abdellahi El Moctar Mhamat (score 90)
+[2026-06-08 16:02:52] INFO     | Extraction de l'image...
+[2026-06-08 16:02:52] INFO     | Image trouvée: https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808...
+[2026-06-08 16:02:52] INFO     | Extraction de la date...
+[2026-06-08 16:02:52] INFO     | Extraction des commentaires texte...
+[2026-06-08 16:02:52] INFO     | Commentaires texte extraits: 11
+[2026-06-08 16:02:52] INFO     | Extraction des métriques d'engagement...
+[2026-06-08 16:02:53] INFO     | Engagement: likes=3, commentaires=48000000, partages=2, abonnés=0
+[2026-06-08 16:02:53] INFO     | 📋 Résumé extraction:
+[2026-06-08 16:02:53] INFO     |    • Auteur: Abdellahi El Moctar Mhamat
+[2026-06-08 16:02:53] INFO     |    • Contenu: 112 caractères
+[2026-06-08 16:02:53] INFO     |    • Image: Oui
+[2026-06-08 16:02:53] INFO     |    • Date: 2026-06-08T16:02:52.139868
+[2026-06-08 16:02:53] INFO     |    • J'aime: 3
+[2026-06-08 16:02:53] INFO     |    • Partages: 2
+[2026-06-08 16:02:53] INFO     |    • Commentaires (texte): 11
+[2026-06-08 16:02:53] INFO     |    • Commentaires (compteur): 48000000
+[2026-06-08 16:02:53] INFO     |    • Abonnés: 0
+[2026-06-08 16:02:53] INFO     | Extraction réussie: Abdellahi El Moctar Mhamat
+[2026-06-08 16:02:53] INFO     | ✓ Schéma DB OSINT détecté (facebook_posts, facebook_accounts)
+[2026-06-08 16:02:53] INFO     | ✅ Post sauvegardé (ID: 39, author: Abdellahi El Moctar Mhamat, commentaires: 11)
+
+[2026-06-08 16:02:53] Stdout: {
+  "fb_post_url": "https://www.facebook.com/mdwn.twjnyn.bd.allh/posts/pfbid02zBj6zy64eALhrjmcVyeeUqoW1SHS86WiNdDbGY8CmMfgY12T3D6NASAiagyq8mM3l",
+  "author_name": "Abdellahi El Moctar Mhamat",
+  "author_url": null,
+  "content": "واتعرس Abd El Moumen Lehbib يلي يعطيه مولانَ الذرية الصالحة والمحبة أكثر بينُ هو والأخت الطيبة لعروس ساجدة ساجدة",
+  "image_url": "https://scontent.fnkc1-1.fna.fbcdn.net/v/t39.30808-6/717974163_1513813087112295_1239746881196738415_n.jpg?stp=dst-jpg_tt6&cstp=mx1719x1074&ctp=p843x403&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7avZ19kIuIMQ7kNvwG8cYPI&_nc_oc=AdpWGntAZV2Ia8UrhNvVeL1IbM8Q6FE0DiFfWeSUi8Ma-sod-oXnLlG0Wd-vDK2azDc&_nc_zt=23&_nc_ht=scontent.fnkc1-1.fna&_nc_gid=n83xHI56YZg4JplTNsAhuQ&_nc_ss=79289&oh=00_Af8qtUxNyvwRoDd3eIOpZ-AJuCx1hGWxdMmE6_eiDEw74A&oe=6A2CCAFB",
+  "content_type": "text_image",
+  "link_status": "active",
+  "published_at": "2026-06-08T16:02:52.139868",
+  "likes_count": 3,
+  "shares_count": 2,
+  "comments_count": 48000000,
+  "followers_count": 0,
+  "comments": [
+    {
+      "author_name": "SidiAbdllh TLba",
+      "content": "Abdellahi El Moctar Mhamat أراناك حصرني سلمك لعت مانك معدله لاهي نعدله ان",
+      "position": 1
+    },
+    {
+      "author_name": "Wël Brahim Nkt",
+      "content": "هاذ شنه اجناحك النك ماامشيت بيه حتته\nألف مبروك",
+      "position": 2
+    },
+    {
+      "author_name": "Mnt ÖThmn",
+      "content": "والله ال أتعرص هو بعد تبارك الله إبركو اعليهم ياربي ويجعلولهم فاتحت خير",
+      "position": 3
+    },
+    {
+      "author_name": "ول الحسين",
+      "content": "اللهم آمين\nصحاات والله",
+      "position": 4
+    },
+    {
+      "author_name": "Mñêÿt Ťëjēkãñt Hãÿáťi",
+      "content": "ألف مبروك اصل الحمدلله",
+      "position": 5
+    },
+    {
+      "author_name": "الزينة محمد بيب",
+      "content": "ألف مبروك وكبش مدروك",
+      "position": 6
+    },
+    {
+      "author_name": "Dahmade Sidi Ahmed",
+      "content": "وخيرت",
+      "position": 7
+    },
+    {
+      "author_name": "Èbou Bacar Mahmoud",
+      "content": "الف مبروك يعلمه الله",
+      "position": 8
+    },
+    {
+      "author_name": "مدون بوحديدة أسيدهم عبدالله",
+      "content": "الصحة",
+      "position": 10
+    },
+    {
+      "author_name": "Wël Brahim Nkt",
+      "content": "هاذ شنه اجناحك النك ماامشيت بيه حتته ألف مبروك",
+      "position": 12
+    },
+    {
+      "author_name": "ول الحسين",
+      "content": "اللهم آمين صحاات والله",
+      "position": 14
+    }
+  ],
+  "extracted_at": "2026-06-08T16:02:53.136626",
+  "status": "success"
+}
+
+[2026-06-08 16:02:53] Return Code: 0
