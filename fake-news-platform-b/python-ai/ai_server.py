@@ -23,16 +23,17 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-from analyze import ai_classify, analyze_post, analyze_all_pending, load_model, _uses_gbert
+from analyze import ai_classify, load_model
+import os
+
+
+def _uses_gbert():
+    return True
 
 
 def _warmup_model() -> None:
     logger.info("Préchargement du modèle IA…")
-    if _uses_gbert():
-        from gbert_model import _load
-        _load()
-    else:
-        load_model()
+    load_model()
     logger.info("Modèle prêt.")
 
 
@@ -51,7 +52,7 @@ class AnalyzeTextRequest(BaseModel):
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "model": "gbert-hassaniya" if _uses_gbert() else "default"}
+    return {"status": "ok", "model": "gbert-hassaniya"}
 
 
 @app.post("/analyze")
@@ -60,27 +61,4 @@ def analyze_text(body: AnalyzeTextRequest):
         return ai_classify(body.text)
     except Exception as e:
         logger.exception("Erreur analyse texte")
-        raise HTTPException(status_code=500, detail=str(e)) from e
-
-
-@app.post("/analyze/post/{post_id}")
-def analyze_single_post(post_id: int):
-    try:
-        result = analyze_post(post_id)
-        if "error" in result:
-            raise HTTPException(status_code=404, detail=result["error"])
-        return result
-    except HTTPException:
-        raise
-    except Exception as e:
-        logger.exception("Erreur analyse post %s", post_id)
-        raise HTTPException(status_code=500, detail=str(e)) from e
-
-
-@app.post("/analyze/all")
-def analyze_pending():
-    try:
-        return {"results": analyze_all_pending()}
-    except Exception as e:
-        logger.exception("Erreur analyse batch")
         raise HTTPException(status_code=500, detail=str(e)) from e

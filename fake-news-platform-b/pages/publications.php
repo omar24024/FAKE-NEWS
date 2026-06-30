@@ -200,8 +200,9 @@ $currentPage = 'publications';
                 <div class="conf-bar">
                   <div class="conf-bar-fill" style="width:<?= $post['confidence_score'] ?? 0 ?>%;background:<?= match($cat) {
                     'fake_news' => 'var(--fake-color)',
-                    'disinformation' => 'var(--disinfo-color)',
                     'hate_speech' => 'var(--hate-color)',
+                    'misinformation' => 'var(--disinfo-color)',
+                    'cyberbullying' => 'var(--hate-color)',
                     default => 'var(--reliable-color)'
                   } ?>;"></div>
                 </div>

@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS facebook_posts (
 CREATE TABLE IF NOT EXISTS ai_analysis (
     id INT AUTO_INCREMENT PRIMARY KEY,
     post_id INT NOT NULL,
-    category ENUM('fake_news','disinformation','hate_speech','misinformation','propaganda','violence','cyberbullying','reliable') NOT NULL,
+    category ENUM('fake_news','hate_speech','misinformation','cyberbullying','reliable') NOT NULL,
     confidence_score DECIMAL(5,2) NOT NULL,
     risk_level ENUM('low','medium','high','critical') DEFAULT 'low',
     model_used VARCHAR(100) DEFAULT 'arabert-multilingual',
@@ -125,7 +125,7 @@ CREATE TABLE IF NOT EXISTS post_comments (
 -- ============================================================
 CREATE TABLE IF NOT EXISTS ai_detection_rules (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    category ENUM('fake_news','disinformation','hate_speech','misinformation','propaganda','violence','cyberbullying','neutral_indicators') NOT NULL,
+    category ENUM('fake_news','hate_speech','misinformation','cyberbullying','reliable','neutral_indicators') NOT NULL,
     keyword VARCHAR(500) NOT NULL,
     weight DECIMAL(4,3) DEFAULT 0.150,
     is_active TINYINT(1) DEFAULT 1,
@@ -152,7 +152,7 @@ CREATE TABLE IF NOT EXISTS detected_keywords (
     analysis_id INT NOT NULL,
     keyword VARCHAR(255) NOT NULL,
     weight DECIMAL(4,3) DEFAULT 0.500,
-    category ENUM('fake_news','disinformation','hate_speech','misinformation','propaganda','violence','cyberbullying','reliable','neutral') DEFAULT 'neutral',
+    category ENUM('fake_news','hate_speech','misinformation','cyberbullying','reliable','neutral') DEFAULT 'neutral',
     FOREIGN KEY (analysis_id) REFERENCES ai_analysis(id) ON DELETE CASCADE,
     INDEX idx_analysis_id (analysis_id),
     INDEX idx_keyword (keyword)

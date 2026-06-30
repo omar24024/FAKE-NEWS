@@ -4,7 +4,7 @@ require_once __DIR__ . '/includes/auth.php';
 
 // Redirect if already logged in
 if (isLoggedIn()) {
-    header('Location: ' . APP_URL . '/index.php');
+    header('Location: index.php');
     exit;
 }
 
@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($username) || empty($password)) {
         $error = 'Veuillez remplir tous les champs.';
     } elseif (login($username, $password)) {
-        header('Location: ' . APP_URL . '/index.php');
+        header('Location: index.php');
         exit;
     } else {
         $error = 'Identifiants incorrects. Vérifiez votre nom d\'utilisateur et mot de passe.';

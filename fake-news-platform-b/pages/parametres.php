@@ -173,12 +173,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <select id="rule_category" class="form-input" required>
           <option value="">-- Sélectionner --</option>
           <option value="fake_news">Fake News</option>
-          <option value="disinformation">Désinformation</option>
-          <option value="hate_speech">Discours haineux</option>
-          <option value="misinformation">Mauvaise information</option>
-          <option value="propaganda">Propagande</option>
-          <option value="violence">Violence</option>
-          <option value="cyberbullying">Cyberharcèlement</option>
+          <option value="hate_speech">Hate Speech</option>
+          <option value="misinformation">Misinformation</option>
+          <option value="cyberbullying">Cyberbullying</option>
+          <option value="reliable">Reliable</option>
           <option value="neutral_indicators">Indicateurs neutres</option>
         </select>
       </div>
@@ -379,15 +377,13 @@ input:checked + .toggle-slider:before {
 
 <script>
 let currentRuleId = null;
-const CATEGORIES = ['fake_news', 'disinformation', 'hate_speech', 'misinformation', 'propaganda', 'violence', 'cyberbullying', 'neutral_indicators'];
+const CATEGORIES = ['fake_news', 'hate_speech', 'misinformation', 'cyberbullying', 'reliable', 'neutral_indicators'];
 const CATEGORY_LABELS = {
   'fake_news': 'Fake News',
-  'disinformation': 'Désinformation',
-  'hate_speech': 'Discours haineux',
-  'misinformation': 'Mauvaise information',
-  'propaganda': 'Propagande',
-  'violence': 'Violence',
-  'cyberbullying': 'Cyberharcèlement',
+  'hate_speech': 'Hate Speech',
+  'misinformation': 'Misinformation',
+  'cyberbullying': 'Cyberbullying',
+  'reliable': 'Reliable',
   'neutral_indicators': 'Indicateurs neutres'
 };
 

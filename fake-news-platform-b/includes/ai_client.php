@@ -90,7 +90,13 @@ function aiServiceAvailable(): bool {
     }
 
     $body = aiHttpGet(getAiServerUrl() . '/health', 2);
-    $cached = is_string($body) && str_contains($body, '"ok"');
+    if ($body === null) {
+        $cached = false;
+        return $cached;
+    }
+    
+    $decoded = json_decode($body, true);
+    $cached = is_array($decoded) && isset($decoded['status']) && $decoded['status'] === 'ok';
     return $cached;
 }
 
@@ -151,11 +157,26 @@ function aiAnalyzeText(string $text): ?array {
 }
 
 function aiAnalyzePost(int $postId): ?array {
+    $db = getDB();
+    $stmt = $db->prepare("SELECT content FROM facebook_posts WHERE id = ?");
+    $stmt->execute([$postId]);
+    $post = $stmt->fetch();
+    
+    if (!$post || empty($post['content'])) {
+        return null;
+    }
+    
     $result = aiHttpRequest('POST', "/analyze/post/{$postId}");
     if ($result !== null) {
         return $result;
     }
-    return aiRunPythonScript(['--post-id', (string)$postId]);
+    
+    $analysis = aiAnalyzeText($post['content']);
+    if ($analysis !== null) {
+        saveAnalysisResult($db, $postId, $analysis);
+    }
+    
+    return $analysis;
 }
 
 function aiAnalyzeAllPending(): ?array {

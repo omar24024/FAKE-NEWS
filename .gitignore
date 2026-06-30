@@ -1,4 +1,28 @@
+# Ignore sensitive environment files
 fake-news-platform-b/.env
-fake-news-platform-b/python-ai/chrome_session/
+fake-news-platform-b/python-ai/.env
+
+# Ignore Python cache
 fake-news-platform-b/python-ai/__pycache__/
-fake-news-platform-b/python-ai/*.backup
+*.pyc
+
+# Ignore logs and debug files
+fake-news-platform-b/api/extractor_debug.log
+fake-news-platform-b/init_output.txt
+ai_server.log
+*.log
+
+# Ignore test files
+fake-news-platform-b/test*.php
+fake-news-platform-b/fix_rules.php
+fake-news-platform-b/update_categories.php
+srtat.txt
+
+# Ignore models and large files
+fake-news-platform-b/python-ai/my_hassaniya_model.zip
+fake-news-platform-b/python-ai/modelAi/
+fake-news-platform-b/python-ai/models/
+fake-news-platform-b/python-ai/FAKE-NEWS/
+
+# Ignore virtual environments
+fake-news-platform-b/python-ai/venv/

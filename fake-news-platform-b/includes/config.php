@@ -52,7 +52,12 @@ define('DB_NAME', getenv('DB_NAME') ?: 'fake_news_platform');
 define('DB_CHARSET', getenv('DB_CHARSET') ?: 'utf8mb4');
 
 define('APP_NAME', getenv('APP_NAME') ?: 'Détection du Fake News');
-define('APP_URL', getenv('APP_URL') ?: 'http://localhost/fake-news-platform-b');
+// Détection automatique de l'URL de base pour éviter les problèmes de redirection/sessions
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
+$host = $_SERVER['HTTP_HOST'] ?? 'localhost:8080';
+$base_url = $protocol . $host;
+// Si on est dans un sous-répertoire, on peut l'ajouter ici si nécessaire
+define('APP_URL', getenv('APP_URL') ?: $base_url);
 define('APP_VERSION', getenv('APP_VERSION') ?: '1.0.0');
 
 // Logos - Chemin depuis la racine du projet

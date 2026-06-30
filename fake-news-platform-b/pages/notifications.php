@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt = $db->prepare("UPDATE notifications SET is_read = 1 WHERE user_id = ?");
     $stmt->execute([$user['id']]);
   }
-  header('Location: ' . APP_URL . '/pages/notifications.php');
+  header('Location: notifications.php');
   exit;
 }
 

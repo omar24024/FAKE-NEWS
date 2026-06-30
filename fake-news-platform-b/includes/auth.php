@@ -15,7 +15,7 @@ function isLoggedIn(): bool {
 
 function requireLogin(): void {
     if (!isLoggedIn()) {
-        header('Location: ' . APP_URL . '/login.php');
+        header('Location: login.php');
         exit;
     }
 }
@@ -64,7 +64,7 @@ function logout(): void {
     }
     session_regenerate_id(true);
 
-    header('Location: ' . APP_URL . '/login.php');
+    header('Location: login.php');
     exit;
 }
 

@@ -54,7 +54,7 @@ $currentPage = 'analyse';
           <div class="detail-card-title">Répartition par catégorie</div>
           <?php
           $total = array_sum(array_column($categoryStats, 'cnt'));
-          $catColors = ['fake_news'=>'var(--fake-color)','disinformation'=>'var(--disinfo-color)','hate_speech'=>'var(--hate-color)','reliable'=>'var(--reliable-color)'];
+          $catColors = ['fake_news'=>'var(--fake-color)','misinformation'=>'var(--disinfo-color)','hate_speech'=>'var(--hate-color)','reliable'=>'var(--reliable-color)','cyberbullying'=>'var(--hate-color)'];
           ?>
           <div class="bar-chart">
             <?php foreach ($categoryStats as $row): ?>

@@ -12,7 +12,7 @@ $postId = (int)($_GET['id'] ?? 0);
 $post = $postId ? getPostDetails($postId) : null;
 
 if (!$post) {
-    header('Location: ' . APP_URL . '/index.php');
+    header('Location: ../index.php');
     exit;
 }
 $currentPage = 'publications';
@@ -237,8 +237,9 @@ $invalidContent = isInvalidScrapedContent($post['content'] ?? '', $post['author_
               <div class="conf-bar" style="width:100%;height:8px;margin-top:12px;">
                 <div class="conf-bar-fill" id="confBar" style="width:0%;background:<?= match($cat) {
                   'fake_news' => 'var(--fake-color)',
-                  'disinformation' => 'var(--disinfo-color)',
                   'hate_speech' => 'var(--hate-color)',
+                  'misinformation' => 'var(--disinfo-color)',
+                  'cyberbullying' => 'var(--hate-color)',
                   default => 'var(--reliable-color)'
                 } ?>;transition:width .8s ease;"></div>
               </div>
@@ -308,12 +309,11 @@ $invalidContent = isInvalidScrapedContent($post['content'] ?? '', $post['author_
               <div class="form-group" id="correctCategoryGroup" style="display:none;margin-bottom:10px;">
                 <label class="form-label">Catégorie corrigée (Hassaniya / arabe)</label>
                 <select class="form-input" id="humanCategory">
-                  <option value="fake_news">Fake news</option>
-                  <option value="disinformation">Désinformation</option>
-                  <option value="hate_speech">Discours de haine</option>
-                  <option value="cyberbullying">Cyberharcèlement</option>
+                  <option value="fake_news">Fake News</option>
+                  <option value="hate_speech">Hate Speech</option>
                   <option value="misinformation">Misinformation</option>
-                  <option value="reliable">Information fiable</option>
+                  <option value="cyberbullying">Cyberbullying</option>
+                  <option value="reliable">Reliable</option>
                 </select>
               </div>
               <div class="form-group" style="margin-bottom:12px;">

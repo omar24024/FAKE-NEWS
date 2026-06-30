@@ -441,14 +441,11 @@ function isInvalidScrapedContent(?string $content, ?string $author = null): bool
 
 function categoryLabel(string $cat): string {
     return match($cat) {
-        'fake_news' => 'Fake news',
-        'disinformation' => 'Désinformation',
-        'hate_speech' => 'Discours de haine',
-        'misinformation' => 'Mauvaise information',
-        'cyberbullying' => 'Cyberharcèlement',
-        'violence' => 'Violence',
-        'propaganda' => 'Propagande',
-        'reliable' => 'Information fiable',
+        'fake_news' => 'Fake News',
+        'hate_speech' => 'Hate Speech',
+        'misinformation' => 'Misinformation',
+        'cyberbullying' => 'Cyberbullying',
+        'reliable' => 'Reliable',
         default => ucfirst(str_replace('_', ' ', $cat)),
     };
 }
@@ -456,12 +453,9 @@ function categoryLabel(string $cat): string {
 function categoryClass(string $cat): string {
     return match($cat) {
         'fake_news' => 'badge-fake',
-        'disinformation' => 'badge-disinfo',
         'hate_speech' => 'badge-hate',
         'misinformation' => 'badge-disinfo',
         'cyberbullying' => 'badge-hate',
-        'violence' => 'badge-fake',
-        'propaganda' => 'badge-disinfo',
         'reliable' => 'badge-reliable',
         default => 'badge-default',
     };

@@ -92,7 +92,7 @@ if ($action === 'create') {
     }
     
     // Valider la catégorie
-    $valid_categories = ['fake_news', 'disinformation', 'hate_speech', 'misinformation', 'propaganda', 'violence', 'cyberbullying', 'neutral_indicators'];
+    $valid_categories = ['fake_news', 'hate_speech', 'misinformation', 'cyberbullying', 'reliable', 'neutral_indicators'];
     if (!in_array($category, $valid_categories)) {
         http_response_code(400);
         echo json_encode(['error' => 'Invalid category']);

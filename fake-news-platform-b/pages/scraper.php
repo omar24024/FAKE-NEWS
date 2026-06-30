@@ -116,10 +116,8 @@ $currentPage = 'scraper';
         </p>
         <div style="display:grid;grid-template-columns:1fr 120px;gap:10px;align-items:end;flex-wrap:wrap;">
           <div class="form-group" style="margin:0;">
-            <label class="form-label">Page Facebook</label>
-            <select class="form-input" id="graphPageSelect">
-              <option value="">— Charger les Pages —</option>
-            </select>
+            <label class="form-label" style="font-size: large,;">Page Facebook</label>
+           
           </div>
           <div class="form-group" style="margin:0;">
             <label class="form-label">Nombre</label>
