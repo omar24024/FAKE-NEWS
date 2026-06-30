@@ -23,6 +23,10 @@ fake-news-platform-b/python-ai/my_hassaniya_model.zip
 fake-news-platform-b/python-ai/modelAi/
 fake-news-platform-b/python-ai/models/
 fake-news-platform-b/python-ai/FAKE-NEWS/
+fake-news-platform-b/python-ai/chrome_session/
 
 # Ignore virtual environments
 fake-news-platform-b/python-ai/venv/
+
+# Ignore backup files
+*.backup
